@@ -1,0 +1,2994 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "LicenceManaging\resource.h"
+#include "SettingsManagement\resource.h"
+#include "Utilities\resource.h"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\CurveUnscan.ico"
+IDR_UNSCANTYPE          ICON    DISCARDABLE     "res\\UnscanDoc.ico"
+IDI_UNDOICON            ICON    DISCARDABLE     "res\\undoicon.ico"
+IDI_REDOICON            ICON    DISCARDABLE     "res\\redoicon.ico"
+IDI_DROPPER_ICON        ICON    DISCARDABLE     "res\\dropperUs.ico"
+IDI_SPLINE_ADD_BACK     ICON    DISCARDABLE     "res\\spline_add_back_us.ico"
+IDI_SPLINE_ADD_FRONT    ICON    DISCARDABLE     "res\\spline_add_front_us.ico"
+IDI_SPLINE_ADD_MIDDLE   ICON    DISCARDABLE     "res\\spline_add_middle_us.ico"
+IDI_SPLINE_MODIFY       ICON    DISCARDABLE     "res\\spline_modify_us.ico"
+IDI_SPLINE_REMOVE       ICON    DISCARDABLE     "res\\spline_remove_us.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  DISCARDABLE     "res\\mainfram.bmp"
+IDB_BITMAP_PEN          BITMAP  DISCARDABLE     "res\\bitmap_p.bmp"
+IDB_BITMAP_RUBBER       BITMAP  DISCARDABLE     "res\\bitmap_r.bmp"
+IDB_CONTINUOUS          BITMAP  DISCARDABLE     "res\\continuo.bmp"
+IDB_DISCRET             BITMAP  DISCARDABLE     "res\\discret.bmp"
+IDB_DENSITO             BITMAP  DISCARDABLE     "res\\densito.bmp"
+IDB_SPLINE              BITMAP  DISCARDABLE     "res\\splineUs.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_OPENBITMAP
+    BUTTON      ID_FILE_SAVECURVES
+    SEPARATOR
+    BUTTON      ID_GRAPH_NEWCONTINUOUS
+    BUTTON      ID_GRAPH_NEWSPLINECURVE
+    BUTTON      ID_GRAPH_NEWDISCRETE
+    BUTTON      ID_GRAPH_NEWDENSITOCURVE
+    BUTTON      ID_GRAPH_NEW_COORDANDCURVE
+    BUTTON      ID_GRAPH_NEWSYSTEM
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open Graphic\tCTRL+O",       ID_FILE_OPENBITMAP
+        POPUP "Scanner"
+        BEGIN
+            MENUITEM "&Select source...",           ID_SCANNER_SELECTSOURCE
+            MENUITEM "&Import...",                  ID_SCANNER_IMPORT
+        END
+        MENUITEM "&Data export\tCTRL+E",        ID_FILE_SAVECURVES
+        MENUITEM SEPARATOR
+        MENUITEM "Open Document...",            ID_FILE_OPEN
+        MENUITEM "Save Document...",            ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Graph construction"
+    BEGIN
+        POPUP "New &curve"
+        BEGIN
+            MENUITEM "&Continuous curve",           ID_GRAPH_NEWCONTINUOUS
+            MENUITEM "&Spline curve",               ID_GRAPH_NEWSPLINECURVE
+            MENUITEM "&Discrete curve",             ID_GRAPH_NEWDISCRETE
+            MENUITEM "Den&sitometry curve",         ID_GRAPH_NEWDENSITOCURVE
+        END
+        MENUITEM "New coordinates &system",     ID_GRAPH_NEWSYSTEM
+        MENUITEM "&Both",                       ID_GRAPH_NEW_COORDANDCURVE
+        MENUITEM SEPARATOR
+        MENUITEM "&Modify selected object",     ID_GRAPH_MODIFY
+        MENUITEM SEPARATOR
+        MENUITEM "&Delete selected object",     ID_GRAPH_DELETEOBJECT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR, CHECKED
+        MENUITEM "&Zoom",                       ID_VIEW_ZOOM
+        MENUITEM "&Options...",                 ID_VIEW_OPTIONS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About CurveUnscan...",       ID_APP_ABOUT
+    END
+END
+
+IDR_CONTEXT_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "0"
+    BEGIN
+        MENUITEM "&Open Bitmap...\tCTRL+O",     ID_FILE_OPENBITMAP
+        MENUITEM "Import from scanner...",      ID_SCANNER_IMPORT
+        MENUITEM SEPARATOR
+        MENUITEM "&Help",                       ID_HELP_FINDER
+    END
+    POPUP "1"
+    BEGIN
+        MENUITEM "&Zoom",                       ID_VIEW_ZOOM
+        MENUITEM SEPARATOR
+        MENUITEM "&Help",                       ID_HELP_FINDER
+    END
+    POPUP "2"
+    BEGIN
+        POPUP "New &curve"
+        BEGIN
+            MENUITEM "&Continuous curve",           ID_GRAPH_NEWCONTINUOUS
+            MENUITEM "&Spline curve",               ID_GRAPH_NEWSPLINECURVE
+            MENUITEM "&Discrete curve",             ID_GRAPH_NEWDISCRETE
+            MENUITEM "Den&sitometry curve",         ID_GRAPH_NEWDENSITOCURVE
+        END
+        MENUITEM "&Modify selected coordinates system", ID_GRAPH_MODIFY
+        MENUITEM SEPARATOR
+        MENUITEM "&Help",                       ID_HELP_FINDER
+    END
+    POPUP "3"
+    BEGIN
+        POPUP "New &curve"
+        BEGIN
+            MENUITEM "&Continuous curve",           ID_GRAPH_NEWCONTINUOUS
+            MENUITEM "&Spline curve",               ID_GRAPH_NEWSPLINECURVE
+            MENUITEM "&Discrete curve",             ID_GRAPH_NEWDISCRETE
+            MENUITEM "Den&sitometry curve",         ID_GRAPH_NEWDENSITOCURVE
+        END
+        MENUITEM "&Modify selected coordinates system", ID_GRAPH_MODIFY
+        MENUITEM "&Data export\tCTRL+E",        ID_FILE_SAVECURVES
+        MENUITEM SEPARATOR
+        MENUITEM "&Help",                       ID_HELP_FINDER
+    END
+    POPUP "4"
+    BEGIN
+        MENUITEM "&Modify selected curve",      ID_GRAPH_MODIFY
+        MENUITEM "&Data export\tCTRL+E",        ID_FILE_SAVECURVES
+        MENUITEM SEPARATOR
+        MENUITEM "&Help",                       ID_HELP_FINDER
+    END
+    POPUP "5"
+    BEGIN
+        MENUITEM "New coordinates system and curve", 
+                                                ID_GRAPH_NEW_COORDANDCURVE
+        MENUITEM SEPARATOR
+        MENUITEM "&Help",                       ID_HELP_FINDER
+    END
+    POPUP "6"
+    BEGIN
+        MENUITEM "New coordinates system and curve", 
+                                                ID_GRAPH_NEW_COORDANDCURVE
+        MENUITEM "&Data export\tCTRL+E",        ID_FILE_SAVECURVES
+        MENUITEM SEPARATOR
+        MENUITEM "&Help",                       ID_HELP_FINDER
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "E",            ID_FILE_SAVECURVES,     VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPENBITMAP,     VIRTKEY, CONTROL, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 270, 130
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About CurveUnscan"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "CurveUnscan Version %s",IDC_STATIC_VERSION,40,10,144,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright © 2000-2005 by Sebastien Roy",IDC_STATIC,40,
+                    23,132,8
+    DEFPUSHBUTTON   "OK",IDOK,213,7,50,14,WS_GROUP
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "www.CurveUnscan.com",IDC_STATIC,40,32,78,8
+    LTEXT           "Product ID : ",IDC_STATIC_PRODID,40,46,102,8
+    LTEXT           "This product is licence to :",IDC_STATIC_REGISTERED,40,
+                    78,154,8
+    LTEXT           "Name",IDC_STATIC_LICENCEDNAME,59,92,155,8
+    LTEXT           "Company name",IDC_STATIC_LICENCEDCOMPNAME,59,105,155,8
+    PUSHBUTTON      "Register now",IDC_REGISTER_BUTTON,213,42,50,14
+    LTEXT           "Build number :",IDC_STATIC,40,60,46,8
+    LTEXT           "034",IDC_STATIC_BUILD_NB,92,60,19,8
+END
+
+IDD_CURVEKIND_DIALOG DIALOGEX 0, 0, 290, 150
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Graph construction - Kind of curve"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Next >>",IDOK,235,131,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,95,131,50,14
+    PUSHBUTTON      "<< Previous",IDC_PREVIOUS,180,131,50,14
+    PUSHBUTTON      "Help",ID_HELP,5,131,50,14
+    GROUPBOX        "Kind of curve",IDC_STATIC,5,5,280,121
+    CONTROL         "Continuous curve",IDC_RADIO_CONTINUOUS,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,121,23,71,10
+    CONTROL         "Spline curve",IDC_RADIO_SPLINE_CURVE,"Button",
+                    BS_AUTORADIOBUTTON,121,49,55,10
+    CONTROL         "Discrete curve (scattered points)",IDC_RADIO_DISCRETE,
+                    "Button",BS_AUTORADIOBUTTON,121,76,118,10
+    CONTROL         "Densitometry curve (color profile)",
+                    IDC_RADIO_DENSIOMETRY,"Button",BS_AUTORADIOBUTTON,121,
+                    105,119,10
+    CONTROL         168,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,67,17,44,
+                    21
+    CONTROL         194,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,67,43,44,
+                    21
+    CONTROL         169,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,67,71,44,
+                    21
+    CONTROL         186,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,67,99,44,
+                    21,WS_EX_ACCEPTFILES
+END
+
+IDD_CURVELIMITS_DIALOG DIALOG DISCARDABLE  0, 0, 290, 150
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Graph construction - Curve limits"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Next >>",IDOK,235,131,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,95,131,50,14
+    PUSHBUTTON      "<< Previous",IDC_PREVIOUS,180,131,50,14
+    GROUPBOX        "Curve Limits",IDC_STATIC,5,5,280,121
+    GROUPBOX        "Right limit",IDC_STATIC,176,14,74,56
+    GROUPBOX        "Left limit",IDC_STATIC,40,14,74,56
+    EDITTEXT        IDC_EDIT_LEFTVALUE,46,30,63,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_RIGHTVALUE,181,30,63,12,ES_AUTOHSCROLL
+    CONTROL         "Pick position",IDC_CHECK_LEFT,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,46,48,63,12
+    CONTROL         "Pick position",IDC_CHECK_RIGHT,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,181,48,63,12
+    LTEXT           "You must now specify the limits of the curve you want to analyse.",
+                    IDC_STATIC,15,82,205,8
+    LTEXT           "You can specify this limits either by entering the abscissa value (in units) or by ",
+                    IDC_STATIC,15,97,245,8
+    LTEXT           "clicking on the graph (""Pick position"").",IDC_STATIC,
+                    28,108,122,8
+    PUSHBUTTON      "Help",ID_HELP,5,131,50,14
+END
+
+IDD_DISCRETE_DIALOG DIALOG DISCARDABLE  0, 0, 290, 150
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Graph construction - Points picking"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Finish",IDOK,235,131,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,95,131,50,14
+    PUSHBUTTON      "<< Previous",IDC_PREVIOUS,180,131,50,14
+    LISTBOX         IDC_LIST_POINTS,11,23,120,80,LBS_NOINTEGRALHEIGHT | 
+                    LBS_EXTENDEDSEL | LBS_DISABLENOSCROLL | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Delete",IDC_DELETE,85,107,47,14
+    PUSHBUTTON      "Sort",IDC_SORT,11,107,47,14
+    EDITTEXT        IDC_EDIT_GRAPHNAME,165,107,111,12,ES_AUTOHSCROLL
+    LTEXT           "Click on each point of the curve",IDC_STATIC,156,42,102,
+                    8
+    GROUPBOX        "Points picking",IDC_STATIC,5,5,133,121
+    LTEXT           "X",IDC_STATIC,19,13,8,8
+    LTEXT           "Y",IDC_STATIC,73,12,8,8
+    GROUPBOX        "Curve name",IDC_STATIC,156,94,129,32
+    PUSHBUTTON      "Help",ID_HELP,5,131,50,14
+END
+
+IDD_COMMON_DIALOG DIALOG DISCARDABLE  0, 0, 240, 122
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,183,101,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,7,101,50,14
+    PUSHBUTTON      "< &Précédent",IDC_PREVIOUS,127,101,50,14
+END
+
+IDD_HAND_DIALOG DIALOG DISCARDABLE  0, 0, 290, 150
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Graph construction - Manual modifications"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Next >>",IDOK,235,131,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,95,131,50,14
+    PUSHBUTTON      "<< Previous",IDC_PREVIOUS,180,131,50,14
+    GROUPBOX        "Manual modifications",IDC_STATIC,5,5,280,121
+    LTEXT           "In order to correct the imperfections that may be subsist",
+                    IDC_STATIC,71,26,174,8
+    PUSHBUTTON      "Help",ID_HELP,5,131,50,14
+    PUSHBUTTON      "Undo",IDC_UNDO,17,104,32,14,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Redo",IDC_REDO,59,104,32,14,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Reset",IDC_RESET_MODIFICATION,114,104,50,14
+    GROUPBOX        "Tools",IDC_STATIC,17,26,39,51
+    CONTROL         "",IDC_RADIO_TOOL_PEN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_BITMAP | BS_CENTER | BS_VCENTER | BS_PUSHLIKE | 
+                    WS_GROUP,27,38,18,16
+    CONTROL         "",IDC_RADIO_TOOL_RUBBER,"Button",BS_AUTORADIOBUTTON | 
+                    BS_BITMAP | BS_CENTER | BS_VCENTER | BS_PUSHLIKE,27,54,
+                    18,16
+    LTEXT           "after the automatic recognition, you can modify the curve",
+                    IDC_STATIC,71,41,180,8
+    LTEXT           "by directly drawing on the graphic",IDC_STATIC,71,56,
+                    106,8
+END
+
+IDD_PERIOD_DIALOG DIALOG DISCARDABLE  0, 0, 221, 151
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Continuous curves : First point and frequency"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,107,132,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,166,132,50,14
+    EDITTEXT        IDC_EDIT_FIRSTSAVEDVALUE,53,28,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FREQUENCY,53,79,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PERIOD,53,96,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LEGEND_PERIOD,115,98,92,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "Enter the frequency or the period with wich data will be saved.",
+                    IDC_STATIC,13,62,196,8
+    GROUPBOX        "Frequency - period",IDC_STATIC,5,53,211,74
+    EDITTEXT        IDC_EDIT_LEGEND_FREQUENCY,116,80,91,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "Period :",IDC_STATIC,27,97,25,8
+    LTEXT           "Frequency :",IDC_STATIC,14,80,38,8
+    GROUPBOX        "First value",IDC_STATIC,5,5,211,42
+    LTEXT           "Enter the abscissa value of the first point to save.",
+                    IDC_STATIC,17,15,156,8
+    EDITTEXT        IDC_EDIT_LEGEND_FIRSTVALUE,116,30,91,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    PUSHBUTTON      "Help",ID_HELP,5,132,50,14
+    LTEXT           "Number of saved points : ",IDC_STATIC,14,113,82,8
+    LTEXT           "Nb",IDC_STATIC_NBOFSAVEDPOINTS,99,113,100,8
+END
+
+IDD_SAVE_DIALOG DIALOG DISCARDABLE  0, 0, 282, 110
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Save Curves"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Save",IDOK,170,91,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,225,91,50,14
+    LISTBOX         IDC_AVAIL_LIST,5,18,103,62,LBS_NOINTEGRALHEIGHT | 
+                    LBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_TOSAVE_LIST,159,18,103,62,LBS_NOINTEGRALHEIGHT | 
+                    LBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Spin1",IDC_ORDER_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    267,18,10,62
+    PUSHBUTTON      "==>",IDC_ADD_BUTTON,118,30,34,14
+    PUSHBUTTON      "<==",IDC_REMOVE_BUTTON,118,52,34,14
+    LTEXT           "Available curves :",IDC_STATIC,16,5,57,8
+    LTEXT           "To save:",IDC_STATIC,169,5,29,8
+    DEFPUSHBUTTON   "Preview",IDC_PREVIEW_BUTTON,115,91,50,14
+    PUSHBUTTON      "Help",ID_HELP,5,91,50,14
+    PUSHBUTTON      "Format",IDC_EXPORTFORMAT_BUTTON,60,91,50,14
+END
+
+IDD_PREVIEW_DIALOG DIALOG DISCARDABLE  0, 0, 292, 234
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Preview"
+FONT 8, "Courier"
+BEGIN
+    DEFPUSHBUTTON   "Close",IDOK,237,215,50,14
+    EDITTEXT        IDC_PREVIEW_EDIT,5,5,282,207,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_VSCROLL | WS_HSCROLL | NOT WS_TABSTOP
+END
+
+IDD_ZOOM_DIALOG DIALOGEX 0, 0, 59, 18
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Zoom"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO_ZOOM,3,3,53,69,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_CONTINUOUSOPTION_DIALOG DIALOGEX 0, 0, 227, 213
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Continuous curve : advanced options"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,105,192,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,170,192,50,14
+    PUSHBUTTON      "Help",ID_HELP,7,192,50,14
+    GROUPBOX        "Threshold color",IDC_STATIC,7,7,115,177
+    PUSHBUTTON      "",IDC_BLACKCOLOR_BUTTON,20,20,73,14,WS_DISABLED | NOT 
+                    WS_TABSTOP
+    CONTROL         "Slider1",IDC_SLIDER_RED,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,19,37,16,89,
+                    WS_EX_TRANSPARENT
+    CONTROL         "Slider2",IDC_SLIDER_GREEN,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,49,37,18,89,
+                    WS_EX_TRANSPARENT
+    CONTROL         "Slider2",IDC_SLIDER_BLUE,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,77,37,18,89,
+                    WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_RED,19,126,19,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_GREEN,47,126,19,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_BLUE,77,126,19,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "255",IDC_STATIC,103,42,13,8
+    LTEXT           "0",IDC_STATIC,107,115,9,11,SS_CENTERIMAGE
+    CONTROL         "Pick from bitmap",IDC_CHECK_PICKCOLOR,"Button",
+                    BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,21,158,72,15
+    GROUPBOX        "Thickness compensation",IDC_STATIC,128,7,92,78
+    CONTROL         "Flat",IDC_RADIO_FLAT_THICKNESS,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,135,23,27,10
+    CONTROL         "Smart",IDC_RADIO_SMART_THICKNESS,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,135,38,34,10
+    LTEXT           "Range",IDC_STATIC,144,57,22,8
+    EDITTEXT        IDC_EDIT_THICK_RANGE,173,55,25,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_RANGE,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,199,54,11,
+                    14
+    LTEXT           "Red",IDC_STATIC,21,142,14,8
+    LTEXT           "Green",IDC_STATIC,47,143,20,8
+    LTEXT           "Blue",IDC_STATIC,79,142,15,8
+END
+
+IDD_ASKTOSAVE_DIALOG DIALOG DISCARDABLE  0, 0, 148, 52
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CurveUnscan"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Yes",IDOK,7,31,50,14
+    PUSHBUTTON      "Later",IDCANCEL,91,31,50,14
+    LTEXT           "Do you want to save this curve now ?",IDC_STATIC,13,7,
+                    120,8
+END
+
+IDD_CONTINUOUS_DIALOG DIALOG DISCARDABLE  0, 0, 290, 150
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Continuous curve- Curve identification"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Next >>",IDOK,235,131,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,95,131,50,14
+    PUSHBUTTON      "<< Previous",IDC_PREVIOUS,180,131,50,14
+    PUSHBUTTON      "Help",ID_HELP,5,131,50,14
+    GROUPBOX        "Initial points",IDC_STATIC,5,5,142,78
+    CONTROL         "Pick curve",IDC_CHECK_ELEMENT,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,15,52,59,14
+    LISTBOX         IDC_GENESIS_LIST,16,22,120,26,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Delete",IDC_DELETE_ELEMENT,85,52,50,14
+    CTEXT           "Click on each part of the curve",IDC_STATIC,19,71,114,8
+    LTEXT           "X",IDC_STATIC,23,13,8,8
+    LTEXT           "Y",IDC_STATIC,80,13,8,8
+    GROUPBOX        "Follow",IDC_STATIC,156,5,129,35
+    CONTROL         "The top",IDC_RADIO_TOP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,164,15,41,10
+    CONTROL         "The bottom",IDC_RADIO_BOTTOM,"Button",
+                    BS_AUTORADIOBUTTON,164,27,52,10
+    LTEXT           "of the curve",IDC_STATIC,221,20,39,8
+    GROUPBOX        "Thickness (pixels)",IDC_STATIC,156,42,129,30
+    EDITTEXT        IDC_EDIT_THICKNESS,169,54,40,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_THICKNESS,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,209,54,11,12
+    CONTROL         "Pick",IDC_CHECK_THICK,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,227,54,36,12
+    GROUPBOX        "Curve name",IDC_STATIC,156,75,129,32
+    EDITTEXT        IDC_EDIT_CURVENAME,164,87,111,12,ES_AUTOHSCROLL
+    GROUPBOX        "Dashed curve",IDC_STATIC,5,88,142,38
+    CONTROL         "Yes",IDC_RADIO_DASHED,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,14,100,28,10
+    CONTROL         "No",IDC_RADIO_NOTDASHED,"Button",BS_AUTORADIOBUTTON,14,
+                    113,25,10
+    LTEXT           "between dashes",IDC_STATIC,48,112,53,8
+    LTEXT           "Max. dist.",IDC_STATIC,59,100,31,8
+    EDITTEXT        IDC_EDIT_DISTMAX,103,96,40,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "Modify",IDC_BUTTON_DASHDIST,103,110,40,12
+    PUSHBUTTON      "Advanced options",IDC_ADV_CONTINUOUS_BUTTON,156,112,129,
+                    14
+END
+
+IDD_AXE_X DIALOG DISCARDABLE  0, 0, 290, 150
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "X axis and scale"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Next >>",IDOK,235,131,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,95,131,50,14
+    PUSHBUTTON      "<< Previous",IDC_PREVIOUS,180,131,50,14
+    GROUPBOX        "Axis",IDC_STATIC,5,5,280,33
+    CONTROL         "Draw axis",IDC_CHECK_AXE,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,12,16,104,14
+    LTEXT           "Axis name",IDC_STATIC,122,18,33,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_AXENAME,163,17,110,12,ES_AUTOHSCROLL
+    GROUPBOX        "Scale",IDC_STATIC,5,43,280,67
+    RTEXT           "Position",IDC_STATIC,12,67,24,8
+    RTEXT           "Value",IDC_STATIC,17,88,19,8
+    GROUPBOX        "Point 1",IDC_STATIC_PT1,39,53,77,51
+    CONTROL         "Pick position",IDC_CHECK_1ST,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,46,64,63,14
+    EDITTEXT        IDC_EDIT_1STVALUE,46,86,63,12,ES_AUTOHSCROLL
+    GROUPBOX        "Point 2",IDC_STATIC_PT2,121,53,77,51
+    EDITTEXT        IDC_EDIT_2NDVALUE,128,86,63,12,ES_AUTOHSCROLL
+    CONTROL         "Pick position",IDC_CHECK_2ND,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,128,64,63,14
+    GROUPBOX        "Kind of scale",IDC_STATIC,204,53,66,51
+    CONTROL         "Linear",IDC_RADIO_LINEAR,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,210,68,35,10
+    CONTROL         "Logarithmic",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,210,
+                    88,52,10
+    CTEXT           "Please draw a line on the axe",IDC_STATIC_STATUS,5,112,
+                    280,9,SS_CENTERIMAGE
+    PUSHBUTTON      "Help",ID_HELP,5,131,50,14
+END
+
+IDD_AXE_Y DIALOG DISCARDABLE  0, 0, 290, 150
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Y axis and scale"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Next >>",IDOK,235,131,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,95,131,50,14
+    PUSHBUTTON      "<< Previous",IDC_PREVIOUS,180,131,50,14
+    GROUPBOX        "Axis",IDC_STATIC,5,0,280,29
+    CONTROL         "Draw axis",IDC_CHECK_AXE,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,11,9,104,14
+    LTEXT           "Axis name",IDC_STATIC,121,11,33,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_AXENAME,163,10,110,12,ES_AUTOHSCROLL
+    GROUPBOX        "Point 1",IDC_STATIC_PT1,5,43,151,32
+    CONTROL         "Pick position",IDC_CHECK_1ST,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,12,54,63,14
+    EDITTEXT        IDC_EDIT_1STVALUE,81,55,63,12,ES_AUTOHSCROLL
+    GROUPBOX        "Point 2",IDC_STATIC_PT2,5,76,151,32
+    EDITTEXT        IDC_EDIT_2NDVALUE,81,88,63,12,ES_AUTOHSCROLL
+    CONTROL         "Pick position",IDC_CHECK_2ND,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,12,87,63,14
+    GROUPBOX        "Kind of scale",IDC_STATIC,191,43,66,51
+    CONTROL         "Linear",IDC_RADIO_LINEAR,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,197,58,35,10
+    CONTROL         "Logarithmic",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,197,
+                    78,52,10
+    CTEXT           "Please draw a line on the axe",IDC_STATIC_STATUS,5,112,
+                    280,9,SS_CENTERIMAGE
+    PUSHBUTTON      "Help",ID_HELP,5,131,50,14
+    RTEXT           "Position",IDC_STATIC,43,36,29,8
+    RTEXT           "Value",IDC_STATIC,103,36,19,8
+END
+
+IDD_DASHDIST_DIALOG DIALOG DISCARDABLE  0, 0, 172, 82
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Distance maximale entre pointillés"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,61,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,61,61,50,14
+    PUSHBUTTON      "Apply",IDC_BUTTON_APPLY,115,61,50,14
+    PUSHBUTTON      "Help",ID_HELP,115,7,50,14
+    EDITTEXT        IDC_EDIT_DASHDIST,35,7,40,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_DIST,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,72,7,11,14
+    LTEXT           "Enter the max distance between",IDC_STATIC,34,33,102,8
+    LTEXT           "two dashes",IDC_STATIC,67,44,37,8
+END
+
+IDD_SCANNER DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+END
+
+IDD_SAVE_PROMPT DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CurveUnscan"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Yes",IDYES,7,74,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,74,50,14
+    PUSHBUTTON      "No",IDNO,68,74,50,14
+    CTEXT           "Save change to your document?",IDC_STATIC_QUESTION,7,7,
+                    172,21
+    CONTROL         "Export curves data",IDC_RADIO_SAVE_EXPORT,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,55,34,75,10
+    CONTROL         "Save document",IDC_RADIO_SAVE_DOCUMENT,"Button",
+                    BS_AUTORADIOBUTTON,55,49,66,10
+END
+
+IDD_EXPORT_FORMAT_DIALOG DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Separator"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,28,50,14
+    PUSHBUTTON      "Help",ID_HELP,129,74,50,14
+    GROUPBOX        "Columns separator",IDC_STATIC,7,7,98,81
+    CONTROL         "Tab",IDC_RADIO_SEP_TAB,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,13,17,29,10
+    CONTROL         "Semicolon",IDC_RADIO_SEP_SEMICOLON,"Button",
+                    BS_AUTORADIOBUTTON,13,30,49,10
+    CONTROL         "Comma",IDC_RADIO_SEP_COMMA,"Button",BS_AUTORADIOBUTTON,
+                    13,43,39,10
+    CONTROL         "Space",IDC_RADIO_SEP_SPACE,"Button",BS_AUTORADIOBUTTON,
+                    13,56,37,10
+    CONTROL         "Other :",IDC_RADIO_SEP_OTHER,"Button",
+                    BS_AUTORADIOBUTTON,13,69,37,10
+    EDITTEXT        IDC_EDIT_SEP_OTHER,55,68,15,12,ES_AUTOHSCROLL
+END
+
+IDD_DENSITO_PERIOD_DIALOG DIALOG DISCARDABLE  0, 0, 405, 170
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Densitometry curve : First point and frequency"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,286,151,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,350,151,50,14
+    PUSHBUTTON      "Help",ID_HELP,5,151,50,14
+    GROUPBOX        "Display",IDC_STATIC,5,5,181,31
+    CONTROL         "X coordinates",IDC_RADIO_DISP_X,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,11,18,59,10
+    CONTROL         "Y coordinates",IDC_RADIO_DISP_Y,"Button",
+                    BS_AUTORADIOBUTTON,81,18,59,10
+    CONTROL         "Both",IDC_RADIO_DISP_BOTH,"Button",BS_AUTORADIOBUTTON,
+                    149,18,31,10
+    LTEXT           "Min",IDC_STATIC,31,44,12,8
+    LTEXT           "First point",IDC_STATIC,77,44,31,8
+    LTEXT           "Max",IDC_STATIC,142,44,14,8
+    LTEXT           "Frequency",IDC_STATIC,187,44,34,8
+    LTEXT           "Period",IDC_STATIC,248,44,21,8
+    LTEXT           "Unit (period)",IDC_STATIC,323,44,39,8
+    GROUPBOX        "X",IDC_STATIC_X,5,53,395,27
+    EDITTEXT        IDC_EDIT_XMIN,12,62,50,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_XFIRST,68,62,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_XMAX,124,62,50,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_XFREQ,180,62,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_XPERIOD,236,62,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_XUNIT,292,62,100,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_TABSTOP
+    GROUPBOX        "Y",IDC_STATIC_Y,5,88,395,27
+    EDITTEXT        IDC_EDIT_YMIN,12,97,50,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_YFIRST,68,97,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_YMAX,124,97,50,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_YFREQ,180,97,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_YPERIOD,236,97,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_YUNIT,292,97,100,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "Nb of saved points : ",IDC_STATIC,5,123,66,8
+    LTEXT           "0",IDC_NB_SAVED_POINTS,75,123,95,8
+END
+
+IDD_DENSITO_DIALOG DIALOG DISCARDABLE  0, 0, 290, 150
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Graph construction - Densitometry"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Finish",IDOK,235,131,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,95,131,50,14
+    PUSHBUTTON      "<< Previous",IDC_PREVIOUS,180,131,50,14
+    PUSHBUTTON      "Help",ID_HELP,5,131,50,14
+    PUSHBUTTON      "",IDC_TOP_COLOR_BUTTON,168,34,36,12
+    PUSHBUTTON      "",IDC_BOTTOM_COLOR_BUTTON,168,109,36,12
+    GROUPBOX        "Color scale",IDC_STATIC,131,5,145,121
+    PUSHBUTTON      "",IDC_COLOR_SCALE_BUTTON,172,49,28,56,WS_DISABLED | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_TOP_COLOR_VALUE,219,34,45,12,ES_AUTOHSCROLL
+    CTEXT           "Color\n(click to modify)",IDC_STATIC,158,15,53,17
+    LTEXT           "Related value",IDC_STATIC,215,22,45,8
+    EDITTEXT        IDC_EDIT_BOTTOM_COLOR_VALUE,218,108,45,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Use as default",IDC_DEFAULT_COLOR_SCALE_BUTTON,211,67,
+                    58,14
+    PUSHBUTTON      "Preview",IDC_DENSITOPREVIEW_BUTTON,43,71,50,14
+    CONTROL         "Draw segment ",IDC_CHECK_DRAWSEGMENT_DENSITO,"Button",
+                    BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,29,42,78,19
+    CONTROL         "",IDC_CHECK_PICK_UP_COLOR,"Button",BS_AUTOCHECKBOX | 
+                    BS_ICON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE | 
+                    WS_TABSTOP,145,33,18,15
+    CONTROL         "",IDC_CHECK_PICK_BOTTOM_COLOR,"Button",BS_AUTOCHECKBOX | 
+                    BS_ICON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE | 
+                    WS_TABSTOP,145,107,18,15
+    EDITTEXT        IDC_EDIT_GRAPHNAME,11,16,111,12,ES_AUTOHSCROLL
+    GROUPBOX        "Curve name",IDC_STATIC,5,5,122,30
+END
+
+IDD_SPLINE_DIALOG DIALOGEX 0, 0, 290, 151
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Graphe construction - Spline curve"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Next >>",IDOK,235,132,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,95,132,50,14
+    PUSHBUTTON      "<< Previous",IDC_PREVIOUS,180,132,50,14
+    PUSHBUTTON      "Help",ID_HELP,5,132,50,14
+    GROUPBOX        "Spline construction",IDC_STATIC,5,5,280,54
+    CONTROL         "",IDC_RADIO_SPLINE_ADDBACK,"Button",BS_AUTORADIOBUTTON | 
+                    BS_ICON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE | 
+                    WS_GROUP,12,18,32,32
+    CONTROL         "",IDC_RADIO_SPLINE_ADDFRONT,"Button",BS_AUTORADIOBUTTON | 
+                    BS_ICON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE,44,18,32,
+                    32
+    CONTROL         "",IDC_RADIO_SPLINE_ADDMIDDLE,"Button",
+                    BS_AUTORADIOBUTTON | BS_ICON | BS_CENTER | BS_VCENTER | 
+                    BS_PUSHLIKE,76,18,32,32
+    CONTROL         "",IDC_RADIO_SPLINE_REMOVE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_ICON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE,108,18,32,
+                    32
+    CONTROL         "",IDC_RADIO_SPLINE_MODIFY,"Button",BS_AUTORADIOBUTTON | 
+                    BS_ICON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE,139,18,32,
+                    32
+    PUSHBUTTON      "Clean All",IDC_SPLINE_CLEAN_ALL,220,16,50,14
+    LTEXT           "Comment about the current tool",
+                    IDC_STATIC_SPLINE_TOOL_COMMENT,5,63,280,25
+    GROUPBOX        "Curve name",IDC_STATIC,5,92,129,32
+    EDITTEXT        IDC_EDIT_CURVENAME,13,104,111,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Minimize Window",IDC_MINIMIZE_BUTTON,182,102,67,14,NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "",IDC_UNDO_SPLINE_BUTTON,199,35,32,14,BS_ICON | NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "",IDC_REDO_SPLINE_BUTTON,238,36,32,14,BS_ICON | NOT 
+                    WS_VISIBLE
+END
+
+IDD_SPLINE_PERIOD_DIALOG DIALOG DISCARDABLE  0, 0, 206, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Spline Curve : Number of saved points"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,87,74,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,149,74,50,14
+    PUSHBUTTON      "Help",ID_HELP,7,74,50,14
+    CTEXT           "Enter the number of points to be saved for each segment of the spline :",
+                    IDC_STATIC,19,7,172,23
+    EDITTEXT        IDC_SPLINE_SAVED_POINTS_NB_EDIT,75,31,40,12,
+                    ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Total number of exported points :",IDC_STATIC,9,56,112,
+                    8
+    LTEXT           "value...",IDC_NB_SAVED_POINTS,127,56,53,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,4,0,0
+ PRODUCTVERSION 1,4,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x21L
+#else
+ FILEFLAGS 0x20L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Sebastien Roy\0"
+            VALUE "FileDescription", "Graph recovery from bitmaps\0"
+            VALUE "FileVersion", "1, 4, 0, 0\0"
+            VALUE "InternalName", "CurveUnscan\0"
+            VALUE "LegalCopyright", "Copyright (c) 2000-2005 by Sebastien Roy\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "CurveUnscan.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "CurveUnscan\0"
+            VALUE "ProductVersion", "1, 4, 0, 0\0"
+            VALUE "SpecialBuild", "V140PR32\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        VERTGUIDE, 40
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 123
+    END
+
+    IDD_CURVEKIND_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 285
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 145
+        HORZGUIDE, 126
+    END
+
+    IDD_CURVELIMITS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 285
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_DISCRETE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 285
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 145
+        HORZGUIDE, 126
+    END
+
+    IDD_COMMON_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 233
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 115
+    END
+
+    IDD_HAND_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 285
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 145
+        HORZGUIDE, 126
+    END
+
+    IDD_PERIOD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 216
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 146
+    END
+
+    IDD_SAVE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 277
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 105
+    END
+
+    IDD_PREVIEW_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 287
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 229
+    END
+
+    IDD_ZOOM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 56
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 15
+    END
+
+    IDD_CONTINUOUSOPTION_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 206
+        HORZGUIDE, 150
+    END
+
+    IDD_ASKTOSAVE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 141
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 45
+    END
+
+    IDD_CONTINUOUS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 285
+        VERTGUIDE, 156
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_AXE_X, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 285
+        VERTGUIDE, 36
+        VERTGUIDE, 46
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_AXE_Y, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 285
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_DASHDIST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 165
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 75
+    END
+
+    IDD_SCANNER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_SAVE_PROMPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_EXPORT_FORMAT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_DENSITO_PERIOD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 400
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 165
+    END
+
+    IDD_DENSITO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 285
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_SPLINE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 285
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 146
+    END
+
+    IDD_SPLINE_PERIOD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_ZOOM_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_ZOOM, 0x403, 4, 0
+0x3034, 0x0030, 
+    IDC_COMBO_ZOOM, 0x403, 4, 0
+0x3032, 0x0030, 
+    IDC_COMBO_ZOOM, 0x403, 4, 0
+0x3531, 0x0030, 
+    IDC_COMBO_ZOOM, 0x403, 4, 0
+0x3031, 0x0030, 
+    IDC_COMBO_ZOOM, 0x403, 4, 0
+0x6946, 0x0074, 
+    IDC_COMBO_ZOOM, 0x403, 3, 0
+0x3537, "\000" 
+    IDC_COMBO_ZOOM, 0x403, 3, 0
+0x3035, "\000" 
+    IDC_COMBO_ZOOM, 0x403, 3, 0
+0x3532, "\000" 
+    IDC_COMBO_ZOOM, 0x403, 3, 0
+0x3031, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_PICK_COLOR_POINTER  CURSOR  DISCARDABLE     "arrow.cur"
+IDC_MANUALDRAW_CURSOR   CURSOR  DISCARDABLE     "res\\manualdr.cur"
+IDC_RUBBER_CURSOR       CURSOR  DISCARDABLE     "res\\rubber_c.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "CurveUnscan\n\nCurveUnscan\nCurveUnscan Files (*.cus)\n.cus\nCurveUnscan.Document\nCurveUnscan Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "CurveUnscan"
+    AFX_IDS_IDLEMESSAGE     "For Help, press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+    ID_INDICATOR_XLABEL     " X="
+    ID_INDICATOR_YLABEL     " Y="
+    ID_INDICATOR_XVALUE     " "
+    ID_INDICATOR_YVALUE     " "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the document\nSave"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+    ID_HELP_INDEX           "Opens Help\nHelp Topics"
+    ID_HELP_FINDER          "List Help topics\nHelp Topics"
+    ID_HELP_USING           "Display instructions about how to use help\nHelp"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    IDS_NOT_PARALLEL        "The two axes can't be parallel"
+    IDS_FAIL_TO_OPEN_FILE   "Failed to Open this file !"
+    IDS_CANNOT_HANDLE_X_COLORS "Cannot handle %d colors graphics."
+    IDS_COLOR_RANGE         "Colors must be between 0 and 255"
+    IDS_THICK_WHIDTH_RANGE  "Range must be between 1 and 32"
+    IDS_HAND_MODIFICATION_LOST "This will lost hand-modifications. Continue ?"
+    IDS_NOT_ENOUGH_MEMORY   "Not enough memory !"
+    IDS_GENESIS_POINT_REDUNDANT 
+                            "Genesis point with coordinate\nX= %f\nY= %f\nis redundant and will be removed."
+    IDS_NO_POINT_SELECTED   "No point selected !"
+    IDS_NO_CURVE_HERE       "No curve here !\nEiteher, you have clicked in the background of the graphic, either the threshold color is not the good one for this curve (see Advanced option in the dialog box)."
+    IDS_OUT_OF_LIMITS       "Out of limits !"
+    IDS_CURVE_ALREADY_EXISTS "The curve already exists here !"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_OPENBITMAP      "Open a new bitmap file, prompt for save if necessary.\nOpen bitmap "
+    ID_FILE_SAVECURVES      "Export curves data.\nExport data"
+    ID_FILE_EXIT            "Quit the application; prompts to save curves\nExit"
+    ID_GRAPH_NEWSYSTEM      "Construct a new coordinates system on the bitmap\nNew coordinates system"
+    ID_GRAPH_NEWCONTINUOUS  "Construct a new continuous curve on the selected coordinates system\nNew continuous curve"
+    ID_GRAPH_NEWDISCRETE    "Construct a new discrete curve on the selected coordinates system\nNew discrete curve"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_GRAPH_NEW_COORDANDCURVE 
+                            "Construct a new coordinates system and a new curve\nNew coordinates system and curve"
+    ID_SCANNER_SELECTSOURCE "Select the scanner that will be used.\nSelect scanner source"
+    ID_SCANNER_IMPORT       "Launch scanner acquisition.\nImport from scanner."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_RADIO_TOP           "When this radio button is checked, the curve is recognized by\nfollowing the top of its line."
+    IDC_RADIO_BOTTOM        "When this radio button is checked, the curve is recognized by\nfollowing the bottom of its line."
+    IDC_EDIT_GRAPHNAME      "Enter the name of the graph. This name will be used in the \noutput file to identify this curve."
+    IDC_EDIT_CURVENAME      "Enter the name of the curve. This name will be used in the \noutput file to identify this curve."
+    IDC_EDIT_PERIOD         "Enter the period between two saved points."
+    IDC_EDIT_RIGHTVALUE     "The value of the right limit within \nthe graph will be recognized"
+    IDC_EDIT_FREQUENCY      "Enter the frequency with which the points will be saved."
+    IDC_CHECK_THICK         "Click on this button then on the curve. The thickness value\nwill be calculated from this point."
+    IDC_EDIT_1STVALUE       "Enter the value related to the scale point."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_CHECK_1ST           "In order to define a position of a scale point, you must first\n click on this button then on the desired location of the axis."
+    IDC_EDIT_2NDVALUE       "Enter the value related to the scale point."
+    IDC_CHECK_2ND           "In order to define a position of a scale point, you must first\n click on this button then on the desired location of the axis."
+    IDC_RADIO_LINEAR        "Check this radio button if the scale is linear."
+    IDC_RADIO_LOG           "Check this radio button if the scale is logarithmic."
+    IDC_RADIO_CONTINUOUS    "Check this radio button in order to recognize \na continuous curve"
+    IDC_RADIO_DISCRETE      "Check this radio button in order to recognize\na discrete curve."
+    IDC_EDIT_LEFTVALUE      "The value of the left limit within \nthe graph will be recognized"
+    IDC_CHECK_LEFT          "Click on this button then on the desired location on the \nbitmap to get the value of the left limit within the curve \nwill be recognized."
+    IDC_CHECK_RIGHT         "Click on this button then on the desired location on the \nbitmap to get the value of the right limit within the curve \nwill be recognized."
+    IDC_LIST_POINTS         "Contains the coordinates of\n the points you have chosen.\nTo choose a point of the bitmap, click on it."
+    IDC_GENESIS_LIST        "This list contains the coordinates of the points used to \ngenerate the curve."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_EDIT_THICKNESS      "Curve thickness, in pixels. The location of the curve will be\ncompensated by the half of this value."
+    IDC_AVAIL_LIST          "Contains the name of the curves that have been recognized\nand which have not yet been selected to be saved."
+    IDC_TOSAVE_LIST         "Contains the name of the curves which will be saved."
+    IDC_ORDER_SPIN          "Use this buttons to choose the order in which the curves\nwill appear in the output file."
+    IDC_EDIT_FIRSTSAVEDVALUE 
+                            "Enter the abscissa value of the first point which will\nappear in the ouput file."
+    IDC_EDIT_AXENAME        "Enter the name of the axis.This name will be used in the\n output file to identify this axis.\n You can use for instance the unit of the axis."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_SORT                "Click here to sort the points in the \nascending order of X value."
+    IDC_ADD_BUTTON          "Select an available curve then click on this button in order\nto add it to the list of saved curves."
+    IDC_DELETE              "Delete the selected points of the list."
+    IDC_REMOVE_BUTTON       "Use this button to remove a curve from the list of saved \ncurves."
+    IDS_CURVE               "Curve"
+    IDC_CHECK_ELEMENT       "This button must be pressed to choose the curve genesis points."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_PREVIEW             "Click on this button this see the results \nas they will be found in the output file."
+    IDC_DELETE_ELEMENT      "Removes the selected genesis point from the list."
+    IDC_UNDO                "Undo the last modification."
+    IDC_REDO                "Redo the last canceled modification."
+    IDC_RESET_MODIFICATION  "Removes all hand-modifications."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_RIGHT_GREATER_THAN_LEFT "Right limit must be greater than left limit"
+    IDS_LEFT_GREATER_THAN_RIGHT 
+                            "Left limit must be greater than right limit\nwhen X axe is reversed"
+    IDS_LOG_VALUE_GREATER_THAN_ZERO 
+                            "Value must be greater than zero\n in the case of a logarithmic axe."
+    IDS_PERIOD_GREATER_THAN_ZERO "The period must be greater than zero !"
+    IDS_CURVE_CONTAINS_N_LINES "This curve will contain %d lines. Continue?"
+    IDS_SCALE_VALUES_DIFFERENT "The two scale values must be different."
+    IDS_LOG_GREATER_THAN_ZERO2 "Logarithmic values must be greater than zero"
+    IDS_CURVES_NOT_SAVED_EXIT 
+                            "Some curves are not saved yet.\nDo you want to save them before exit CurveUnscan ?"
+    IDS_OUT_OF_MEMORY       "Not enough memory !"
+    IDS_SELECT_COORD_SYST   "You must first create or select a coordinates system."
+    IDS_DELETE_COORD_SYST   "This will delete all curves related to this coordinates system.\nDo you realy want to delete it ?"
+    IDS_DIVISION_BY_ZERO    "Division by zero !"
+    IDS_NAME_FIELD_EMPTY    "Name field must not be empty."
+    IDS_LICENCE_KEY_EMPTY   "Licence key is empty!"
+    IDS_LICENCE_KEY_NOT_VALID "Sorry, this licence key is not valid !"
+    IDS_CANNOT_OPEN_TO_WRITE "Cannot open the file for writting."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CANNOT_WRITE_INTO_FILE "Cannot write into the file."
+    IDS_CURVES_NOT_SAVED_OPEN 
+                            "Some curves are not saved yet.\nDo you want to save them before opening an other bitmap ?"
+    IDS_LOG_GREATER_THAN_ZERO3 
+                            "The limits values must be greater than zero because the scale is logarithmic."
+    IDS_STATE_OK            "Ok"
+    IDS_STATE_VALUE         "Value ?"
+    IDS_STATE_PICK          "Please pick"
+    IDS_DECADE_UNIT         "Decade of "
+    IDS_PRODUCT_LICENCED    "This product is licenced to :"
+    IDS_PRODUCT_UNREGISTERED "This copy is unregistered"
+    IDS_PRODUCTID           "Product ID : "
+    IDS_ZOOMFIT             "Fit"
+    IDS_NEXTBUTTON          "Next >>"
+    IDS_FINISHBUTTON        "Finish"
+    IDS_RESULTHEADER1       "Graph recognition by CurveUnscan."
+    IDS_RESULTHEADER2       "Copyright 2000-2005 by SquarePoint Software."
+    IDS_RESULTHEADER3       "Bitmap file :"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_ADV_CONTINUOUS_BUTTON 
+                            "Click on this button to modify advanced options : threshold color and thickness compensation algorithm."
+    IDC_BLACKCOLOR_BUTTON   "Threshold color. Any color which one of the componants is brigther than those of the threshold color is considered as white. That means that this color is not considered as being part of the graph."
+    IDC_SLIDER_RED          "Move this slider to chose the red componant of the threshold. Every color which red componant is greater than the threshold one will be considered as being white."
+    IDC_SLIDER_GREEN        "Move this slider to chose the green componant of the threshold color. Every color which green componant is greater than the threshold color one will be considered as being white."
+    IDC_SLIDER_BLUE         "Move this slider to chose the green componant of the threshold color. Every color which green componant is greater than the threshold color one will be considered as being white."
+    IDC_EDIT_RED            "Enter the value of the red componant of the threshold. This value must be between 0 and 255."
+    IDC_EDIT_GREEN          "Enter the value of the green componant of the threshold color. This value must be between 0 and 255."
+    IDC_EDIT_BLUE           "Enter the value of the blue componant of the threshold color. This value must be between 0 and 255."
+    IDC_CHECK_PICKCOLOR     "Click on this button than on the bitmap in order to choose the threshold color from the bitmap."
+    IDC_RADIO_FLAT_THICKNESS 
+                            "Click on this radio button to get a flat  thickness compensation.  The thickness compensation will be constant and independant of the curve derivative."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_RADIO_SMART_THICKNESS 
+                            "Check this radio button to use a smart thickness compensation algorithm. This algorithm takes into account the curve derivative to compensate the curve thickness."
+    IDC_EDIT_THICK_RANGE    "The smart thickness compensation algorithm uses the curve derivative to compensate the thickness. This value gives the number of points arround the current point used to calculate this derivative. This value must be between 1 and 32."
+    IDC_RADIO_TOOL_PEN      "Use the pen to redraw the curve."
+    IDC_RADIO_TOOL_RUBBER   "Use the rubber to erase parts of the curve."
+    IDC_CHECK_AXE           "In order to define the axis, click on this button then draw a line on the graphic. If the Shift key is pressed, the line is drawn parallel to the window border."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PREVIEWLIMIT        "To be continued : Preview is limited to %d lines."
+    IDS_GRAPHICFILTERNAME   "Graphic files"
+    IDS_GRAPHICFILTERNAME_ALL "All files"
+    IDS_OUTPUTFILTER        "All files (*.*)|*.*||"
+    IDS_SCALE_POINT_DIFFERENT "The two scale points must be different !"
+    IDS_AXE_PLEASE_DRAW     "Please draw a line on the %s axis of your graphic."
+    IDS_X_AXIS_NAME         "X"
+    IDS_Y_AXIS_NAME         "Y"
+    IDS_AXE_PICK_POINT      "Please pick a position for scale point %d"
+    IDS_AXE_ENTER_VALUE     "Enter a value for the scale point %d"
+    IDS_AXE_ENTER_VALUE_AND_POSITION 
+                            "Enter a valur for the point %d and pick a position for the point %d"
+    IDS_AXE_READY           "Ready"
+    IDS_AXE_DEFINE_POINT    "Please define a position for the scale point %d"
+    IDS_AXE_DEFINE_SCALEPOINT 
+                            "Pick a position and enter a value for scale point %d"
+    IDS_INSTALL_NOT_CORRECT "CurveUnscan has not been installed correctly."
+    IDS_ADMINISTRATOR_RIGHTS 
+                            "You must have the administrator rights in order to get registered "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NAME_ALREADY_EXISTS "An other curve has already the same name.\nDo you want to continue?"
+    IDS_UNTITLED            "Untitled"
+    IDS_CURVES_NOT_SAVED_SCANNING 
+                            "Some curves are not saved yet.\nDo you want to save them before scanning an other graphic?"
+    IDS_NO_SCANNER_AVAILABLE "Sorry, there is no available scanner."
+    IDS_ERROR               "Error !"
+    IDS_NBLINESTOOBIG       "Nb of points to export is too high!"
+    IDS_SEPARATOR_ISEMPTY   "The ""other value"" field is empty!"
+    IDS_SCANNED_GRAPHIC     "Scanned graphic"
+    IDS_EXCEL_FILTER        "Excel files (*.xls)|*.xls|"
+    IDS_TEXT_FILTER         "Text files (*.txt)|*.txt|"
+    IDS_GENERIC_FILTER      "%s Files (*.%s)|*.%s|"
+    IDS_MUST_GIVE_VALUE     "You must give a value !"
+    IDS_SCALE_VALUE_MUST_BE_DIFFERENT 
+                            "The two scale values must be different !"
+    IDS_SCALE_COLOR_MUST_BE_DIFFERENT 
+                            "The two scale colors must be different !"
+    IDS_DENSITO_PREVIEW_TITLE "Densitometry preview"
+    IDS_VALUE_OUTSIDE_RANGE "The value is outside the range !"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_RADIO_DASHED        "Select this radio button in order to identify a dashed curve"
+    IDC_RADIO_NOTDASHED     "Select this radio button in order to identify a continuous curve"
+    IDC_EDIT_DISTMAX        "Shows the max distance between two dashes"
+    IDC_BUTTON_DASHDIST     "Click on this button to modify the max distance between two dashes"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_GRAPH_NEWDENSITOCURVE 
+                            "Construct a new densitometry curve on the selected coordinates system\nNew densitometry curve"
+    ID_GRAPH_NEWSPLINECURVE "Construct a new spline curve on the selected coordinates system\nNew spline curve"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SPLINE_CANNOT_ADD_NEW_ONE "Cannot add new spline anchor point here !"
+    IDS_SPLINE_CANNOT_ADD_MIDDLEPOINT 
+                            "Can't add an anchor-point. Please use the Add Anchor Point tool on a segment of the spline curve."
+    IDS_SPLINE_CANNOT_REMOVE_NODE 
+                            "Can't remove the anchor-point. Please use the Remove Anchor-Point tool on an anchor point of the spline curve."
+    IDS_SPLINE_CANNOT_MODIFY_POINT 
+                            "Cannot modify the anchor-point. Please use the Modify Anchor-Point tool on an anchor-point of the spline curve."
+    IDS_SPLINE_CLEANALL_CONFIRM 
+                            "This will erase all the spline curve. Are you sure you want to continue?"
+    IDS_SPLINE_TOOL_ADD_BACK 
+                            "Add new anchor points at the end of the curve.\nClick and drag the mouse on the graphic.\nUse Ctrl key to make corners. Use Shift key to smooth them."
+    IDS_SPLINE_TOOL_ADD_FRONT 
+                            "Add new anchor points at the beginning of the curve.\nClick and drag the mouse on the graphic.\nUse Ctrl key to make corners. Use Shift key to smooth them."
+    IDS_SPLINE_TOOL_ADD_MIDDLE "Add anchor points at the middle of the curve."
+    IDS_SPLINE_TOOL_REMOVE  "Remove anchor points.\nClick on the point you want to remove."
+    IDS_SPLINE_TOOL_MODIFY  "Modify anchor points.\nClick and the drag the anchor points you want to modify. Use Ctrl key to make corners, use Shift key to smooth them."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_REDOICON            ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_UNDOICON            ICON    DISCARDABLE     "res\\ico00002.ico"
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\idr_main.ico"
+IDR_UNSCANTYPE          ICON    DISCARDABLE     "res\\idr_unsc.ico"
+IDI_DROPPER_ICON        ICON    DISCARDABLE     "res\\dropper_.ico"
+IDI_SPLINE_ADD_BACK     ICON    DISCARDABLE     "res\\spline_add_back.ico"
+IDI_SPLINE_ADD_FRONT    ICON    DISCARDABLE     "res\\spline_add_front.ico"
+IDI_SPLINE_ADD_MIDDLE   ICON    DISCARDABLE     "res\\spline_add_middle.ico"
+IDI_SPLINE_REMOVE       ICON    DISCARDABLE     "res\\spline_remove.ico"
+IDI_SPLINE_MODIFY       ICON    DISCARDABLE     "res\\spline_modify.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_PEN          BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_BITMAP_RUBBER       BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDB_CONTINUOUS          BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+IDB_DISCRET             BITMAP  DISCARDABLE     "res\\bmp00004.bmp"
+IDR_MAINFRAME           BITMAP  DISCARDABLE     "res\\bmp00005.bmp"
+IDB_DENSITO             BITMAP  DISCARDABLE     "res\\bmp00006.bmp"
+IDB_SPLINE              BITMAP  DISCARDABLE     "res\\spline.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_OPENBITMAP
+    BUTTON      ID_FILE_SAVECURVES
+    SEPARATOR
+    BUTTON      ID_GRAPH_NEWCONTINUOUS
+    BUTTON      ID_GRAPH_NEWSPLINECURVE
+    BUTTON      ID_GRAPH_NEWDISCRETE
+    BUTTON      ID_GRAPH_NEWDENSITOCURVE
+    BUTTON      ID_GRAPH_NEW_COORDANDCURVE
+    BUTTON      ID_GRAPH_NEWSYSTEM
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_CONTEXT_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "0"
+    BEGIN
+        MENUITEM "&Ouvrir un graphique...\tCTRL+O", ID_FILE_OPENBITMAP
+        MENUITEM "Scanner...",                  ID_SCANNER_IMPORT
+        MENUITEM SEPARATOR
+        MENUITEM "&Aide",                       ID_HELP_FINDER
+    END
+    POPUP "1"
+    BEGIN
+        MENUITEM "&Zoom",                       ID_VIEW_ZOOM
+        MENUITEM SEPARATOR
+        MENUITEM "&Aide",                       ID_HELP_FINDER
+    END
+    POPUP "2"
+    BEGIN
+        POPUP "Nouvelle &courbe"
+        BEGIN
+            MENUITEM "Courbe &continue",            ID_GRAPH_NEWCONTINUOUS
+            MENUITEM "Courbe &spline",              ID_GRAPH_NEWSPLINECURVE
+            MENUITEM "Courbe &discrète",            ID_GRAPH_NEWDISCRETE
+            MENUITEM "Courbe de den&sitométrie",    ID_GRAPH_NEWDENSITOCURVE
+        END
+        MENUITEM "&Modifier le système de coordonnées", ID_GRAPH_MODIFY
+        MENUITEM SEPARATOR
+        MENUITEM "&Aide",                       ID_HELP_FINDER
+    END
+    POPUP "3"
+    BEGIN
+        POPUP "Nouvelle &courbe"
+        BEGIN
+            MENUITEM "Courbe &continue",            ID_GRAPH_NEWCONTINUOUS
+            MENUITEM "Courbe &spline",              ID_GRAPH_NEWSPLINECURVE
+            MENUITEM "Courbe &discrète",            ID_GRAPH_NEWDISCRETE
+            MENUITEM "Courbe de den&sitométrie",    ID_GRAPH_NEWDENSITOCURVE
+        END
+        MENUITEM "&Modifier le système de coordonnées", ID_GRAPH_MODIFY
+        MENUITEM "&Exporter les données\tCTRL+E", ID_FILE_SAVECURVES
+        MENUITEM SEPARATOR
+        MENUITEM "&Aide",                       ID_HELP_FINDER
+    END
+    POPUP "4"
+    BEGIN
+        MENUITEM "&Modifier la courbe",         ID_GRAPH_MODIFY
+        MENUITEM "&Exporter les données\tCTRL+E", ID_FILE_SAVECURVES
+        MENUITEM SEPARATOR
+        MENUITEM "&Aide",                       ID_HELP_FINDER
+    END
+    POPUP "5"
+    BEGIN
+        MENUITEM "&Nouveau système de coordonnées et nouvelle courbe", 
+                                                ID_GRAPH_NEW_COORDANDCURVE
+        MENUITEM SEPARATOR
+        MENUITEM "&Aide",                       ID_HELP_FINDER
+    END
+    POPUP "6"
+    BEGIN
+        MENUITEM "&Nouveau système de coordonnées et nouvelle courbe", 
+                                                ID_GRAPH_NEW_COORDANDCURVE
+        MENUITEM "&Exporter les données\tCTRL+E", ID_FILE_SAVECURVES
+        MENUITEM SEPARATOR
+        MENUITEM "&Aide",                       ID_HELP_FINDER
+    END
+END
+
+IDR_MAINFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "&Fichier"
+    BEGIN
+        MENUITEM "&Ouvrir un graphique...\tCTRL+O", ID_FILE_OPENBITMAP
+        POPUP "Scanner"
+        BEGIN
+            MENUITEM "&Selectionner la source...",  ID_SCANNER_SELECTSOURCE
+            MENUITEM "Importer...",                 ID_SCANNER_IMPORT
+        END
+        MENUITEM "&Exporter les données...\tCTRL+E", ID_FILE_SAVECURVES
+        MENUITEM SEPARATOR
+        MENUITEM "Ouvrir un document...",       ID_FILE_OPEN
+        MENUITEM "Enregistrer le document...",  ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Quitter",                    ID_APP_EXIT
+    END
+    POPUP "&Identification"
+    BEGIN
+        POPUP "Nouvelle &courbe"
+        BEGIN
+            MENUITEM "Courbe &continue",            ID_GRAPH_NEWCONTINUOUS
+            MENUITEM "Courbe &spline",              ID_GRAPH_NEWSPLINECURVE
+            MENUITEM "Courbe &discrète",            ID_GRAPH_NEWDISCRETE
+            MENUITEM "Courbe de den&sitométrie",    ID_GRAPH_NEWDENSITOCURVE
+        END
+        MENUITEM "Nouveau &système de coordonnées", ID_GRAPH_NEWSYSTEM
+        MENUITEM "&Les deux",                   ID_GRAPH_NEW_COORDANDCURVE
+        MENUITEM SEPARATOR
+        MENUITEM "&Modifier l'objet sélectionné", ID_GRAPH_MODIFY
+        MENUITEM SEPARATOR
+        MENUITEM "&Effacer l'objet sélectionné", ID_GRAPH_DELETEOBJECT
+    END
+    POPUP "&Affichage"
+    BEGIN
+        MENUITEM "&Barre d'outils",             ID_VIEW_TOOLBAR, CHECKED
+        MENUITEM "&Zoom",                       ID_VIEW_ZOOM
+        MENUITEM "&Options...",                 ID_VIEW_OPTIONS
+    END
+    POPUP "Ai&de"
+    BEGIN
+        MENUITEM "&Sommaire",                   ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&A propos de CurveUnscan",    ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "E",            ID_FILE_SAVECURVES,     VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPENBITMAP,     VIRTKEY, CONTROL, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CONTINUOUS_DIALOG DIALOG DISCARDABLE  0, 0, 290, 150
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Courbe continue - Identification de la courbe"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Suivant >>",IDOK,235,131,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,95,131,50,14
+    PUSHBUTTON      "<< Précédent",IDC_PREVIOUS,180,131,50,14
+    PUSHBUTTON      "Aide",ID_HELP,5,131,50,14
+    GROUPBOX        "Points initiaux",IDC_STATIC,5,5,142,78
+    CONTROL         "Choisir la courbe",IDC_CHECK_ELEMENT,"Button",
+                    BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,16,52,59,14
+    LISTBOX         IDC_GENESIS_LIST,16,22,120,26,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Effacer",IDC_DELETE_ELEMENT,86,52,50,14
+    CTEXT           "Cliquez sur chaque partie de la courbe",IDC_STATIC,12,
+                    71,126,8
+    GROUPBOX        "Suivre",IDC_STATIC,156,5,129,35
+    CONTROL         "Le haut",IDC_RADIO_TOP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,164,15,40,10
+    CONTROL         "Le bas",IDC_RADIO_BOTTOM,"Button",BS_AUTORADIOBUTTON,
+                    164,27,37,10
+    LTEXT           "de la courbe.",IDC_STATIC,209,20,42,8
+    GROUPBOX        "Epaisseur de la courbe (pixels)",IDC_STATIC,156,42,129,
+                    30
+    EDITTEXT        IDC_EDIT_THICKNESS,169,54,40,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_THICKNESS,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,209,54,11,12
+    CONTROL         "Choisir",IDC_CHECK_THICK,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,227,54,36,12
+    GROUPBOX        "Nom de la courbe",IDC_STATIC,156,75,129,32
+    EDITTEXT        IDC_EDIT_CURVENAME,164,87,111,12,ES_AUTOHSCROLL
+    GROUPBOX        "Courbe en pointillés",IDC_STATIC,5,88,142,38
+    CONTROL         "Oui",IDC_RADIO_DASHED,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,14,100,27,10
+    CONTROL         "Non",IDC_RADIO_NOTDASHED,"Button",BS_AUTORADIOBUTTON,14,
+                    113,29,10
+    LTEXT           "Dist. max entre",IDC_STATIC,50,100,48,8
+    LTEXT           "deux points",IDC_STATIC,54,111,37,8
+    EDITTEXT        IDC_EDIT_DISTMAX,103,96,40,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "Modifier",IDC_BUTTON_DASHDIST,103,110,40,12
+    PUSHBUTTON      "Options avancées...",IDC_ADV_CONTINUOUS_BUTTON,156,112,
+                    129,14
+    LTEXT           "X",IDC_STATIC,23,14,8,8
+    LTEXT           "Y",IDC_STATIC,80,14,8,8
+END
+
+IDD__TEST_DIALOG DIALOGEX 0, 0, 263, 159
+STYLE DS_3DLOOK | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,206,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,206,24,50,14
+    EDITTEXT        IDC_EDIT1,7,7,97,24,ES_MULTILINE | ES_AUTOHSCROLL
+    LTEXT           "Static",IDC_STATIC,206,53,19,8
+    PUSHBUTTON      "Button1",IDC_BUTTON1,206,76,50,14
+    LISTBOX         IDC_LIST3,15,41,48,40,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    LBS_MULTICOLUMN | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_SAVETREE_DIALOG DIALOG DISCARDABLE  0, 0, 262, 151
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Save Curves"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,205,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,205,30,50,14
+    CONTROL         "Tree1",IDC_TREE_CURVES,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_DISABLEDRAGDROP | WS_BORDER | 
+                    WS_TABSTOP,7,7,164,87
+    PUSHBUTTON      "Help",ID_HELP,205,130,50,14
+    PUSHBUTTON      "Preview",IDC_PREVIEW,205,78,50,14
+    LTEXT           "Before saving the curves, you must specify, for each ",
+                    IDC_STATIC,7,97,181,8
+    LTEXT           "continuous curve, the first point and the period ",
+                    IDC_STATIC,15,106,147,8
+    LTEXT           "between each point.",IDC_STATIC,15,115,145,8
+    LTEXT           "To specify this data, double click on the curve or ",
+                    IDC_STATIC,7,127,166,8
+    LTEXT           "on its corresponding coordinates system.",IDC_STATIC,15,
+                    136,151,8
+END
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 290, 130
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "A propos de CurveUnscan"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "CurveUnscan Version %s",IDC_STATIC_VERSION,40,10,151,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright © 2000-2005 par Sébastien Roy",IDC_STATIC,40,
+                    23,163,8
+    DEFPUSHBUTTON   "OK",IDOK,233,7,50,14,WS_GROUP
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "www.CurveUnscan.com",IDC_STATIC,40,32,78,8
+    LTEXT           "Numéro de série :",IDC_STATIC_PRODID,40,46,133,8
+    LTEXT           "Ce produit est enregistré pour :",IDC_STATIC_REGISTERED,
+                    40,81,178,8
+    LTEXT           "Nom",IDC_STATIC_LICENCEDNAME,59,95,155,8
+    LTEXT           "Entreprise",IDC_STATIC_LICENCEDCOMPNAME,59,108,155,8
+    PUSHBUTTON      "S'enregistrer maintenant",IDC_REGISTER_BUTTON,200,42,83,
+                    14
+    LTEXT           "Numéro de construction :",IDC_STATIC,40,60,80,8
+    LTEXT           "034",IDC_STATIC_BUILD_NB,125,60,20,8
+END
+
+IDD_ASKTOSAVE_DIALOG DIALOG DISCARDABLE  0, 0, 173, 52
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CurveUnscan"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Oui",IDOK,7,31,50,14
+    PUSHBUTTON      "Plus tard",IDCANCEL,116,31,50,14
+    LTEXT           "Voulez-vous enregistrer cette courbe maintenant?",
+                    IDC_STATIC,9,7,157,8
+END
+
+IDD_COMMON_DIALOG DIALOG DISCARDABLE  0, 0, 240, 122
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,183,101,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,7,101,50,14
+    PUSHBUTTON      "< &Back",IDC_PREVIOUS,127,101,50,14
+END
+
+IDD_CONTINUOUSOPTION_DIALOG DIALOGEX 0, 0, 246, 213
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Courbe continue : options avancées"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,105,192,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,189,192,50,14
+    PUSHBUTTON      "Aide",ID_HELP,7,192,50,14
+    GROUPBOX        "Couleur de seuil",IDC_STATIC,7,7,115,177
+    PUSHBUTTON      "",IDC_BLACKCOLOR_BUTTON,20,20,73,14,WS_DISABLED | NOT 
+                    WS_TABSTOP
+    CONTROL         "Slider1",IDC_SLIDER_RED,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,19,37,16,89,
+                    WS_EX_TRANSPARENT
+    CONTROL         "Slider2",IDC_SLIDER_GREEN,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,49,37,18,89,
+                    WS_EX_TRANSPARENT
+    CONTROL         "Slider2",IDC_SLIDER_BLUE,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,77,37,18,89,
+                    WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_RED,19,126,19,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_GREEN,47,126,19,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_BLUE,77,126,19,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "255",IDC_STATIC,103,42,13,8
+    LTEXT           "0",IDC_STATIC,107,115,9,11,SS_CENTERIMAGE
+    CONTROL         "Choisir sur le graphique",IDC_CHECK_PICKCOLOR,"Button",
+                    BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,21,158,85,15
+    GROUPBOX        "Compensation de l'épaisseur",IDC_STATIC,131,7,108,78
+    CONTROL         "Simple",IDC_RADIO_FLAT_THICKNESS,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,135,23,37,10
+    CONTROL         """Intelligente""",IDC_RADIO_SMART_THICKNESS,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,135,38,57,10
+    LTEXT           "Intervalle",IDC_STATIC,140,57,30,8
+    EDITTEXT        IDC_EDIT_THICK_RANGE,173,55,25,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_RANGE,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,199,54,11,
+                    14
+    LTEXT           "Rouge",IDC_STATIC,17,142,22,8
+    LTEXT           "Vert",IDC_STATIC,51,142,14,8
+    LTEXT           "Bleu",IDC_STATIC,79,142,15,8
+END
+
+IDD_CURVEKIND_DIALOG DIALOGEX 0, 0, 290, 150
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Construction - Type de courbe"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Suivant >>",IDOK,235,131,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,95,131,50,14
+    PUSHBUTTON      "<< Précédent",IDC_PREVIOUS,180,131,50,14
+    PUSHBUTTON      "Aide",ID_HELP,5,131,50,14
+    GROUPBOX        "Type de courbe",IDC_STATIC,5,5,280,121
+    CONTROL         "Courbe continue",IDC_RADIO_CONTINUOUS,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,121,22,68,10
+    CONTROL         "Courbe spline",IDC_RADIO_SPLINE_CURVE,"Button",
+                    BS_AUTORADIOBUTTON,121,49,59,10
+    CONTROL         "Courbe discrète (nuage de points)",IDC_RADIO_DISCRETE,
+                    "Button",BS_AUTORADIOBUTTON,121,76,122,10
+    CONTROL         "Courbe de densitométrie (profil de couleur)",
+                    IDC_RADIO_DENSIOMETRY,"Button",BS_AUTORADIOBUTTON,121,
+                    103,148,10
+    CONTROL         168,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,63,18,44,
+                    21
+    CONTROL         194,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,63,44,44,
+                    21,WS_EX_ACCEPTFILES
+    CONTROL         169,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,63,70,44,
+                    21
+    CONTROL         186,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,63,96,44,
+                    21
+END
+
+IDD_CURVELIMITS_DIALOG DIALOG DISCARDABLE  0, 0, 290, 150
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Courbe continue - Définition des limites"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Suivant >>",IDOK,235,131,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,95,131,50,14
+    PUSHBUTTON      "<< Précédent",IDC_PREVIOUS,180,131,50,14
+    GROUPBOX        "Limites de la courbe",IDC_STATIC,5,5,280,121
+    GROUPBOX        "Limite droite",IDC_STATIC,176,14,90,56
+    GROUPBOX        "Limite gauche",IDC_STATIC,26,14,90,56
+    EDITTEXT        IDC_EDIT_LEFTVALUE,39,30,63,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_RIGHTVALUE,189,30,63,12,ES_AUTOHSCROLL
+    CONTROL         "Choisir sur le graphique",IDC_CHECK_LEFT,"Button",
+                    BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,32,48,79,12
+    CONTROL         "Choisir sur le graphique",IDC_CHECK_RIGHT,"Button",
+                    BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,181,48,79,12
+    LTEXT           "Vous devez maintenant spécifier les limites de la courbe que vous voulez analyser",
+                    IDC_STATIC,15,82,258,8
+    LTEXT           "Vous pouvez spécifier ces limites soit en entrant directement leur valeur, soit de",
+                    IDC_STATIC,15,97,249,8
+    LTEXT           "façon graphique, via le bouton ""Choisir sur le graphique"".",
+                    IDC_STATIC,28,108,180,8
+    PUSHBUTTON      "Aide",ID_HELP,5,131,50,14
+END
+
+IDD_DISCRETE_DIALOG DIALOG DISCARDABLE  0, 0, 290, 150
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Courbe discrète - choix des points"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Terminer",IDOK,235,131,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,95,131,50,14
+    PUSHBUTTON      "<< Précédent",IDC_PREVIOUS,180,131,50,14
+    LISTBOX         IDC_LIST_POINTS,11,23,120,80,LBS_NOINTEGRALHEIGHT | 
+                    LBS_EXTENDEDSEL | LBS_DISABLENOSCROLL | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Effacer",IDC_DELETE,85,107,47,14
+    PUSHBUTTON      "Trier",IDC_SORT,11,107,47,14
+    EDITTEXT        IDC_EDIT_GRAPHNAME,165,107,111,12,ES_AUTOHSCROLL
+    LTEXT           "Cliquez sur chacun des points",IDC_STATIC,165,28,95,8
+    GROUPBOX        "Choix des points",IDC_STATIC,5,5,133,121
+    LTEXT           "X",IDC_STATIC,19,13,8,8
+    LTEXT           "Y",IDC_STATIC,73,12,8,8
+    GROUPBOX        "Nom de la courbe",IDC_STATIC,156,94,129,32
+    PUSHBUTTON      "Aide",ID_HELP,5,131,50,14
+    LTEXT           "de la courbe.",IDC_STATIC,189,42,42,8
+END
+
+IDD_HAND_DIALOG DIALOG DISCARDABLE  0, 0, 290, 150
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Courbe continue - Modifications manuelles"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Suivant >>",IDOK,235,131,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,95,131,50,14
+    PUSHBUTTON      "<< Précédent",IDC_PREVIOUS,180,131,50,14
+    GROUPBOX        "Modifications manuelles",IDC_STATIC,5,5,280,121
+    LTEXT           "reconnaissance automatique, vous pouvez",IDC_STATIC,83,
+                    40,136,8
+    PUSHBUTTON      "Aide",ID_HELP,5,131,50,14
+    PUSHBUTTON      "Undo",IDC_UNDO,17,104,32,14,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Redo",IDC_REDO,59,104,32,14,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Reconstruire",IDC_RESET_MODIFICATION,114,104,50,14
+    GROUPBOX        "Outils",IDC_STATIC,17,26,39,51
+    CONTROL         "",IDC_RADIO_TOOL_PEN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_BITMAP | BS_CENTER | BS_VCENTER | BS_PUSHLIKE | 
+                    WS_GROUP,27,38,18,16
+    CONTROL         "",IDC_RADIO_TOOL_RUBBER,"Button",BS_AUTORADIOBUTTON | 
+                    BS_BITMAP | BS_CENTER | BS_VCENTER | BS_PUSHLIKE,27,54,
+                    18,16
+    LTEXT           "modifier la courbe en dessinant directement sur",
+                    IDC_STATIC,83,55,148,8
+    LTEXT           "Afin de corriger les éventuelles imperfections de la ",
+                    IDC_STATIC,83,25,160,8
+    LTEXT           "le graphique",IDC_STATIC,83,70,40,8
+END
+
+IDD_PERIOD_DIALOG DIALOG DISCARDABLE  0, 0, 221, 162
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Première valeur et fréquence d'enregistrement"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,107,143,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,166,143,50,14
+    EDITTEXT        IDC_EDIT_FIRSTSAVEDVALUE,53,28,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FREQUENCY,53,88,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PERIOD,53,105,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LEGEND_PERIOD,115,107,92,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "Entrez la fréquence ou la période selon laquelle les points ",
+                    IDC_STATIC,13,62,183,8
+    GROUPBOX        "Féquence - période",IDC_STATIC,5,53,211,83
+    EDITTEXT        IDC_EDIT_LEGEND_FREQUENCY,116,89,91,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "Période : ",IDC_STATIC,9,107,31,8
+    LTEXT           "Fréquence : ",IDC_STATIC,9,90,40,8
+    GROUPBOX        "Première valeur",IDC_STATIC,5,5,211,42
+    LTEXT           "Entrez la valeur d'abscisse du premier point à enregistrer",
+                    IDC_STATIC,17,15,177,8
+    EDITTEXT        IDC_EDIT_LEGEND_FIRSTVALUE,116,30,91,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    PUSHBUTTON      "Aide",ID_HELP,5,143,50,14
+    LTEXT           "seront enregistrés",IDC_STATIC,23,72,56,8
+    LTEXT           "Nombre de points enregistrés : ",IDC_STATIC,9,122,98,8
+    LTEXT           "Nb",IDC_STATIC_NBOFSAVEDPOINTS,113,122,85,8,NOT 
+                    WS_GROUP
+END
+
+IDD_PREVIEW_DIALOG DIALOG DISCARDABLE  0, 0, 292, 245
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Prévisualisation"
+FONT 8, "Courier"
+BEGIN
+    DEFPUSHBUTTON   "Fermer",IDOK,237,226,50,14
+    EDITTEXT        IDC_PREVIEW_EDIT,5,5,282,214,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_VSCROLL | WS_HSCROLL | NOT WS_TABSTOP
+END
+
+IDD_SAVE_DIALOG DIALOG DISCARDABLE  0, 0, 286, 111
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Enregistrement"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Enregistrer",IDOK,177,92,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,231,92,50,14
+    LISTBOX         IDC_AVAIL_LIST,5,18,103,62,LBS_NOINTEGRALHEIGHT | 
+                    LBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_TOSAVE_LIST,159,18,103,62,LBS_NOINTEGRALHEIGHT | 
+                    LBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Spin1",IDC_ORDER_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    271,18,10,62
+    PUSHBUTTON      "==>",IDC_ADD_BUTTON,118,30,34,14
+    PUSHBUTTON      "<==",IDC_REMOVE_BUTTON,118,52,34,14
+    LTEXT           "Courbes disponibles",IDC_STATIC,16,5,64,8
+    LTEXT           "Courbes à enregistrer",IDC_STATIC,169,5,68,8
+    DEFPUSHBUTTON   "Prévisualisation",IDC_PREVIEW_BUTTON,113,92,60,14
+    PUSHBUTTON      "Aide",ID_HELP,5,92,50,14
+    PUSHBUTTON      "Format",IDC_EXPORTFORMAT_BUTTON,59,92,50,14
+END
+
+IDD_ZOOM_DIALOG DIALOGEX 0, 0, 59, 18
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Zoom"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO_ZOOM,3,3,53,69,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_AXE_X DIALOGEX 0, 0, 290, 150
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Axe et échelle des abscisses"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Suivant >>",IDOK,235,131,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,95,131,50,14
+    PUSHBUTTON      "<< Précédent",IDC_PREVIOUS,180,131,50,14
+    GROUPBOX        "Axe",IDC_STATIC,5,5,280,33
+    CONTROL         "Tracer l'axe",IDC_CHECK_AXE,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,12,16,104,14
+    EDITTEXT        IDC_EDIT_AXENAME,172,17,101,12,ES_AUTOHSCROLL
+    RTEXT           "Nom de l'axe",IDC_STATIC,121,17,48,12,SS_CENTERIMAGE
+    GROUPBOX        "Echelle",IDC_STATIC,5,43,280,67
+    RTEXT           "Position",IDC_STATIC,11,67,25,8,0,WS_EX_TRANSPARENT
+    RTEXT           "Valeur",IDC_STATIC,15,88,21,8
+    GROUPBOX        "Point 1",IDC_STATIC_PT1,39,53,77,51
+    CONTROL         "Choisir la position",IDC_CHECK_1ST,"Button",
+                    BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,46,64,63,14
+    EDITTEXT        IDC_EDIT_1STVALUE,46,86,63,12,ES_AUTOHSCROLL
+    GROUPBOX        "Point 2",IDC_STATIC_PT2,121,53,77,51
+    EDITTEXT        IDC_EDIT_2NDVALUE,128,86,63,12,ES_AUTOHSCROLL
+    CONTROL         "Choisir la position",IDC_CHECK_2ND,"Button",
+                    BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,128,64,63,14
+    GROUPBOX        "Type d'échelle",IDC_STATIC,204,53,71,51
+    CONTROL         "Linéaire",IDC_RADIO_LINEAR,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,210,68,41,10
+    CONTROL         "Logarithmique",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,
+                    210,88,60,10
+    CTEXT           "Please draw a line on the axe",IDC_STATIC_STATUS,5,112,
+                    280,9,SS_CENTERIMAGE
+    PUSHBUTTON      "Aide",ID_HELP,5,131,50,14
+END
+
+IDD_AXE_Y DIALOG DISCARDABLE  0, 0, 290, 150
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Axe et échelle des ordonnées"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Suivant >>",IDOK,235,131,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,95,131,50,14
+    PUSHBUTTON      "<< Précédent",IDC_PREVIOUS,180,131,50,14
+    GROUPBOX        "Axe",IDC_STATIC,5,0,280,29
+    CONTROL         "Tracer l'axe",IDC_CHECK_AXE,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,11,9,104,14
+    RTEXT           "Nom de l'axe",IDC_STATIC,123,10,43,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_AXENAME,169,10,104,12,ES_AUTOHSCROLL
+    RTEXT           "Position",IDC_STATIC,43,36,29,8
+    RTEXT           "Valeur",IDC_STATIC,103,36,21,8
+    GROUPBOX        "Point 1",IDC_STATIC_PT1,5,43,151,32
+    CONTROL         "Choisir la position",IDC_CHECK_1ST,"Button",
+                    BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,12,54,63,14
+    EDITTEXT        IDC_EDIT_1STVALUE,81,55,63,12,ES_AUTOHSCROLL
+    GROUPBOX        "Point 2",IDC_STATIC_PT2,5,76,151,32
+    EDITTEXT        IDC_EDIT_2NDVALUE,81,88,63,12,ES_AUTOHSCROLL
+    CONTROL         "Choisir la position",IDC_CHECK_2ND,"Button",
+                    BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,12,87,63,14
+    GROUPBOX        "Type d'échelle",IDC_STATIC,186,43,74,51
+    CONTROL         "Linéaire",IDC_RADIO_LINEAR,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,192,58,41,10
+    CONTROL         "Logarithmique",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,
+                    192,78,60,10
+    CTEXT           "Please draw a line on the axe",IDC_STATIC_STATUS,5,112,
+                    280,9,SS_CENTERIMAGE
+    PUSHBUTTON      "Aide",ID_HELP,5,131,50,14
+END
+
+IDD_DASHDIST_DIALOG DIALOG DISCARDABLE  0, 0, 172, 82
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Distance maximale entre pointillés"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,61,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,61,61,50,14
+    PUSHBUTTON      "Appliquer",IDC_BUTTON_APPLY,115,61,50,14
+    PUSHBUTTON      "Aide",ID_HELP,115,7,50,14
+    EDITTEXT        IDC_EDIT_DASHDIST,35,7,40,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_DIST,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,72,7,11,14
+    LTEXT           "Entrez la distance maximale (en pixels) entre",
+                    IDC_STATIC,16,33,139,8
+    LTEXT           "deux pointillés",IDC_STATIC,63,44,45,8
+END
+
+IDD_SCANNER DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+END
+
+IDD_SAVE_PROMPT DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CurveUnscan"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Oui",IDYES,7,74,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,129,74,50,14
+    PUSHBUTTON      "Non",IDNO,68,74,50,14
+    CTEXT           "Save change to your document?",IDC_STATIC_QUESTION,7,7,
+                    172,21
+    CONTROL         "Exporter les données",IDC_RADIO_SAVE_EXPORT,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,55,34,82,10
+    CONTROL         "Enregistrer le document",IDC_RADIO_SAVE_DOCUMENT,"Button",
+                    BS_AUTORADIOBUTTON,55,49,90,10
+END
+
+IDD_EXPORT_FORMAT_DIALOG DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Séparateurs"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,129,28,50,14
+    PUSHBUTTON      "Aide",ID_HELP,129,74,50,14
+    GROUPBOX        "Séparateur de colonnes",IDC_STATIC,7,7,98,81
+    CONTROL         "Tabulation",IDC_RADIO_SEP_TAB,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,13,17,49,10
+    CONTROL         "Point-virgule",IDC_RADIO_SEP_SEMICOLON,"Button",
+                    BS_AUTORADIOBUTTON,13,30,55,10
+    CONTROL         "Virgule",IDC_RADIO_SEP_COMMA,"Button",
+                    BS_AUTORADIOBUTTON,13,43,37,10
+    CONTROL         "Espace",IDC_RADIO_SEP_SPACE,"Button",BS_AUTORADIOBUTTON,
+                    13,56,40,10
+    CONTROL         "Autre :",IDC_RADIO_SEP_OTHER,"Button",
+                    BS_AUTORADIOBUTTON,13,69,37,10
+    EDITTEXT        IDC_EDIT_SEP_OTHER,55,68,15,12,ES_AUTOHSCROLL
+END
+
+IDD_DENSITO_PERIOD_DIALOG DIALOG DISCARDABLE  0, 0, 405, 170
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Courbe de densitométrie : Premier point et fréquence"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,286,151,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,350,151,50,14
+    PUSHBUTTON      "Aide",ID_HELP,5,151,50,14
+    GROUPBOX        "Afficher",IDC_STATIC,5,5,221,30
+    CONTROL         "Les abscisses (X)",IDC_RADIO_DISP_X,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,11,18,71,10
+    CONTROL         "Les ordonnées (Y)",IDC_RADIO_DISP_Y,"Button",
+                    BS_AUTORADIOBUTTON,93,18,73,10
+    CONTROL         "Les deux",IDC_RADIO_DISP_BOTH,"Button",
+                    BS_AUTORADIOBUTTON,177,18,45,10
+    LTEXT           "Min",IDC_STATIC,31,44,12,8
+    LTEXT           "Premier point",IDC_STATIC,72,44,42,8
+    LTEXT           "Max",IDC_STATIC,142,44,14,8
+    LTEXT           "Fréquence",IDC_STATIC,187,44,35,8
+    LTEXT           "Période",IDC_STATIC,248,44,25,8
+    LTEXT           "Unité (période)",IDC_STATIC,323,44,47,8
+    GROUPBOX        "X",IDC_STATIC_X,5,53,395,27
+    EDITTEXT        IDC_EDIT_XMIN,12,62,50,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_XFIRST,68,62,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_XMAX,124,62,50,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_XFREQ,180,62,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_XPERIOD,236,62,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_XUNIT,292,62,100,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_TABSTOP
+    GROUPBOX        "Y",IDC_STATIC_Y,5,88,395,27
+    EDITTEXT        IDC_EDIT_YMIN,12,97,50,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_YFIRST,68,97,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_YMAX,124,97,50,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_YFREQ,180,97,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_YPERIOD,236,97,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_YUNIT,292,97,100,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "Nb de lignes enregistrées : ",IDC_STATIC,5,123,84,8
+    LTEXT           "0",IDC_NB_SAVED_POINTS,94,123,95,8
+END
+
+IDD_DENSITO_DIALOG DIALOG DISCARDABLE  0, 0, 290, 150
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Courbe de densitométrie"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Terminer",IDOK,235,131,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,95,131,50,14
+    PUSHBUTTON      "<< Précédent",IDC_PREVIOUS,180,131,50,14
+    PUSHBUTTON      "Aide",ID_HELP,5,131,50,14
+    PUSHBUTTON      "",IDC_TOP_COLOR_BUTTON,172,34,36,12
+    PUSHBUTTON      "",IDC_BOTTOM_COLOR_BUTTON,172,109,36,12
+    GROUPBOX        "Echelle de couleur",IDC_STATIC,131,5,154,121
+    PUSHBUTTON      "",IDC_COLOR_SCALE_BUTTON,176,49,28,56,WS_DISABLED | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_TOP_COLOR_VALUE,229,34,45,12,ES_AUTOHSCROLL
+    CTEXT           "Couleur\n(cliquer pour modifier)",IDC_STATIC,151,15,70,
+                    17
+    LTEXT           "Valeur associée",IDC_STATIC,225,23,51,8
+    EDITTEXT        IDC_EDIT_BOTTOM_COLOR_VALUE,228,109,45,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Utiliser par défaut",IDC_DEFAULT_COLOR_SCALE_BUTTON,221,
+                    68,60,14
+    PUSHBUTTON      "Prévisualisation",IDC_DENSITOPREVIEW_BUTTON,39,71,58,14
+    CONTROL         "Tracer le segment",IDC_CHECK_DRAWSEGMENT_DENSITO,"Button",
+                    BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,29,42,78,19
+    CONTROL         "",IDC_CHECK_PICK_UP_COLOR,"Button",BS_AUTOCHECKBOX | 
+                    BS_ICON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE | 
+                    WS_TABSTOP,145,33,18,15
+    CONTROL         "",IDC_CHECK_PICK_BOTTOM_COLOR,"Button",BS_AUTOCHECKBOX | 
+                    BS_ICON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE | 
+                    WS_TABSTOP,145,107,18,15
+    EDITTEXT        IDC_EDIT_GRAPHNAME,11,16,111,12,ES_AUTOHSCROLL
+    GROUPBOX        "Nom de la courbe",IDC_STATIC,5,5,122,30
+END
+
+IDD_SPLINE_DIALOG DIALOG DISCARDABLE  0, 0, 290, 151
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Courbe spline"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Suivant >>",IDOK,235,132,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,95,132,50,14
+    PUSHBUTTON      "<< Précédent",IDC_PREVIOUS,180,132,50,14
+    PUSHBUTTON      "Aide",ID_HELP,5,132,50,14
+    GROUPBOX        "Construction de la courbe",IDC_STATIC,5,5,280,54
+    CONTROL         "",IDC_RADIO_SPLINE_ADDBACK,"Button",BS_AUTORADIOBUTTON | 
+                    BS_ICON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE | 
+                    WS_GROUP,12,18,32,32
+    CONTROL         "",IDC_RADIO_SPLINE_ADDFRONT,"Button",BS_AUTORADIOBUTTON | 
+                    BS_ICON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE,44,18,32,
+                    32
+    CONTROL         "",IDC_RADIO_SPLINE_ADDMIDDLE,"Button",
+                    BS_AUTORADIOBUTTON | BS_ICON | BS_CENTER | BS_VCENTER | 
+                    BS_PUSHLIKE,76,18,32,32
+    CONTROL         "",IDC_RADIO_SPLINE_REMOVE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_ICON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE,108,18,32,
+                    32
+    CONTROL         "",IDC_RADIO_SPLINE_MODIFY,"Button",BS_AUTORADIOBUTTON | 
+                    BS_ICON | BS_CENTER | BS_VCENTER | BS_PUSHLIKE,139,18,32,
+                    32
+    PUSHBUTTON      "Effacer tout",IDC_SPLINE_CLEAN_ALL,220,16,50,14
+    LTEXT           "Comment about the current tool",
+                    IDC_STATIC_SPLINE_TOOL_COMMENT,5,63,280,25
+    GROUPBOX        "Nom de la courbe",IDC_STATIC,5,92,129,32
+    EDITTEXT        IDC_EDIT_CURVENAME,13,104,111,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Réduire la fenêtre",IDC_MINIMIZE_BUTTON,182,102,67,14,
+                    NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "",IDC_UNDO_SPLINE_BUTTON,199,35,32,14,BS_ICON | NOT 
+                    WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "",IDC_REDO_SPLINE_BUTTON,238,36,32,14,BS_ICON | NOT 
+                    WS_VISIBLE | NOT WS_TABSTOP
+END
+
+IDD_SPLINE_PERIOD_DIALOG DIALOG DISCARDABLE  0, 0, 206, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Courbe spline : Nombre de points à enregistrer"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,87,74,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,149,74,50,14
+    PUSHBUTTON      "Aide",ID_HELP,7,74,50,14
+    CTEXT           "Entrez le nombre de points à enregistrer pour chaque segment de la courbe spline :",
+                    IDC_STATIC,19,7,172,23
+    EDITTEXT        IDC_SPLINE_SAVED_POINTS_NB_EDIT,82,33,40,12,
+                    ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Nombre total de points exportés :",IDC_STATIC,9,56,112,
+                    8
+    LTEXT           "valeur...",IDC_NB_SAVED_POINTS,127,56,53,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,4,0,0
+ PRODUCTVERSION 1,4,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x21L
+#else
+ FILEFLAGS 0x20L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Sebastien Roy\0"
+            VALUE "FileDescription", "Graph recovery from bitmaps\0"
+            VALUE "FileVersion", "1, 4, 0, 0\0"
+            VALUE "InternalName", "CurveUnscan\0"
+            VALUE "LegalCopyright", "Copyright (c) 2000-2005 by Sebastien Roy\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "CurveUnscan.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "CurveUnscan\0"
+            VALUE "ProductVersion", "1, 4, 0, 1\0"
+            VALUE "SpecialBuild", "V140PR32\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CONTINUOUS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 285
+        VERTGUIDE, 156
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 145
+    END
+
+    IDD__TEST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 256
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_SAVETREE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 255
+        VERTGUIDE, 15
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 283
+        VERTGUIDE, 40
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 123
+    END
+
+    IDD_ASKTOSAVE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 166
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 45
+    END
+
+    IDD_COMMON_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 233
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 115
+    END
+
+    IDD_CONTINUOUSOPTION_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 239
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 206
+        HORZGUIDE, 150
+    END
+
+    IDD_CURVEKIND_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 285
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 145
+        HORZGUIDE, 126
+    END
+
+    IDD_CURVELIMITS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 285
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 145
+        HORZGUIDE, 70
+    END
+
+    IDD_DISCRETE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 285
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 145
+        HORZGUIDE, 126
+    END
+
+    IDD_HAND_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 285
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 145
+        HORZGUIDE, 126
+    END
+
+    IDD_PERIOD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 216
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_PREVIEW_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 287
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 240
+    END
+
+    IDD_SAVE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 281
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 106
+    END
+
+    IDD_ZOOM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 56
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 15
+    END
+
+    IDD_AXE_X, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 285
+        VERTGUIDE, 36
+        VERTGUIDE, 46
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_AXE_Y, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 285
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_DASHDIST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 165
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 75
+    END
+
+    IDD_SCANNER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_SAVE_PROMPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_EXPORT_FORMAT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_DENSITO_PERIOD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 400
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 165
+    END
+
+    IDD_DENSITO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 285
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_SPLINE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 285
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 146
+    END
+
+    IDD_SPLINE_PERIOD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_ZOOM_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_ZOOM, 0x403, 4, 0
+0x3034, 0x0030, 
+    IDC_COMBO_ZOOM, 0x403, 4, 0
+0x3032, 0x0030, 
+    IDC_COMBO_ZOOM, 0x403, 4, 0
+0x3531, 0x0030, 
+    IDC_COMBO_ZOOM, 0x403, 4, 0
+0x3031, 0x0030, 
+    IDC_COMBO_ZOOM, 0x403, 8, 0
+0x6a41, 0x7375, 0x6574, 0x0072, 
+    IDC_COMBO_ZOOM, 0x403, 3, 0
+0x3537, "\000" 
+    IDC_COMBO_ZOOM, 0x403, 3, 0
+0x3035, "\000" 
+    IDC_COMBO_ZOOM, 0x403, 3, 0
+0x3532, "\000" 
+    IDC_COMBO_ZOOM, 0x403, 3, 0
+0x3031, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_MANUALDRAW_CURSOR   CURSOR  DISCARDABLE     "res\\manualdrFr.cur"
+IDC_PICK_COLOR_POINTER  CURSOR  DISCARDABLE     "res\\pick_col.cur"
+IDC_RUBBER_CURSOR       CURSOR  DISCARDABLE     "res\\cur00001.cur"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""LicenceManaging\\resource.h""\r\n"
+    "#include ""SettingsManagement\\resource.h""\r\n"
+    "#include ""Utilities\\resource.h""\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\CurveUnscan.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""LicenceManaging\\LicenceManaging.rc""\r\n"
+    "#include ""SettingsManagement\\SettingsManagement.rc""\r\n"
+    "#include ""Utilities\\Utilities.rc""\r\n"
+    "#endif\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE LANG_FRENCH, SUBLANG_FRENCH\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\CurveUnscan.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.fra\\afxres.rc""         // Standard components\r\n"
+    "#include ""LicenceManaging\\LicenceManaging.rc""\r\n"
+    "#include ""SettingsManagement\\SettingsManagement.rc""\r\n"
+    "#include ""Utilities\\Utilities.rc""\r\n"
+    "#endif\r\n"
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_OPENBITMAP      "Ouvre un nouveau graphique, propose l'enregistrement si nécessaire.\nOuvrir un graphique"
+    ID_FILE_SAVECURVES      "Exporte les données des courbes.\nExporter"
+    ID_FILE_EXIT            "Ferme l'application ; propose d'enregistrer les documents\nQuitter"
+    ID_GRAPH_NEWSYSTEM      "Construit un nouveau système de coordonnées sur le graphique\nNouveau système de coordonnées"
+    ID_GRAPH_MODIFY         "Modifie l'objet actuellement sélectionné."
+    ID_GRAPH_NEWCONTINUOUS  "Lance le processus d'identification d'une courbe continue.\nNouvelle courbe continue"
+    ID_GRAPH_NEWDISCRETE    "Lance le processus d'identification d'une courbe discrète.\nNouvelle courbe discrète"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Affiche des informations sur le programme, le numéro de version et le copyright\nA propos de"
+    ID_APP_EXIT             "Ferme l'application ; propose d'enregistrer les documents\nQuitter"
+    ID_HELP_INDEX           "Ouvre l'aide\nRubriques de l'aide"
+    ID_HELP_FINDER          "Liste les rubriques de l'aide\nRubriques de l'aide"
+    ID_HELP_USING           "Affiche des instructions sur l'utilisation de l'aide\nAide"
+    ID_CONTEXT_HELP         "Affiche l'aide sur les clics sur les boutons, menus et fenêtres\nAide"
+    ID_HELP                 "Affiche l'aide sur la tâche ou commande courante\nAide"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Affiche ou masque la barre d'outils\nBarre d'outils"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_IDLEMESSAGE     "Pour l'aide, appuyez sur F1"
+    AFX_IDS_HELPMODEMESSAGE "Sélectionnez un objet sur lequel obtenir de l'aide"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NOT_PARALLEL        "Les deux axes ne peuvent pas être parallèles !"
+    IDS_FAIL_TO_OPEN_FILE   "Impossible de lire ce fichier."
+    IDS_CANNOT_HANDLE_X_COLORS 
+                            "CurveUnscan ne gère pas les fichiers graphiques de %d couleurs."
+    IDS_COLOR_RANGE         "La valeur de la couleur doit être comprise entre 0 et 255."
+    IDS_THICK_WHIDTH_RANGE  "L'intervalle doit être compris entre 1 et 32."
+    IDS_HAND_MODIFICATION_LOST 
+                            "Ceci va annuler les modifications manuelles. Continuer?"
+    IDS_NOT_ENOUGH_MEMORY   "Mémoire insuffisante!"
+    IDS_GENESIS_POINT_REDUNDANT 
+                            "Le point initial de coordonnées\nX= %f\nY= %f\nest redondant et va être supprimé."
+    IDS_NO_POINT_SELECTED   "Aucun point sélectionné !"
+    IDS_NO_CURVE_HERE       "Il n'y a pas de courbe à cet endroit ! \nSoit vous avez cliqué sur le fond du graphique, soit la couleur de seuil pour la courbe n'est pas adaptée (voir Options avancée de la boite de dialogue)."
+    IDS_OUT_OF_LIMITS       "Point en dehors des limites !"
+    IDS_CURVE_ALREADY_EXISTS "La courbe existe déjà à cet endroit !"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_GRAPH_NEW_COORDANDCURVE 
+                            "Construit un nouveau système de coordonnées et une nouvelle courbe.\nNouveau système de coordonnées et nouvelle courbe"
+    ID_SCANNER_SELECTSOURCE "Sélectionne le scanner qui sera utilisé\nSélectionne le scanner"
+    ID_SCANNER_IMPORT       "Lance l'acquisition par le scanner.\nScanner"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_RADIO_TOP           "Lorsque ce bouton est sélectionné, la courbe est indentifiée en suivant son coté supérieur."
+    IDC_RADIO_BOTTOM        "Lorsque ce bouton est sélectionné, la courbe est identifiée en suivant son coté inférieur."
+    IDC_EDIT_GRAPHNAME      "Entrez le nom du graphique. Ce nom sera utilisé dans le fichier de sortie pour identifier ce graphique."
+    IDC_EDIT_CURVENAME      "Entrez le nom de la courbe. ce nom sera utilisé dans le fichier de sortie pour identifier cette courbe."
+    IDC_EDIT_PERIOD         "Entrez la période séparant deux points à l'enregistrement."
+    IDC_EDIT_RIGHTVALUE     "Valeur de la limite droite de l'intervalle dans lequel la courbe sera identifiée."
+    IDC_EDIT_FREQUENCY      "Entrez la fréquence avec laquelle les points seront enregistrés."
+    IDC_CHECK_THICK         "Cliquez sur ce bouton puis sur le graphique. La valeur de l'épaisseur de la courbe sera calculée à cet endroit."
+    IDC_EDIT_1STVALUE       "Entrez la valeur correspondant au point de l'échelle."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_CHECK_1ST           "Pour définir la position d'un point de l'échelle, cliquez sur ce bouton puis sur l'endroit voulu de l'axe."
+    IDC_EDIT_2NDVALUE       "Entrez la valeur correspondant au point de l'échelle."
+    IDC_CHECK_2ND           "Pour définir la position d'un point de l'échelle, cliquez sur ce bouton puis sur l'endroit voulu de l'axe."
+    IDC_RADIO_LINEAR        "Cliquez sur ce bouton si l'échelle est lineaire."
+    IDC_RADIO_LOG           "Cliquez sur ce bouton si l'échelle est logarithmique."
+    IDC_RADIO_CONTINUOUS    "Cliquez sur ce bouton pour identifier une courbe continue."
+    IDC_RADIO_DISCRETE      "Cliquez sur ce bouton pour identifier une courbe discrète (nuage de points)."
+    IDC_EDIT_LEFTVALUE      "Valeur de la limite gauche de l'intervalle dans lequel la courbe sera identifiée."
+    IDC_CHECK_LEFT          "Cliquez sur ce bouton puis sur l'endroit désiré du graphique pour définir la limite gauche de l'intervalle dans lequel la courbe sera identifiée."
+    IDC_CHECK_RIGHT         "Cliquez sur ce bouton puis sur l'endroit désiré du graphique pour définir la limite droite de l'intervalle dans lequel la courbe sera identifiée."
+    IDC_LIST_POINTS         "Contient les coordonnées des poinnts que vous avez choisi. Pour choisir un point du graphique, cliquez dessus."
+    IDC_GENESIS_LIST        "Cette liste contient les coordonnées des points utilisés pour identifier la courbe."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_EDIT_THICKNESS      "Epaisseur de la courbe, en pixels. La position de la courbe est compensée de la moitié de cette valeur."
+    IDC_AVAIL_LIST          "Contient le nom des courbes qui ont été identtifiées et qui n'ont pas encore été sélectionnées pour être enregistrées."
+    IDC_TOSAVE_LIST         "Contient le nom des courbes qui seront enregistrées."
+    IDC_ORDER_SPIN          "Utilisezz ces boutons pour choisir l'ordre dans lequel les courbes seront enregistrées."
+    IDC_EDIT_FIRSTSAVEDVALUE 
+                            "Entrez l'abscisse du premier point qui apparaitra dans le fichier de sortie."
+    IDC_EDIT_AXENAME        "Entrez le nom de l'axe. Ce nom sera utilisé dans le fichier de sortie pour identifier cet axe. vous pouvez utiliser par exemple l'unité correspondant à cet axe."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_SORT                "Trie les points dans l'ordre croissant de leur valeur d'abscisse."
+    IDC_ADD_BUTTON          "Sélectionnez une courbe disponible puis cliquez sur ce bouton pour l'ajouter à la liste des courbes à enregistrer."
+    IDC_DELETE              "Efface les points sélectionnés de la liste."
+    IDC_REMOVE_BUTTON       "Utilisez ce bouton pour retirer une courbe de la liste des courbes à enregistrer."
+    IDS_CURVE               "Courbe"
+    IDC_CHECK_ELEMENT       "Ce bouton doit être enfoncé pour pouvoir choisir un point initial de la courbe."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_PREVIEW             "Cliquez sur ce bouton pour visualiser les résultats tels qu'ils apparaitront dans le fichier de sortie."
+    IDC_DELETE_ELEMENT      "Retire le point initial sélectionné."
+    IDC_UNDO                "Annule la dernière action."
+    IDC_REDO                "Rétablit l'action précédemment annulée."
+    IDC_RESET_MODIFICATION  "Reconstruit la courbe, annule les modifications manuelles."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_RIGHT_GREATER_THAN_LEFT 
+                            "La limite droite doit être supérieure à la limite gauche."
+    IDS_LEFT_GREATER_THAN_RIGHT 
+                            "La limite gauche doit être supérieure à la limite droite lorsque l'axe des abscisses est inverse."
+    IDS_LOG_VALUE_GREATER_THAN_ZERO 
+                            "Les valeurs doivent être strictement supérieures à zéro lorsque l'axe est logarithmique."
+    IDS_PERIOD_GREATER_THAN_ZERO "La période doit être supérieure  à zéro."
+    IDS_CURVE_CONTAINS_N_LINES "Cette courbe contiendra %d lignes. Continuer?"
+    IDS_SCALE_VALUES_DIFFERENT 
+                            "Les deux valeurs d'échelle doivent être différentes !"
+    IDS_LOG_GREATER_THAN_ZERO2 
+                            "Les valeurs logarithmiques doivent être supérieures à zéro !"
+    IDS_CURVES_NOT_SAVED_EXIT 
+                            "Des courbes n'ont pas été enregistrées. voulez-vous les enregistrer avant de quitter CurveUnscan?"
+    IDS_OUT_OF_MEMORY       "Mémoire insuffisante !"
+    IDS_SELECT_COORD_SYST   "Vous devez d'abord créer ou sélectionner un système de coordonnées."
+    IDS_DELETE_COORD_SYST   "Ceci effacera toutes les courbes reliées à ce système de coordonnées.\nEtes-vous sûr de vouloir l'effacer?"
+    IDS_DIVISION_BY_ZERO    "Division par zéro !"
+    IDS_NAME_FIELD_EMPTY    "Le nom ne doit pas être vide !"
+    IDS_LICENCE_KEY_EMPTY   "La clé est vide."
+    IDS_LICENCE_KEY_NOT_VALID "Désolé, la clé n'est pas valide."
+    IDS_CANNOT_OPEN_TO_WRITE "Impossible d'ouvrir le fichier en écriture !"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CANNOT_WRITE_INTO_FILE "Impossible d'écrire dans le fichier !"
+    IDS_CURVES_NOT_SAVED_OPEN 
+                            "Des courbes ne sont pas enregistrées. \nVoulez-vous les enregistrer avant d'ouvrir un autre graphique?"
+    IDS_LOG_GREATER_THAN_ZERO3 
+                            "Les valeurs des limites doivent être supérieures à zéro lorsque l'échelle est logarithmique."
+    IDS_STATE_OK            "Ok"
+    IDS_STATE_VALUE         "Valeur ?"
+    IDS_STATE_PICK          "Position ?"
+    IDS_DECADE_UNIT         "Decade de "
+    IDS_PRODUCT_LICENCED    "Licence d'utilisation accordée à :"
+    IDS_PRODUCT_UNREGISTERED "Copie non enregistrée"
+    IDS_PRODUCTID           "Numéro de série : "
+    IDS_ZOOMFIT             "Ajuster"
+    IDS_NEXTBUTTON          "Suivant >>"
+    IDS_FINISHBUTTON        "Terminer"
+    IDS_RESULTHEADER1       "Reconnaissance de courbe par CurveUnscan"
+    IDS_RESULTHEADER2       "Copyright 2000-2005 par SquarePoint Software"
+    IDS_RESULTHEADER3       "Fichier graphique :"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_ADV_CONTINUOUS_BUTTON 
+                            "Cliquez sur ce boutton pour accéder aux options avancées : couleur de seuil et algorithme de compensation de l'épaisseur du trait."
+    IDC_BLACKCOLOR_BUTTON   "Couleur de seuil. Toute coleur dont l'une des composente est supérieure à celle de la couleur de seuil est considérée comme appartenant au fond du graphique, c'est à dire n'apppartenant pas à une courbe."
+    IDC_SLIDER_RED          "Déplacez ce curseur pour choisir la composante rouge de la couleur de seuil. Toute couleur dont la composante rouge est supérieure à cette valeur est considérée comme n'appartenant pas à une courbe."
+    IDC_SLIDER_GREEN        "Déplacez ce curseur pour choisir la composante verte de la couleur de seuil. Toute couleur dont la composante verte est supérieure à cette valeur est considérée comme n'appartenant pas à une courbe."
+    IDC_SLIDER_BLUE         "Déplacez ce curseur pour choisir la composante bleue de la couleur de seuil. Toute couleur dont la composante bleue est supérieure à cette valeur est considérée comme n'appartenant pas à une courbe."
+    IDC_EDIT_RED            "Entrez la valeur de la composante rouge de la couleur de seuil. Cette valeur doit être comprise entre 0 et 255."
+    IDC_EDIT_GREEN          "Entrez la valeur de la composante verte de la couleur de seuil. Cette valeur doit être comprise entre 0 et 255."
+    IDC_EDIT_BLUE           "Entrez la valeur de la composante bleue de la couleur de seuil. Cette valeur doit être comprise entre 0 et 255."
+    IDC_CHECK_PICKCOLOR     "Cliquez sur ce bouton puis sur le graphique pour choisir la couleur de seuil directement sur le graphique."
+    IDC_RADIO_FLAT_THICKNESS 
+                            "Cliquez sur ce bouton pour obtenir une compensation simple de l'épaisseur du trait. La compensation est constante toute au lon de la courbe et indépendante de sa dérivée."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_RADIO_SMART_THICKNESS 
+                            "Cliquez sur ce bouton pour obtenir une compensation ""intelligente"" de l'épaisseur du trait. Cet algorithme tient compte de la dérivée de la courbe pour définir la valeur de compensation."
+    IDC_EDIT_THICK_RANGE    "L'algorithme de compensation ""intelligent"" tient compte de la dérivée de la courbe pour calculer la valeur de compensation de l'épaisseur du trait. La valeur contenue dans ce champ donne le nombre de poinnts utilisisés à droite et à gauche de chaque point pour calculer la dérivée."
+    IDC_RADIO_TOOL_PEN      "Utilisez le crayon pour redessiner la courbe."
+    IDC_RADIO_TOOL_RUBBER   "Utilisez la gomme pour effacer des parties de la courbe."
+    IDC_CHECK_AXE           "Pour définir l'axe, cliquez sur ce bouton puis tirez un trait sur le graphique. Si la touche MAJ est enfoncée, le trait est tiré parallèlement au bord de la fenêtre."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PREVIEWLIMIT        "A suivre : la prévisualisation est limitée à %d lignes."
+    IDS_GRAPHICFILTERNAME   "Fichiers graphiques"
+    IDS_GRAPHICFILTERNAME_ALL "Tous les fichiers"
+    IDS_OUTPUTFILTER        "Tous les fichiers (*.*)|*.*||"
+    IDS_SCALE_POINT_DIFFERENT 
+                            "Les deux points de l'échelle doivent être différents !"
+    IDS_AXE_PLEASE_DRAW     "Tracez un trait sur l'axe des %s du graphique"
+    IDS_X_AXIS_NAME         "X"
+    IDS_Y_AXIS_NAME         "Y"
+    IDS_AXE_PICK_POINT      "Cliquez sur le graphique à l'endroit voulu pour le point d'échelle %d"
+    IDS_AXE_ENTER_VALUE     "Entrez une valeur pour le point %d"
+    IDS_AXE_ENTER_VALUE_AND_POSITION 
+                            "Entrez une valeur pour le point %d et une position pour le point %d"
+    IDS_AXE_READY           "Prêt"
+    IDS_AXE_DEFINE_POINT    "Définissez la position du point %d"
+    IDS_AXE_DEFINE_SCALEPOINT 
+                            "Définissez la position et la valeur du point d'échelle %d"
+    IDS_INSTALL_NOT_CORRECT "CurveUnscan n'a pas été installé correctement."
+    IDS_ADMINISTRATOR_RIGHTS 
+                            "Vous devez avoir les droits d'administrateur pour pouvoir vous enregistrer."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_XLABEL     " X="
+    ID_INDICATOR_YLABEL     " Y="
+    ID_INDICATOR_XVALUE     " "
+    ID_INDICATOR_YVALUE     " "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NAME_ALREADY_EXISTS "Une autre courbe porte déjà la même nom.\nVoulez-vous continuer?"
+    IDS_UNTITLED            "Sans nom"
+    IDS_CURVES_NOT_SAVED_SCANNING 
+                            "Des courbes ne sont pas enregistrées. \nVoulez-vous les enregistrer avant de scanner un autre graphique?"
+    IDS_NO_SCANNER_AVAILABLE "Désolé, aucun scanner n'est disponible."
+    IDS_ERROR               "Erreur !"
+    IDS_NBLINESTOOBIG       "Le nombre de points à générer est trop grand!"
+    IDS_SEPARATOR_ISEMPTY   "Le champ ""Autre caractère"" est vide!"
+    IDS_SCANNED_GRAPHIC     "Graphique scanné"
+    IDS_EXCEL_FILTER        "Fichiers Excel (*.xls)|*.xls|"
+    IDS_TEXT_FILTER         "Fichiers texte (*.txt)|*.txt|"
+    IDS_GENERIC_FILTER      "Fichiers %s (*.%s)|*.%s|"
+    IDS_MUST_GIVE_VALUE     "Vous devez donner une valeur !"
+    IDS_SCALE_VALUE_MUST_BE_DIFFERENT 
+                            "Les deux valeurs de l'échelle doivent être différentes !"
+    IDS_SCALE_COLOR_MUST_BE_DIFFERENT 
+                            "Les deux couleurs de l'échelle doivent être différentes !"
+    IDS_DENSITO_PREVIEW_TITLE "Densitométrie : prévisualisation"
+    IDS_VALUE_OUTSIDE_RANGE "La valeur est en dehors de l'intervalle !"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_RADIO_DASHED        "Sélectionnez ce bouton radio pour identifier une courbe en pointillés"
+    IDC_RADIO_NOTDASHED     "Sélectionez ce bouton radio pour identifier une courbe continue"
+    IDC_EDIT_DISTMAX        "Affiche la distance maximale en tre deux pointillés"
+    IDC_BUTTON_DASHDIST     "Cliquez sur ce bouton pour modifier la distance maximale entre deux pointillés"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "CurveUnscan\n\nCurveUnscan\nFichiers CurveUnscan (*.cus)\n.cus\nCurveUnscan.Document\nDocument CurveUnscan"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_OPEN            "Ouvre un document existant\nOuvrir"
+    ID_FILE_SAVE_AS         "Enregistre le document\nEnregistre"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_GRAPH_NEWDENSITOCURVE 
+                            "Lance le processus d'identification d'une courbe de densitométrie.\nNouvelle courbe de densitométrie"
+    ID_GRAPH_NEWSPLINECURVE "Construit une nouvelle courbe spline sur le système de coordonnées sélectionné\nNouvelle courbe spline"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SPLINE_CANNOT_ADD_NEW_ONE 
+                            "Impossible d'ajouter à cet endroit un nouveau point d'encrage!"
+    IDS_SPLINE_CANNOT_ADD_MIDDLEPOINT 
+                            "Impossible d'ajouter un point d'ancrage. Veuillez utiliser l'outil d'ajout de point d'ancrage sur un segment de la courbe spline."
+    IDS_SPLINE_CANNOT_REMOVE_NODE 
+                            "Impossible d'effacer le point d'ancrage. Veuillez utiliser l'outil d'effacement des points d'ancrage sur un point d'ancrage de la courbe spline."
+    IDS_SPLINE_CANNOT_MODIFY_POINT 
+                            "Impossible de modifier le point d'ancrage. Veuillez utiliser l'outil de modification des points d'ancrage sur un point d'ancrage de la courbe spline."
+    IDS_SPLINE_CLEANALL_CONFIRM 
+                            "Ceci effacera entièrement la courbe spline. Etes vous sûr de vouloir continuer?"
+    IDS_SPLINE_TOOL_ADD_BACK 
+                            "Ajout de nouveaux points d'ancrage en fin de courbe.\nCliquez et déplacez la souris sur le graphique. \nUtilisez la touche Ctrl pour créer des angles, et la touche Maj pour les lisser."
+    IDS_SPLINE_TOOL_ADD_FRONT 
+                            "Ajout de nouveaux points d'ancrage en début de courbe.\nCliquez et déplacez la souris sur le graphique. \nUtilisez la touche Ctrl pour créer des angles, et la touche Maj pour les lisser."
+    IDS_SPLINE_TOOL_ADD_MIDDLE 
+                            "Ajout de points d'ancrage intermédiaires sur la courbe."
+    IDS_SPLINE_TOOL_REMOVE  "Suppression de points d'ancrage de la courbe.\n Cliquez sur les points d'ancrage que vous voulez supprimer."
+    IDS_SPLINE_TOOL_MODIFY  "Modification des points d'ancrage de la courbe.\nCliquez sur un point d'ancrage pour le déplacer. Utilisez la touche Ctrl pour créer des angles, et la touche Maj pour les lisser. "
+END
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\CurveUnscan.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "LicenceManaging\LicenceManaging.rc"
+#include "SettingsManagement\SettingsManagement.rc"
+#include "Utilities\Utilities.rc"
+#endif
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\CurveUnscan.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.fra\afxres.rc"         // Standard components
+#include "LicenceManaging\LicenceManaging.rc"
+#include "SettingsManagement\SettingsManagement.rc"
+#include "Utilities\Utilities.rc"
+#endif
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

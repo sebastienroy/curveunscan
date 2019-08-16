@@ -1,0 +1,63 @@
+
+<html>
+
+<head>
+<title>Introduction : Curves</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" type="text/css" href="helpstyle.css">
+</head>
+
+<body>
+<h1>Curves</h1>
+<p>CurveUnscan handles four kind of curves : discrete curves (scattered points), 
+  continuous curves, spline curves and densitometry curves.</p>
+<p>Each curve is related to a coordinates system which must have been built previously. 
+  Note that an unlimited number of curves can be built on a coordinates system.</p>
+<h2>Discrete Curve</h2>
+<p>The discrete curves (scattered points) are composed from a set of independent 
+  points. These points are individually identified by the user.</p>
+<h2>Continuous Curve</h2>
+<p>The continuous curves are composed with one or more groups of juxtaposed points. 
+  A continuous curve is identified through 3 main steps:</p>
+<ul>
+  <li>Identification of the definition range</li>
+  <li>Automatic recognition step, from one ore more genesis points</li>
+  <li>Manual correction of the imperfections that can subsist.</li>
+</ul>
+<p>The automatic recognition step identifies the curve from initial points, by 
+  following the graphic points. The process can differentiate several crossed 
+  curves, can identify dashed curves and takes into account the curve thickness. 
+</p>
+<p>Though the coordinates system is totally independent from the physical one 
+  (pixels), the continuous curves present some constraints with the coordinates 
+  system: </p>
+<ul>
+  <li>The curves are applications from X space to Y space in the physical coordinates 
+    system (only one y value is defined for a particular x value)</li>
+  <li>During the data export, the curves are considered as application in the 
+    logical coordinates system (the one built by the user)</li>
+</ul>
+<p>These constraints have few influence on the curve identification if the coordinates 
+  system tilt is less than the largest rate value of the curve. In the case of 
+  curves with very sharp peaks, you must take care of the scanning operation in 
+  order to have a small graphic tilt.</p>
+<h2>Spline curves</h2>
+ 
+<p> The spline curves are built using a mathematic definition, from anchor points 
+  which position are defined by the user.</p>
+<p>With the spline curves, the user is allowed (if the curve is not too much complicated), 
+  to quickly interpolate its graphic curve, with a good precision from a limited 
+  number of anchor points. </p>
+<p>The spline curves are built as in a drawing tool, by clicking on the graphic 
+  in order to set and drag the anchor points.</p>
+<p></p>
+<h2>Densitometry curves</h2>
+<p>The densitometry curves are used to identify a color profil on the graphic. 
+  The user defines a segment on the graphic and a value is calculated for each 
+  pixel of this segment. This value is calculated according to a color scale which 
+  is also defined by the user.</p>
+<p align="center"><a href="introCoordonnees.htm"><img border="0" src="images/Previous.gif" width="40" height="30"></a><a href="IntroAlgo.htm"><img border="0" src="images/Next.gif" width="40" height="30"></a></p>
+
+</body>
+
+</html>

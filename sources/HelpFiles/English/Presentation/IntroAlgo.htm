@@ -1,0 +1,91 @@
+<html>
+
+<head>
+<title>Introduction : Algorithms</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" type="text/css" href="helpstyle.css">
+</head>
+
+<body>
+
+<h1>Curve recognition algorithms (continuous curves)</h1>
+<h3>Curve following</h3>
+<p>From an initial point, chosen by the user, the border between the line and 
+  the curve background is followed to the left and to the right of the initial 
+  point.</p>
+<p>According to the user choice, the upper(a) or the lower(b) border is used to 
+  follow the curve.</p>
+<p><img border="0" src="images/SuiviCourbe.gif" width="459" height="125"></p>
+<h3>Threshold color</h3>
+<p>In the case of a monochromatic graphic, the black pixels are considered as 
+  part of the curve and the white pixels as the background. In the case of gray 
+  scale or colored graphics, the difference between curve and background is made 
+  as following :</p>
+<ul>
+  <li>A threshold color is chosen. The default values of its components are 70, 
+    on a scale from 0 (black) to 255 (white).</li>
+  <li>Every pixel having one of its components (red, green or blue) brighter than 
+    the threshold color related one is considered as being part of the background.</li>
+</ul>
+<h3>Stop condition</h3>
+<p>The curve is stopped when one of these conditions is satisfied :</p>
+<ul>
+  <li>The current pixel is outside the curve definition range</li>
+  <li>The end of the curve is reached</li>
+  <li>The followed curve crosses an other part of the same curve (case of several 
+    initial points)</li>
+</ul>
+<h3>Dashed Curves</h3>
+<p>CurveUnscan can perform recognition on dashed curves. If the &quot;dashed curve&quot; 
+  option is selected, the curve following, instead of stopping at the end of the 
+  dash, is extended to the next dashed and also from one to each other. The maximal 
+  distance between two dashes is specified by the user.</p>
+<h3>Initial point validity</h3>
+<p>The initial point is valid if the following conditions are satisfied:</p>
+<ul>
+  <li>It is part of a line (the value of each of its color components is less 
+    than the threshold one)</li>
+  <li>Its abscissa value belongs to the curve definition range</li>
+  <li>This point doesn't already belong to the followed curve. In the case of 
+    several initial points, the curves are build from left to right, following 
+    the initial points. If after the reconstruction of the whole curves (for instance 
+    in the case of changing the side to follow), an initial point belongs to the 
+    already built curve, this initial point is considered as redundant and is 
+    deleted.</li>
+</ul>
+<h3>Curves intersection</h3>
+<p>The curve intersections are handled as following (the different parts are generated 
+  from left to right) :</p>
+<ul>
+  <li>If the curves have no points with same abscissa (a), the whole curves are 
+    kept.</li>
+  <li>The curves are crossed (b). The right curve is stopped when its points belong 
+    to the left curve. The points of the left curve located to the right of this 
+    intersection are deleted.</li>
+  <li>If the curves are overlapping (c and d), the following of the right curve 
+    is stopped at the initial point of the left curve. The points of the left 
+    curve located to the right of the last point of the right curve are deleted.</li>
+</ul>
+<p><img border="0" src="images/Intersections.gif" width="503" height="259"></p>
+<h3>Curve thickness compensation</h3>
+<p>Once the curve is built from the initial points, it is translated to the bottom 
+  or to the top, according to the side chosen to be followed.</p>
+<p>Two algorithms are available in order to process this translation</p>
+<p>Basic algorithm (b) : the points are translated from a constant value, equal 
+  to the half of the curve thickness. The curve thickness is specified by the 
+  user.</p>
+<p>&quot;Smart&quot; algorithm (c) : the translation value depends on the curve 
+  thickness and on the rate of the curve. The number of points used to calculate 
+  the rate can be modified by the user.</p>
+<p>The default algorithm is the &quot;smart&quot; one.</p>
+<p><img src="/Presentation/images/compensation.gif" width="583" height="223"></p>
+<p>Curve recognition with different parameters for curve thickness compensation. 
+  a : without compensation. b : basic algorithm. c: &quot;smart&quot; algorithm.</p>
+
+<p align="center"><a href="IntroCourbes.htm"><img border="0" src="images/Previous.gif" width="40" height="30"></a><a href="IntroEnregistrement.htm"><img border="0" src="images/Next.gif" width="40" height="30"></a></p>
+
+<p>&nbsp;</p>
+
+</body>
+
+</html>

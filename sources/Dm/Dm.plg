@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Dm - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSPD8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Dm.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\Mes documents\CurveUnscan\Dev\CurrentVersion\Dm\ContinuousCurve.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSPD8.tmp" 
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSPD9.tmp" with contents
+[
+/nologo /out:"Debug\Dm.lib" 
+".\Debug\StdAfx.obj"
+".\Debug\24BitsBmpReader.obj"
+".\Debug\AbstractBmpReader.obj"
+".\Debug\AbstractThicknessCorrector.obj"
+".\Debug\Axe.obj"
+".\Debug\BmpManager.obj"
+".\Debug\Color256BmpReader.obj"
+".\Debug\ColorScale.obj"
+".\Debug\ContinuousCurve.obj"
+".\Debug\ContinuousResults.obj"
+".\Debug\CoordSyst.obj"
+".\Debug\Curve.obj"
+".\Debug\CurveElement.obj"
+".\Debug\DashedSnail.obj"
+".\Debug\DensityCurve.obj"
+".\Debug\DiscreteCurve.obj"
+".\Debug\FlatThicknessCorrector.obj"
+".\Debug\Limit.obj"
+".\Debug\LogicPoint.obj"
+".\Debug\MonochromaticBmpReader.obj"
+".\Debug\PartialCurve.obj"
+".\Debug\RealColorBmpReader.obj"
+".\Debug\Results.obj"
+".\Debug\ScalePoint.obj"
+".\Debug\SimpleSnail.obj"
+".\Debug\SmartThicknessCorrector.obj"
+".\Debug\SnailAlgorithm.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSPD9.tmp"
+<h3>Output Window</h3>
+Compiling...
+ContinuousCurve.cpp
+C:\Mes documents\CurveUnscan\Dev\CurrentVersion\Dm\ContinuousCurve.cpp(259) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Mes documents\CurveUnscan\Dev\CurrentVersion\Dm\ContinuousCurve.cpp(939) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Mes documents\CurveUnscan\Dev\CurrentVersion\Dm\ContinuousCurve.cpp(943) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Mes documents\CurveUnscan\Dev\CurrentVersion\Dm\ContinuousCurve.cpp(983) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Creating library...
+
+
+
+<h3>Results</h3>
+Dm.lib - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

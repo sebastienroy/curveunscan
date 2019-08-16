@@ -1,0 +1,68 @@
+V130PR31 - 034:
+PR 001, 002, 003
+Début de développement pour optimiser l'affichage (Dm/CRedrawPart)
+
+V130-31c
+Correction de bug : Il y avait toujours "Copie non enregistrée" dans about box
+
+V130-31b
+Renforcement de la protection logicielle. Le numéro de version ne change pas (aucune modif fonctionnelle). Mais : la reconnaissance démarre apres chaque ouverture de graphique (fichier ou scanner)
+
+V130-31
+Quelques petits détails (?), correction d'algo...
+
+V130-30
+Interne : séparation du data model de l'interface. Remarque : Les courbes continues ont une dépendance avec les resources...
+Bug : le nombre de lignes prédit dans PeriodDialog était faux dans le cas d'un x logarithmique
+L'algo d'extraction des données de densito est fonctionnel
+
+V130-29
+Nouveau type de courbe : densitometrie
+Gestion de la forme du curseur en fonction du contexte : outils plus instinctifs
+
+
+V120-28
+Correction d'un bug : lorsque le nombre de points a enregistrer était supérieur au range de l'int, plantage
+	-> limitation à 1 million de lignes (c'est déjà pas mal)
+Affichage du nombre de lignes exportées
+
+
+V120-27
+Gestion du scanner
+Détails oubliés dans les versions 25 et 26
+Onglet "Auto" dans les options
+
+V120-26
+Bilingue Francais/anglais
+Settings pour valeurs par defaut des courbes
+bug : l'attribut topFollow était oublié dans le copie de courbe
+
+V110-25
+Sérialisation
+Nouvelle version de la bibliothèque PaintLib
+Correction de bug : il était impossible de lance deux fois d'affilée CurveUnscan en période d'évaluation entre minuit et une heure du matin.
+Correction de bug : les racourcis clavier étaient mal positionnés
+
+V110-24
+Correction d'un anglicisme dans la boite de dialogue des options avancées
+Amélioration de l'algorithme de compensation de l'épaisseur dans le cas de grandes variations
+Amélioration de la gestion des pointillés
+
+V110-23
+Mise en place de l'algo et l'interface permettant de traiter les courbes en pointillé
+L'algo de reconnaissance de courbe est maintenant en trois couches:
+	- Courbes partielles (couche haute)
+	- SnailAlgorithm
+	- BmpManager (couche basse)
+Correction de bug : les courbes partielles n'étaient pas recopiées correctement lors de l'annulation de séquence de modif->crash mémoire
+Correction de bug : le bouton radio "to follow" n'est pas mis à jour lors de modification.
+
+V110-22:
+Affichage des coordonées du curseur dans la barre d'état
+Avertissement si plusieurs courbes portent le même nom
+Mise à jour de la documentation (Editeur plus bon de commande)
+
+V110-21 :
+Amélioration du système de protection
+Implémentation de fonctions d'expressions régulières et de lecture-écriture de fichiers ini
+

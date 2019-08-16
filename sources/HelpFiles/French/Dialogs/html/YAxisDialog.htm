@@ -1,0 +1,58 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="fr">
+<title>Boite de dialogue : Identification de l'axe des ordonnées</title>
+<link rel="stylesheet" href="/Dialogs/html/helpstyle.css" type="text/css">
+</head>
+
+<body>
+<h2>Identification de l'axe des ordonnées</h2>
+<p>Cette boite de dialogue vous permet d'identifier l'axe des abscisses de votre 
+  système de coordonnées. Elle est composée de deux parties principales : la partie 
+  liée à l'identification de l'axe et celle liée à la définition de l'échelle.</p>
+<h3>Identification de l'axe</h3>
+<p>Initialement, lorsque l'axe n'a pas encore été défini, seule la partie liée 
+  à son identification est active. La boite de dialogue attend que vous traciez 
+  un trait sur le graphique, à l'emplacement de l'axe des ordonnées. La précision 
+  des résultats dépendant en grande partie de la précision du tracé des axes, 
+  un soin tout particulier doit y être apporté. Durant le tracé, le graphique 
+  défile automatiquement lorsque le curseur atteint le bord de la fenêtre. Lorsque 
+  la touche &quot;Majuscule&quot; est enfoncée, le trait est tiré parallèlement 
+  au bord de la fenêtre.</p>
+<p>Le champ d'édition &quot;Nom de l'axe&quot; permet de personnaliser l'axe. 
+  Vous pouvez par exemple entrer l'unité correspondant à cet axe.&nbsp;</p>
+<h3>Définition de l'échelle</h3>
+<p>Une fois l'axe identifié, les éléments de la boite de dialogue correspondant 
+  à l'identification du premier point de l'échelle sont activés et la boite de 
+  dialogue attend alors que vous définissiez une position pour ce point en cliquant 
+  sur le graphique à l'endroit voulu. Le point réellement pris en compte est le 
+  point sur l'axe le plus proche du point choisi : il n'est pas nécessaire de 
+  cliquer exactement sur l'axe. Une fois la position du premier point définie, 
+  les éléments correspondant au deuxième point sont activés, procédez alors de 
+  même pour celui-ci.&nbsp;</p>
+<p>L'ordre des deux points n'a pas d'importance, vous pouvez tout aussi bien définir 
+  le deuxième point au dessus du premier qu'en dessous. De plus, l'axe peut être 
+  inverse : la valeur du point situé au dessus peut être supérieure à celle du 
+  point situé en dessous. Pour obtenir la meilleure précision possible, il est 
+  préférable de définir les points de l'échelle aux extrémités de l'échelle.</p>
+<p>Après avoir défini la position d'un point, entrez sa valeur dans le champ correspondant. 
+  Le format de ce nombre est le format scientifique standard : des nombres tels 
+  que &quot;123&quot;, &quot;-123&quot;, &quot;123.45&quot;, &quot;123.45e67&quot;, 
+  &quot;-123.45e-67&quot; ...&nbsp; sont acceptés. La valeur est affichée dynamiquement, 
+  à mesure que la valeur est tapée. Bien que cette valeur soit stockée en double 
+  précision (15 décimales), la valeur affichée est limitée à 6 décimales. Comme 
+  la précision d'un graphique scannée est toujours inférieure à une telle précision 
+  (cela correspondrait à un graphique d'un million de pixels de cotés) , cette 
+  limitation n'entraîne pas de perte de précision dans le résultat final.</p>
+<p>L'échelle peut être soit linéaire soit logarithmique. Dans le cas d'une échelle 
+  logarithmique, seules des valeurs strictement positives sont acceptées.</p>
+<p>&nbsp;</p>
+<p>Le bouton &quot;Suivant&quot; de la boite de dialogue est actif dès lors que 
+  tous les éléments nécessaires à l'identification de l'axe sont définis : position 
+  de l'axe, des points de l'échelles ainsi que les valeurs qui leur correspondent.</p>
+
+</body>
+
+</html>

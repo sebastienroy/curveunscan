@@ -1,0 +1,48 @@
+<html>
+
+<head>
+<title>Didacticiel : Options avancées</title>
+<meta http-equiv="Content-Language" content="fr">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" type="text/css" href="FeuilleDeStyle.css">
+</head>
+
+<body>
+<h2>Options avancées</h2>
+<p>&nbsp;</p>
+<p><img border="0" src="images/DidacO1.gif" width="375" height="371"></p>
+<h3>Couleur de seuil</h3>
+<p>La couleur de seuil est la couleur qui permet de différencier une point appartenant 
+  à la courbe d'un point appartenant au fond de l'image. Si l'une des composantes 
+  (rouge, verte ou bleue) du point considéré est plus intense que la composante 
+  correspondante de la couleur de seuil, le point est considéré comme faisant 
+  partie du fond du graphique. Il n'est donc pas considéré comme faisant partie 
+  de la courbe à analyser.</p>
+<p>Chaque composante de la couleur de seuil peut être ajustée à l'aide soit d'un 
+  &quot;potentiomètre&quot; soit directement dans le champ correspondant. La valeur 
+  doit être comprise entre 0 et 255.</p>
+<p>La couleur de seuil peut également être choisie directement sur le graphique, 
+  par l'intermédiaire du bouton &quot;Choisir sur le graphique&quot;.</p>
+<h3>Compensation de l'épaisseur</h3>
+<p>L'épaisseur du trait peut être compensée par l'utilisation de deux algorithmes 
+  différents : l'algorithme &quot;simple&quot; ou &quot;intelligent&quot;.</p>
+<p>L'algorithme simple déplace les points de la courbe qui a été identifiée d'une 
+  valeur fixe du haut vers le bas ou du bas vers le haut (suivant le coté suivi), 
+  égale à la moitié de l'épaisseur de la courbe. La compensation apparente est 
+  différente suivant la valeur de la dérivée de la courbe. Elle semble presque 
+  nulle pour les parties très pentues de la courbe.</p>
+<p>L'algorithme &quot;intelligent&quot; ajuste la valeur de la compensation en 
+  fonction de la valeur de la dérivée de la courbe. Ceci permet d'obtenir une 
+  bonne compensation de l'épaisseur du trait, à la fois sur les parties &quot;plates&quot; 
+  et les parties &quot;pentues&quot; de la courbe. Le nombre de points utilisées 
+  de part et d'autre de chaque point de la courbe pour le calcul de la dérivée 
+  peut être ajusté de 1 à 32. Attention, des valeurs élevées ont pour conséquence 
+  une mauvaise compensation en raison de &quot;l'inertie&quot; du calcul, en particulier 
+  pour les courbes complexes.</p>
+<p>&nbsp;</p>
+<p align="center"><a href="DidacIdentification.htm"><img border="0" src="images/Previous.gif" width="40" height="30"></a><a href="DidacModification.htm"><img border="0" src="images/Next.gif" width="40" height="30"></a></p>
+<p>&nbsp;</p>
+
+</body>
+
+</html>

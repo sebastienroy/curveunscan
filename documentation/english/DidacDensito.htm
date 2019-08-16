@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>Tutorial : Densitometry curve</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="helpstyle.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+
+
+<h2 >Densitometry curve</h2>
+<p >This kind of curve is used to analyse a color profile on the graphic. A value 
+  is associated to each pixel of a segment (user-defined) on the graphic. This 
+  value is calculated according to the pixel color and a color scale (right part 
+  of the dialogbox)</p>
+<p ><img src="images/DidacDensito.gif" width="441" height="269"></p>
+<h3>Draw segment</h3>
+<p>When the segment to analyze has not already been drawn, the &quot;Draw segment&quot; 
+  button is pressed. So draw a segment on the part of the graphic you want to 
+  analyze. If this segment is larger than the window, the graphic scrolls automatically. 
+  When the &quot;Shift&quot; key is pressed, the line is drawn parallel to the 
+  border of the window. </p>
+<h3>Preview</h3>
+<p>When the segment has been defined, the &quot;Preview&quot; button can be used 
+  to show the color profile on this segment. The direction of this profiles goes 
+  from the beginning of the segment (left side of the preview window) to its end. 
+  However, this representation direction is only used for the preview and can 
+  be modified during the exported data format definition (see <a href="DidacEnregistrement.htm">Results 
+  formating </a>)</p>
+<h3>Color scale</h3>
+<p>This part of the dialog box is used to define the value associated to each 
+  color of the graphic. A value is associated to each of the two colors of the 
+  scale. During the curve identification, the values of the encountered intermediate 
+  colors are calculated linearly by projection (in the color mathematical space) 
+  on the axis that links these two colors.</p>
+<p>In other words, if one of the colors is black and the other is white, the calculated 
+  values for the encountered colors are related to their brightness.</p>
+<p>Examples:</p>
+<table width="100%" border="1">
+  <tr align="center"> 
+    <td width="10%">Color 1</td>
+    <td width="9%">Value 1</td>
+    <td width="16%">Color 2</td>
+    <td width="8%">Value 2</td>
+    <td width="15%">Pixel</td>
+    <td width="42%">Related value</td>
+  </tr>
+  <tr align="center"> 
+    <td width="10%">(255,255,255) white</td>
+    <td width="9%">0</td>
+    <td width="16%">(0,0,0) black</td>
+    <td width="8%">100</td>
+    <td width="15%">(127,127,127) gray</td>
+    <td width="42%">50</td>
+  </tr>
+  <tr align="center"> 
+    <td width="10%">(0,0,0) black</td>
+    <td width="9%">0</td>
+    <td width="16%">(255,0,0) red</td>
+    <td width="8%">100</td>
+    <td width="15%">(0,255,0) green</td>
+    <td width="42%"> 
+      <p>0 </p>
+      <p>(there is no green component in the red)</p>
+    </td>
+  </tr>
+</table>
+<p>To modify the scale colors, you can either click on the colored button (a dialog 
+  bow appears, allowing to adjust each of the color component), or use the <img src="images/Dropper.gif" width="27" height="24"> 
+  buttons to directly choose the color on the graphic.</p>
+<p>The &quot;Use as default&quot; button is used to save the color scale (colors 
+  and related values) in order to use the same color scale with different densitometry 
+  curves. </p>
+<p >&nbsp;</p>
+<p align="center"><a href="DidacSpline.htm"><img border="0" src="images/Previous.gif" width="40" height="30"></a>
+				  <a href="DidacEnregistrement.htm"><img border="0" src="images/Next.gif" width="40" height="30"></a></p>
+
+</body>
+</html>

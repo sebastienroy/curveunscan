@@ -1,0 +1,227 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "ChecksumGen"="..\ChecksumGen\ChecksumGen.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/V130Spline/Dev/CURRENTVERSION/ChecksumGen", YYIAAAAA
+    ..\..\..\..\..\..\..\..\..\curveunscan\v130spline\dev\currentversion\checksumgen
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name LicenceManaging
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Utilities
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "CrvResFr"="..\CrvResFr\CrvResFr.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/V130Spline/Dev/CURRENTVERSION/CrvResFr", HRIAAAAA
+    ..\CrvResFr
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "CrvResUs"="..\CrvResUs\CrvResUs.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/V130Spline/Dev/CURRENTVERSION/CrvResUs", IRIAAAAA
+    ..\CrvResUs
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "CurveUnscan"=".\CurveUnscan.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/V130Spline/Dev/CURRENTVERSION/main", QRIAAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name HelpSystem
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name LicenceManaging
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Utilities
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name CrvResFr
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name CrvResUs
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SettingsManagement
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Dm
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name NTSpecific
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Dm"="..\Dm\Dm.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/V130Spline/Dev/CURRENTVERSION/Dm", KRIAAAAA
+    ..\dm
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "HelpSystem"="..\HelpSystem\HelpSystem.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/V130Spline/Dev/CURRENTVERSION/HelpSystem", MRIAAAAA
+    ..\helpsystem
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "LicenceManaging"="..\LicenceManaging\LicenceManaging.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/V130Spline/Dev/CURRENTVERSION/LicenceManaging", PRIAAAAA
+    ..\licencemanaging
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "NTSpecific"="..\NTSpecific\NTSpecific.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/V130Spline/Dev/CURRENTVERSION/NTSpecific", RRIAAAAA
+    ..\ntspecific
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SettingsManagement"="..\SettingsManagement\SettingsManagement.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/V130Spline/Dev/CURRENTVERSION/SettingsManagement", SRIAAAAA
+    ..\settingsmanagement
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Utilities"="..\Utilities\Utilities.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/V130Spline/Dev/CURRENTVERSION/Utilities", TRIAAAAA
+    ..\Utilities
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "paintlib"="..\..\ThirdParty\PaintLib\paintlib_last\paintlib\win\paintlib\paintlib.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/V130Spline/Dev/ThirdParty/PAINTLIB/paintlib_last/paintlib/win/paintlib", CBJAAAAA
+    ..\..\ThirdParty\PaintLib\paintlib_last\paintlib\win\paintlib
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+    begin source code control
+    "$/V130Spline/Dev/CURRENTVERSION/main", QRIAAAAA
+    .
+    end source code control
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

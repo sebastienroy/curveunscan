@@ -1,0 +1,67 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "CodeGeneration"=.\CodeGeneration.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/V130Spline/Dev/CURRENTVERSION/CodeGeneration", ZUHAAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Coder
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Coder"=.\Coder\Coder.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "GenKeyEx"=.\GenKeyEx\GenKeyEx.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Coder
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+    begin source code control
+    "$/V130Spline/Dev/CURRENTVERSION/CodeGeneration", MAJAAAAA
+    .
+    end source code control
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

@@ -1,0 +1,461 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROPPAGE_LANGUAGE DIALOG DISCARDABLE  0, 0, 210, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Language"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_LANG_COMBO,115,47,88,37,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Choose your language :",IDC_STATIC,15,49,76,8
+    LTEXT           "The modifications will be taken into account",
+                    IDC_STATIC,35,86,139,8
+    LTEXT           "after restarting CurveUnscan",IDC_STATIC,59,96,91,8
+END
+
+IDD_PROPPAGE_CURVE DIALOG DISCARDABLE  0, 0, 210, 154
+STYLE WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_CAPTION
+CAPTION "Curve"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Default settings for continuous curves :",IDC_STATIC,
+                    "Static",SS_LEFTNOWORDWRAP,7,7,124,8
+    GROUPBOX        "Curve thickness compensation algorithm",IDC_STATIC,7,23,
+                    196,40
+    CONTROL         """Smart"" compensation",IDC_RADIO_SETTING_SMART,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,14,35,87,10
+    CONTROL         "Flat compensation",IDC_RADIO_SETTING_SIMPLE,"Button",
+                    BS_AUTORADIOBUTTON,14,49,73,10
+    LTEXT           "Range :",IDC_STATIC,111,35,26,10,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_SETTING_THICKWIDTH,145,34,40,12,ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_SPIN_THICKRANGE,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,181,34,11,14
+    GROUPBOX        "Threshold color",IDC_STATIC,7,67,71,36
+    PUSHBUTTON      "",IDC_BUTTON_SETTING_BLACKCOLOR,14,81,55,12
+    GROUPBOX        "Follow",IDC_STATIC,91,67,112,36
+    CONTROL         "Top",IDC_RADIO_SETTING_TOPFOLLOW,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,97,76,29,10
+    CONTROL         "Bottom",IDC_RADIO_SETTING_BOTTOMFOLLOW,"Button",
+                    BS_AUTORADIOBUTTON,97,89,38,10
+    LTEXT           "of the curve",IDC_STATIC,140,83,39,8
+    GROUPBOX        "Dashed curve",IDC_STATIC,7,108,127,39
+    CONTROL         "Yes",IDC_RADIO_SETTING_DASHED,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,14,119,28,10
+    CONTROL         "No",IDC_RADIO_SETTING_NOT_DASHED,"Button",
+                    BS_AUTORADIOBUTTON,14,131,25,10
+    LTEXT           "Max. distance",IDC_STATIC,43,119,45,10,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_SETTING_DASHMAX,90,118,36,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_DASHMAX,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,121,122,10,14
+    PUSHBUTTON      "Defaults",IDC_BUTTON_SETTING_CURVEDEFAULTS,153,133,50,
+                    14
+END
+
+IDD_PROPPAGE_PROMPT DIALOG DISCARDABLE  0, 0, 210, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Prompt"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "When starting CurveUnscan, ask for :",IDC_STATIC,7,7,
+                    196,58
+    CONTROL         "Opening graphic",IDC_RADIO_START_OPENGRAPHIC,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,13,20,68,10
+    CONTROL         "Importing graphic from scanner",
+                    IDC_RADIO_START_IMPORTSCANNER,"Button",
+                    BS_AUTORADIOBUTTON,13,34,113,10
+    CONTROL         "Nothing, thanks",IDC_RADIO_START_NONE,"Button",
+                    BS_AUTORADIOBUTTON,13,48,66,10
+    GROUPBOX        "Prompt for data export :",IDC_STATIC,7,73,196,44
+    CONTROL         "No prompt",IDC_RADIO_EXPORT_NOPROMPT,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,13,100,49,10
+    CONTROL         "After each curve identification / modification",
+                    IDC_RADIO_EXPORT_AUTOPROMPT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,13,86,155,10
+END
+
+IDD_PROPPAGE_EXPORT DIALOG DISCARDABLE  0, 0, 210, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Export"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Default column separator",IDC_STATIC,7,7,196,80
+    CONTROL         "Tab",IDC_RADIO_SETT_SEP_TAB,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,45,21,29,10
+    CONTROL         "Semicolon",IDC_RADIO_SETT_SEP_SEMIC,"Button",
+                    BS_AUTORADIOBUTTON,45,33,49,10
+    CONTROL         "Comma",IDC_RADIO_SETT_SEP_COMMA,"Button",
+                    BS_AUTORADIOBUTTON,45,45,39,10
+    CONTROL         "Space",IDC_RADIO_SETT_SEP_SPACE,"Button",
+                    BS_AUTORADIOBUTTON,45,57,37,10
+    CONTROL         "Other :",IDC_RADIO_SETT_SEP_OTHER,"Button",
+                    BS_AUTORADIOBUTTON,45,69,37,10
+    EDITTEXT        IDC_EDIT_SETT_SEP_OTHER,95,67,15,12,ES_AUTOHSCROLL
+    GROUPBOX        "Default file extension",IDC_STATIC,7,94,196,35
+    LTEXT           "Filename.",IDC_STATIC,61,108,29,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_SETT_FILEEXTENSION,91,108,17,12,ES_AUTOHSCROLL
+END
+
+IDD_PROPPAGE_DENSITO DIALOG DISCARDABLE  0, 0, 210, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Densitometry"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Default color scale",IDC_STATIC,7,7,196,140
+    PUSHBUTTON      "",IDC_SETTINGS_TOPCOLOR,38,43,50,14
+    PUSHBUTTON      "",IDC_SETTINGS_BOTTOMCOLOR,38,123,50,14
+    PUSHBUTTON      "",IDC_SETTINGS_COLORSCALE,50,62,27,54,WS_DISABLED
+    CTEXT           "Color\n(click to modify)",IDC_STATIC,36,21,53,17
+    LTEXT           "Related value",IDC_STATIC,116,27,45,8
+    EDITTEXT        IDC_SETTINGS_TOPVALUE,119,44,40,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SETTINGS_BOTTOMVALUE,119,124,40,12,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PROPPAGE_LANGUAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PROPPAGE_CURVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        VERTGUIDE, 14
+        VERTGUIDE, 97
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PROPPAGE_PROMPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PROPPAGE_EXPORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PROPPAGE_DENSITO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ENGLISHLABEL        "English"
+    IDS_FRENCHLABEL         "French"
+    IDS_SETT_SEPARATOR_ISEMPTY "The ""other value"" field is empty !"
+    IDS_SETT_EXTENSION_ISEMPTY "The ""Extension"" field is empty !"
+    IDS_SETT_ALPHANUMERIC_EXTENSION 
+                            "Extension must contain only alphanumeric characters !"
+    IDS_SETT_MUST_GIVE_VALUE "You must give a value !"
+    IDS_SETT_SCALE_VALUE_MUST_BE_DIFFERENT 
+                            "The two scale values must be different !"
+    IDS_SETT_SCALE_COLOR_MUST_BE_DIFFERENT 
+                            "The two scale colors must be different !"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROPPAGE_CURVE DIALOG DISCARDABLE  0, 0, 210, 154
+STYLE WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_CAPTION
+CAPTION "Courbe"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Valeurs par défaut pour les courbes continues :",
+                    IDC_STATIC,"Static",SS_LEFTNOWORDWRAP,7,7,149,8
+    GROUPBOX        "Algorithme de compensation de l'épaisseur du trait",
+                    IDC_STATIC,7,23,196,40
+    CONTROL         "Compensation ""intelligente""",IDC_RADIO_SETTING_SMART,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP,14,35,103,10
+    CONTROL         "Compensation simple",IDC_RADIO_SETTING_SIMPLE,"Button",
+                    BS_AUTORADIOBUTTON,14,49,82,10
+    LTEXT           "Intervalle :",IDC_STATIC,125,35,33,10,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_SETTING_THICKWIDTH,161,34,34,12,ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_SPIN_THICKRANGE,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,185,44,11,14
+    GROUPBOX        "Couleur de seuil",IDC_STATIC,7,67,71,36
+    PUSHBUTTON      "",IDC_BUTTON_SETTING_BLACKCOLOR,14,81,55,12
+    GROUPBOX        "Suivre",IDC_STATIC,91,67,112,36
+    CONTROL         "Le haut",IDC_RADIO_SETTING_TOPFOLLOW,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,97,76,40,10
+    CONTROL         "Le bas",IDC_RADIO_SETTING_BOTTOMFOLLOW,"Button",
+                    BS_AUTORADIOBUTTON,97,89,37,10
+    LTEXT           "de la courbe",IDC_STATIC,140,83,40,8
+    GROUPBOX        "Courbe en pointillés",IDC_STATIC,7,108,127,39
+    CONTROL         "Oui",IDC_RADIO_SETTING_DASHED,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,14,119,27,10
+    CONTROL         "Non",IDC_RADIO_SETTING_NOT_DASHED,"Button",
+                    BS_AUTORADIOBUTTON,14,131,29,10
+    LTEXT           "Dist. max",IDC_STATIC,43,119,45,10,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_SETTING_DASHMAX,90,118,36,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_DASHMAX,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,121,122,10,14
+    PUSHBUTTON      "Défaut",IDC_BUTTON_SETTING_CURVEDEFAULTS,153,133,50,14
+END
+
+IDD_PROPPAGE_LANGUAGE DIALOG DISCARDABLE  0, 0, 210, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Language"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_LANG_COMBO,115,47,88,37,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Choisissez votre langue :",IDC_STATIC,15,49,79,8
+    LTEXT           "Les modifications seront prises en compte",IDC_STATIC,
+                    38,86,132,8
+    LTEXT           "au redémarrage de CurveUnscan",IDC_STATIC,52,96,106,8
+END
+
+IDD_PROPPAGE_PROMPT DIALOG DISCARDABLE  0, 0, 210, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Auto"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Au démarrage de CurveUnscan, commencer par :",
+                    IDC_STATIC,7,7,196,58
+    CONTROL         "Ouvrir un graphique",IDC_RADIO_START_OPENGRAPHIC,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,13,20,78,10
+    CONTROL         "Importer un graphique à partir du scanner",
+                    IDC_RADIO_START_IMPORTSCANNER,"Button",
+                    BS_AUTORADIOBUTTON,13,34,145,10
+    CONTROL         "Rien, merci",IDC_RADIO_START_NONE,"Button",
+                    BS_AUTORADIOBUTTON,13,48,51,10
+    GROUPBOX        "Proposer d'exporter les données :",IDC_STATIC,7,73,196,
+                    44
+    CONTROL         "Ne pas le proposer",IDC_RADIO_EXPORT_NOPROMPT,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,13,100,75,10
+    CONTROL         "Après chaque identification / modification de courbe",
+                    IDC_RADIO_EXPORT_AUTOPROMPT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,13,86,180,10
+END
+
+IDD_PROPPAGE_EXPORT DIALOG DISCARDABLE  0, 0, 210, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Export"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Séparateur de colonne par défaut",IDC_STATIC,7,7,196,80
+    CONTROL         "Tabulation",IDC_RADIO_SETT_SEP_TAB,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,45,21,49,10
+    CONTROL         "Point-virgule",IDC_RADIO_SETT_SEP_SEMIC,"Button",
+                    BS_AUTORADIOBUTTON,45,33,55,10
+    CONTROL         "Virgule",IDC_RADIO_SETT_SEP_COMMA,"Button",
+                    BS_AUTORADIOBUTTON,45,45,37,10
+    CONTROL         "Espace",IDC_RADIO_SETT_SEP_SPACE,"Button",
+                    BS_AUTORADIOBUTTON,45,57,40,10
+    CONTROL         "Autre :",IDC_RADIO_SETT_SEP_OTHER,"Button",
+                    BS_AUTORADIOBUTTON,45,69,37,10
+    EDITTEXT        IDC_EDIT_SETT_SEP_OTHER,95,67,15,12,ES_AUTOHSCROLL
+    GROUPBOX        "Extension de fichier par défaut :",IDC_STATIC,7,94,196,
+                    35
+    LTEXT           "MonFichier.",IDC_STATIC,54,108,36,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_SETT_FILEEXTENSION,91,108,17,12,ES_AUTOHSCROLL
+END
+
+IDD_PROPPAGE_DENSITO DIALOG DISCARDABLE  0, 0, 210, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Densitométrie"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Echelle de couleur par défaut",IDC_STATIC,7,7,196,140
+    PUSHBUTTON      "",IDC_SETTINGS_TOPCOLOR,38,43,50,14
+    PUSHBUTTON      "",IDC_SETTINGS_BOTTOMCOLOR,38,123,50,14
+    PUSHBUTTON      "",IDC_SETTINGS_COLORSCALE,50,62,27,54,WS_DISABLED
+    CTEXT           "Couleur\n(cliquer pour modifier)",IDC_STATIC,28,21,70,
+                    17
+    LTEXT           "Valeur associée",IDC_STATIC,114,27,51,8
+    EDITTEXT        IDC_SETTINGS_TOPVALUE,119,44,40,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SETTINGS_BOTTOMVALUE,119,124,40,12,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PROPPAGE_CURVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        VERTGUIDE, 14
+        VERTGUIDE, 97
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PROPPAGE_LANGUAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PROPPAGE_PROMPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PROPPAGE_EXPORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PROPPAGE_DENSITO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ENGLISHLABEL        "Anglais"
+    IDS_FRENCHLABEL         "Français"
+    IDS_SETT_SEPARATOR_ISEMPTY "Le champ ""Autre caractère"" est vide !"
+    IDS_SETT_EXTENSION_ISEMPTY "Le champ ""Extension"" est vide !"
+    IDS_SETT_ALPHANUMERIC_EXTENSION 
+                            "L'extension ne doit contenir que des caratères alphanumériques !"
+    IDS_SETT_MUST_GIVE_VALUE "Vous devez donner une valeur !"
+    IDS_SETT_SCALE_VALUE_MUST_BE_DIFFERENT 
+                            "Les deux valeurs de l'échelle doivent être différentes !"
+    IDS_SETT_SCALE_COLOR_MUST_BE_DIFFERENT 
+                            "Les deux couleurs de l'échelle doivent être différentes !"
+END
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

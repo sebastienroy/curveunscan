@@ -1,0 +1,83 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="fr">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Introduction : Courbes</title>
+<link rel="stylesheet" type="text/css" href="FeuilleDeStyle.css">
+</head>
+
+<body>
+<h1>Courbes</h1>
+<p>CurveUnscan permet d'identifier quatre types de courbes : les courbes discrètes 
+  (de type nuage de points), les courbes continues, les courbes splines et les 
+  courbes de densitom&eacute;trie.</p>
+<p>Une courbe est définie par rapport à un
+système de coordonnées qui doit avoir été identifié préalablement. Sur un
+système de coordonnées peuvent être définies un nombre illimité de courbes,
+de type nuage de points ou de type continue.</p>
+<h2>Courbe discrète</h2>
+<p>Les courbes discrètes, ou nuage de points,
+sont composées d'une succession de points sans lien entre eux. Ces points sont
+individuellement identifiés par l'utilisateur.</p>
+<h2>Courbe continue</h2>
+<p>Les courbes continues sont constituées d'un ou
+plusieurs groupes de points juxtaposés. Une courbe continue est identifiée en
+3 principales étapes :</p>
+<ul>
+  <li>Identification de l'intervalle dans lequel
+    elle est définie</li>
+  <li>Reconnaissance automatique, à partir d'un
+    ou plusieurs points initiaux</li>
+  <li>Correction des imperfections</li>
+</ul>
+<p>L'étape de reconnaissance automatique permet
+la reconnaissance d'une courbe à partir de points initiaux, par suivi des
+points du graphiques. Elle est capable de différentier plusieurs courbes se
+croisant, d'identifier une courbe en pointillés et tient compte de l'épaisseur de trait du graphique original. L'étape
+de correction finale permet de corriger les imperfections de la reconnaissance
+automatique.</p>
+<p>Bien que le système de coordonnées logique
+soit totalement indépendant du système de coordonnées physique (pixels), les
+courbes continues présentent certaines contraintes par rapport au système de
+coordonnées physique :</p>
+<ul>
+  <li>A la construction, les courbes sont des
+    applications de l'espace des x vers l'espace des y dans le système de
+    coordonnées physique (seul un point y est défini pour une valeur de x
+    donnée).</li>
+  <li>A l'enregistrement, les courbes sont
+    également considérées comme étant des applications dans le système de
+    coordonnées logique (défini par l'utilisateur).</li>
+</ul>
+<p>Ces contraintes n'ont cependant aucune incidence sur la construction de la 
+  courbe si l'inclinaison du système de coordonnées est inférieure à la pente 
+  maximale de la courbe. Dans le cas de courbes dont la dérivée prend des valeurs 
+  élevées (cas par exemple de courbe comportant des pics de faible largeur), il 
+  est nécessaire de veiller à ce que l'inclinaison du système de coordonnées soit 
+  faible.</p>
+<h2>Courbes splines</h2>
+<p>Les courbes splines sont des courbes construites selon une formule math&eacute;matique 
+  &agrave; partir de &quot;points d'ancrage&quot; d&eacute;finis par l'utilisateur.</p>
+<p>Les courbes splines permettent, si la courbe &agrave; num&eacute;riser n'est 
+  pas trop complexe, d'interpoler rapidement la courbe &agrave; partir d'un nombre 
+  limit&eacute; de points et avec une relativement bonne pr&eacute;cision. Elle 
+  permettent &eacute;galement de prendre en compte les &quot;courbes param&eacute;tr&eacute;es&quot;, 
+  comme par exemple les courbes qui bouclent sur elle-m&ecirc;mes.</p>
+<p>Les courbes splines se construisent comme dans un logiciel de dessin, en cliquant 
+  sur le graphique et en faisant glisser la souris pour placer les points d'ancrage. 
+</p>
+<h2>Courbes de densitom&eacute;trie</h2>
+<p>Les courbes de densitom&eacute;trie permettent d'identifier un profil de couleur 
+  sur le graphique. L'utilisateur d&eacute;fini un segment sur le graphique et 
+  une valeur est calcul&eacute;e pour chaque pixel de ce segment. Cette valeur 
+  est calcul&eacute;e par rapport &agrave; une &eacute;chelle de couleur &eacute;galement 
+  d&eacute;finie par l'utilisateur.</p>
+
+<p align="center"><a href="introCoordonnees.htm"><img border="0" src="images/Previous.gif" width="40" height="30"></a><a href="IntroAlgo.htm"><img border="0" src="images/Next.gif" width="40" height="30"></a></p>
+
+</body>
+
+</html>

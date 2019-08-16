@@ -1,0 +1,773 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HelpSystem - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSP9B.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GR /GX /O2 /Ob2 /I ".." /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "__MATH_H__" /U "__MWERKS__" /U "THINK_C" /U "VMS" /U "HAVE_UNISTD_H" /U "_AMIGA" /U "__TURBOC__" /Fp"Release/tmp/HelpSystem.pch" /Yu"stdafx.h" /Fo"Release/tmp/" /Fd"Release/tmp/" /FD /c 
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\HelpSystem\HelpFunctions.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSP9B.tmp" 
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSP9C.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GR /GX /O2 /Ob2 /I ".." /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "__MATH_H__" /U "__MWERKS__" /U "THINK_C" /U "VMS" /U "HAVE_UNISTD_H" /U "_AMIGA" /U "__TURBOC__" /Fp"Release/tmp/HelpSystem.pch" /Yc"stdafx.h" /Fo"Release/tmp/" /Fd"Release/tmp/" /FD /c 
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\HelpSystem\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSP9C.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\HelpSystem.lib"  ".\Release\tmp\HelpFunctions.obj" ".\Release\tmp\StdAfx.obj" "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+HelpFunctions.cpp
+Creating library...
+<h3>
+--------------------Configuration: LicenceManaging - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Release/tmp/LicenceManaging.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\LicenceManaging\LicenceManaging.rc"" 
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSP9D.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GR /GX /O2 /Ob2 /I ".." /I "../../ThirdParty" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\common" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\win\paintlib" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "__MATH_H__" /U "__MWERKS__" /U "THINK_C" /U "VMS" /U "HAVE_UNISTD_H" /U "_AMIGA" /U "__TURBOC__" /Fp"Release/tmp/LicenceManaging.pch" /Yu"stdafx.h" /Fo"Release/tmp/" /Fd"Release/tmp/" /FD /c 
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\LicenceManaging\AnyFileAccessor.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\LicenceManaging\Coder.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\LicenceManaging\CoderV2.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\LicenceManaging\Crc32Dynamic.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\LicenceManaging\ExportNbInfo.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\LicenceManaging\FirstUseInfo.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\LicenceManaging\IntegrityCheck.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\LicenceManaging\LicenceDlg.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\LicenceManaging\LicenceException.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\LicenceManaging\LicenceManager.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\LicenceManaging\SecuredInfo.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\LicenceManaging\SorryDlg.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\LicenceManaging\StringInterface.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\LicenceManaging\WelcomeDialog.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSP9D.tmp" 
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSP9E.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GR /GX /O2 /Ob2 /I ".." /I "../../ThirdParty" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\common" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\win\paintlib" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "__MATH_H__" /U "__MWERKS__" /U "THINK_C" /U "VMS" /U "HAVE_UNISTD_H" /U "_AMIGA" /U "__TURBOC__" /Fp"Release/tmp/LicenceManaging.pch" /Yc"stdafx.h" /Fo"Release/tmp/" /Fd"Release/tmp/" /FD /c 
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\LicenceManaging\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSP9E.tmp" 
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSP9F.tmp" with contents
+[
+/nologo /out:"Release\LicenceManaging.lib" 
+".\Release\tmp\AnyFileAccessor.obj"
+".\Release\tmp\Coder.obj"
+".\Release\tmp\CoderV2.obj"
+".\Release\tmp\Crc32Dynamic.obj"
+".\Release\tmp\ExportNbInfo.obj"
+".\Release\tmp\FirstUseInfo.obj"
+".\Release\tmp\IntegrityCheck.obj"
+".\Release\tmp\LicenceDlg.obj"
+".\Release\tmp\LicenceException.obj"
+".\Release\tmp\LicenceManager.obj"
+".\Release\tmp\SecuredInfo.obj"
+".\Release\tmp\SorryDlg.obj"
+".\Release\tmp\StdAfx.obj"
+".\Release\tmp\StringInterface.obj"
+".\Release\tmp\WelcomeDialog.obj"
+".\Release\tmp\LicenceManaging.res"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSP9F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AnyFileAccessor.cpp
+Coder.cpp
+CoderV2.cpp
+Crc32Dynamic.cpp
+ExportNbInfo.cpp
+FirstUseInfo.cpp
+IntegrityCheck.cpp
+LicenceDlg.cpp
+LicenceException.cpp
+LicenceManager.cpp
+SecuredInfo.cpp
+C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\LicenceManaging\SecuredInfo.cpp(357) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+SorryDlg.cpp
+StringInterface.cpp
+WelcomeDialog.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: Utilities - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPA0.bat" with contents
+[
+@echo off
+del ..\Helpfiles\Utilities.hm
+makehm ID_,IDH_,0x10000  resource.h >>"..\HelpFiles\Utilities.hm"
+makehm IDM_,IDH_,0x10000 resource.h >>"..\HelpFiles\Utilities.hm"
+makehm IDP_,IDH_,0x30000 resource.h >>"..\HelpFiles\Utilities.hm"
+makehm IDR_,IDH_,0x20000 resource.h >>"..\HelpFiles\Utilities.hm"
+makehm IDD_,IDH_,0x20000 resource.h >>"..\HelpFiles\Utilities.hm"
+makehm IDW_,IDH_,0x50000 resource.h >>"..\HelpFiles\Utilities.hm"
+echo.  >>"..\HelpFiles\Utilities.hm"
+MakeIDH "..\HelpFiles\Utilities.hm"
+]
+Creating command line "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPA0.bat"
+Creating command line "rc.exe /l 0x40c /fo"Release/tmp/Utilities.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Utilities\Utilities.rc"" 
+Making HTML include file...
+Impossible de trouver C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Helpfiles\Utilities.hm
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPA3.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GR /GX /O2 /Ob2 /I ".." /I "..\main" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\common" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\win\paintlib" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "__MATH_H__" /U "__MWERKS__" /U "THINK_C" /U "VMS" /U "HAVE_UNISTD_H" /U "_AMIGA" /U "__TURBOC__" /Fp"Release/tmp/Utilities.pch" /Yu"stdafx.h" /Fo"Release/tmp/" /Fd"Release/tmp/" /FD /c 
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Utilities\ColorChooseDialog.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Utilities\ColoredButton.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Utilities\ColorScaleButton.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\ThirdParty\MD5\MD5Checksum.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Utilities\PLUtils.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Utilities\Profile.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Utilities\RegExp.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Utilities\RegularExpressions.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Utilities\Tokenizer.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Utilities\Tools.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Utilities\TwainCpp.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Utilities\Unif.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Utilities\UnscanException.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPA3.tmp" 
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPA4.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GR /GX /O2 /Ob2 /I ".." /I "..\main" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\common" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\win\paintlib" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "__MATH_H__" /U "__MWERKS__" /U "THINK_C" /U "VMS" /U "HAVE_UNISTD_H" /U "_AMIGA" /U "__TURBOC__" /Fp"Release/tmp/Utilities.pch" /Yc"stdafx.h" /Fo"Release/tmp/" /Fd"Release/tmp/" /FD /c 
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Utilities\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPA4.tmp" 
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPA5.tmp" with contents
+[
+/nologo /out:"Release\Utilities.lib" 
+".\Release\tmp\ColorChooseDialog.obj"
+".\Release\tmp\ColoredButton.obj"
+".\Release\tmp\ColorScaleButton.obj"
+".\Release\tmp\MD5Checksum.obj"
+".\Release\tmp\PLUtils.obj"
+".\Release\tmp\Profile.obj"
+".\Release\tmp\RegExp.obj"
+".\Release\tmp\RegularExpressions.obj"
+".\Release\tmp\StdAfx.obj"
+".\Release\tmp\Tokenizer.obj"
+".\Release\tmp\Tools.obj"
+".\Release\tmp\TwainCpp.obj"
+".\Release\tmp\Unif.obj"
+".\Release\tmp\UnscanException.obj"
+".\Release\tmp\Utilities.res"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPA5.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ColorChooseDialog.cpp
+ColoredButton.cpp
+ColorScaleButton.cpp
+MD5Checksum.cpp
+PLUtils.cpp
+Profile.cpp
+RegExp.cpp
+RegularExpressions.cpp
+Tokenizer.cpp
+Tools.cpp
+TwainCpp.cpp
+Unif.cpp
+UnscanException.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: CrvResFr - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Release/tmp/CurveUnscan.res" /i "\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main" /i "\Documents and Settings\MARGUIN\Mes documents\Sebastien\Curveunscan\V130Spline\Dev\CURRENTVERSION\main" /i "\CurveUnscan\V130Spline\Dev\CURRENTVERSION\main" /i "\CurveUnscan\Dev\CurrentVersion\main" /i ".." /d "NDEBUG" /d "AFX_RESOURCE_DLL" /d "AFX_TARG_FRA" "C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\CurveUnscan.rc"" 
+Creating command line "link.exe /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/CrvResFr.pdb" /machine:I386 /out:"Release/CrvResFr.dll" /implib:"Release/CrvResFr.lib" /noentry  ".\Release\tmp\CurveUnscan.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPA6.bat" with contents
+[
+@echo off
+copy .\Release\CrvResFr.dll ..\main\.\Release\CrvResFr.dll
+]
+Creating command line "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPA6.bat"
+Copying dll...
+        1 fichier(s) copi‚(s).
+<h3>
+--------------------Configuration: CrvResUs - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Release/tmp/CurveUnscan.res" /i "\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main" /i "\CurveUnscan\V130Spline\Dev\CURRENTVERSION\main" /i ".." /i "\CurveUnscan\Dev\CurrentVersion\main" /d "NDEBUG" /d "AFX_RESOURCE_DLL" /d "AFX_TARG_ENU" "C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\CurveUnscan.rc"" 
+Creating command line "link.exe /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/CrvResUs.pdb" /machine:I386 /out:"Release/CrvResUs.dll" /implib:"Release/CrvResUs.lib" /noentry  ".\Release\tmp\CurveUnscan.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPA7.bat" with contents
+[
+@echo off
+copy .\Release\CrvResUs.dll ..\main\.\Release\CrvResUs.dll
+]
+Creating command line "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPA7.bat"
+Copying dll...
+        1 fichier(s) copi‚(s).
+<h3>
+--------------------Configuration: SettingsManagement - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPA8.bat" with contents
+[
+@echo off
+del ..\Helpfiles\SettingsManagement.hm
+makehm ID_,IDH_,0x10000  resource.h >>"..\HelpFiles\SettingsManagement.hm"
+makehm IDM_,IDH_,0x10000 resource.h >>"..\HelpFiles\SettingsManagement.hm"
+makehm IDP_,IDH_,0x30000 resource.h >>"..\HelpFiles\SettingsManagement.hm"
+makehm IDR_,IDH_,0x20000 resource.h >>"..\HelpFiles\SettingsManagement.hm"
+makehm IDD_,IDH_,0x20000 resource.h >>"..\HelpFiles\SettingsManagement.hm"
+makehm IDW_,IDH_,0x50000 resource.h >>"..\HelpFiles\SettingsManagement.hm"
+echo.  >>"..\HelpFiles\SettingsManagement.hm"
+MakeIDH "..\HelpFiles\SettingsManagement.hm"
+]
+Creating command line "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPA8.bat"
+Creating command line "rc.exe /l 0x40c /fo"Release/tmp/SettingsManagement.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\SettingsManagement\SettingsManagement.rc"" 
+Making HTML include file...
+Impossible de trouver C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Helpfiles\SettingsManagement.hm
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPAB.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GR /GX /O2 /Ob2 /I ".." /I "../main" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\common" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\win\paintlib" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "__MATH_H__" /U "__MWERKS__" /U "THINK_C" /U "VMS" /U "HAVE_UNISTD_H" /U "_AMIGA" /U "__TURBOC__" /Fp"Release/tmp/SettingsManagement.pch" /Yu"stdafx.h" /Fo"Release/tmp/" /Fd"Release/tmp/" /FD /c 
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\SettingsManagement\AbstractSettingValue.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\SettingsManagement\CurveProPage.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\SettingsManagement\DensitoProPage.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\SettingsManagement\DoubleSettingValue.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\SettingsManagement\ExportProPage.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\SettingsManagement\IntSettingValue.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\SettingsManagement\LanguageProPage.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\SettingsManagement\PixelSettingValue.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\SettingsManagement\PromptProPage.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\SettingsManagement\SettingsManager.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\SettingsManagement\StringSettingValue.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPAB.tmp" 
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPAC.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GR /GX /O2 /Ob2 /I ".." /I "../main" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\common" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\win\paintlib" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "__MATH_H__" /U "__MWERKS__" /U "THINK_C" /U "VMS" /U "HAVE_UNISTD_H" /U "_AMIGA" /U "__TURBOC__" /Fp"Release/tmp/SettingsManagement.pch" /Yc"stdafx.h" /Fo"Release/tmp/" /Fd"Release/tmp/" /FD /c 
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\SettingsManagement\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPAC.tmp" 
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPAD.tmp" with contents
+[
+/nologo /out:"Release\SettingsManagement.lib" 
+".\Release\tmp\AbstractSettingValue.obj"
+".\Release\tmp\CurveProPage.obj"
+".\Release\tmp\DensitoProPage.obj"
+".\Release\tmp\DoubleSettingValue.obj"
+".\Release\tmp\ExportProPage.obj"
+".\Release\tmp\IntSettingValue.obj"
+".\Release\tmp\LanguageProPage.obj"
+".\Release\tmp\PixelSettingValue.obj"
+".\Release\tmp\PromptProPage.obj"
+".\Release\tmp\SettingsManager.obj"
+".\Release\tmp\StdAfx.obj"
+".\Release\tmp\StringSettingValue.obj"
+".\Release\tmp\SettingsManagement.res"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPAD.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AbstractSettingValue.cpp
+CurveProPage.cpp
+DensitoProPage.cpp
+DoubleSettingValue.cpp
+ExportProPage.cpp
+IntSettingValue.cpp
+LanguageProPage.cpp
+PixelSettingValue.cpp
+PromptProPage.cpp
+SettingsManager.cpp
+StringSettingValue.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: Dm - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPAE.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GR /GX /O2 /Ob2 /I ".." /I "../main" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\common" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\win\paintlib" /I "../../ThirdParty" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "__MATH_H__" /U "__MWERKS__" /U "THINK_C" /U "VMS" /U "HAVE_UNISTD_H" /U "_AMIGA" /U "__TURBOC__" /Fp"Release/tmp/Dm.pch" /Yu"stdafx.h" /Fo"Release/tmp/" /Fd"Release/tmp/" /FD /c 
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\24BitsBmpReader.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\AbstractBmpReader.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\AbstractThicknessCorrector.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\Axe.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\BezierCurve.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\BezierNode.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\BezierQuickDraw.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\BezierSegment.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\BmpManager.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\Color256BmpReader.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\ColorScale.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\ContinuousCurve.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\ContinuousResults.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\CoordSyst.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\Curve.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\CurveElement.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\DashedSnail.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\DensityCurve.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\DensityResults.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\DensityResultsProcessor.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\DiscreteCurve.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\DiscreteResults.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\FlatThicknessCorrector.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\Limit.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\LogicPoint.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\MonochromaticBmpReader.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\PartialCurve.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\RealColorBmpReader.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\RedrawPart.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\Results.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\ScalePoint.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\SimpleSnail.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\SmartThicknessCorrector.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\SnailAlgorithm.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\SplineCurve.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\SplineNode.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\SplineResults.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\SplineSegment.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPAE.tmp" 
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPAF.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GR /GX /O2 /Ob2 /I ".." /I "../main" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\common" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\win\paintlib" /I "../../ThirdParty" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "__MATH_H__" /U "__MWERKS__" /U "THINK_C" /U "VMS" /U "HAVE_UNISTD_H" /U "_AMIGA" /U "__TURBOC__" /Fp"Release/tmp/Dm.pch" /Yc"stdafx.h" /Fo"Release/tmp/" /Fd"Release/tmp/" /FD /c 
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPAF.tmp" 
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPB0.tmp" with contents
+[
+/nologo /out:"Release\Dm.lib" 
+".\Release\tmp\24BitsBmpReader.obj"
+".\Release\tmp\AbstractBmpReader.obj"
+".\Release\tmp\AbstractThicknessCorrector.obj"
+".\Release\tmp\Axe.obj"
+".\Release\tmp\BezierCurve.obj"
+".\Release\tmp\BezierNode.obj"
+".\Release\tmp\BezierQuickDraw.obj"
+".\Release\tmp\BezierSegment.obj"
+".\Release\tmp\BmpManager.obj"
+".\Release\tmp\Color256BmpReader.obj"
+".\Release\tmp\ColorScale.obj"
+".\Release\tmp\ContinuousCurve.obj"
+".\Release\tmp\ContinuousResults.obj"
+".\Release\tmp\CoordSyst.obj"
+".\Release\tmp\Curve.obj"
+".\Release\tmp\CurveElement.obj"
+".\Release\tmp\DashedSnail.obj"
+".\Release\tmp\DensityCurve.obj"
+".\Release\tmp\DensityResults.obj"
+".\Release\tmp\DensityResultsProcessor.obj"
+".\Release\tmp\DiscreteCurve.obj"
+".\Release\tmp\DiscreteResults.obj"
+".\Release\tmp\FlatThicknessCorrector.obj"
+".\Release\tmp\Limit.obj"
+".\Release\tmp\LogicPoint.obj"
+".\Release\tmp\MonochromaticBmpReader.obj"
+".\Release\tmp\PartialCurve.obj"
+".\Release\tmp\RealColorBmpReader.obj"
+".\Release\tmp\RedrawPart.obj"
+".\Release\tmp\Results.obj"
+".\Release\tmp\ScalePoint.obj"
+".\Release\tmp\SimpleSnail.obj"
+".\Release\tmp\SmartThicknessCorrector.obj"
+".\Release\tmp\SnailAlgorithm.obj"
+".\Release\tmp\SplineCurve.obj"
+".\Release\tmp\SplineNode.obj"
+".\Release\tmp\SplineResults.obj"
+".\Release\tmp\SplineSegment.obj"
+".\Release\tmp\StdAfx.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPB0.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+24BitsBmpReader.cpp
+AbstractBmpReader.cpp
+AbstractThicknessCorrector.cpp
+Axe.cpp
+BezierCurve.cpp
+BezierNode.cpp
+BezierQuickDraw.cpp
+BezierSegment.cpp
+BmpManager.cpp
+Color256BmpReader.cpp
+ColorScale.cpp
+ContinuousCurve.cpp
+ContinuousResults.cpp
+CoordSyst.cpp
+Curve.cpp
+CurveElement.cpp
+DashedSnail.cpp
+DensityCurve.cpp
+DensityResults.cpp
+DensityResultsProcessor.cpp
+Generating Code...
+Compiling...
+DiscreteCurve.cpp
+DiscreteResults.cpp
+FlatThicknessCorrector.cpp
+Limit.cpp
+LogicPoint.cpp
+MonochromaticBmpReader.cpp
+PartialCurve.cpp
+RealColorBmpReader.cpp
+RedrawPart.cpp
+Results.cpp
+ScalePoint.cpp
+SimpleSnail.cpp
+SmartThicknessCorrector.cpp
+SnailAlgorithm.cpp
+SplineCurve.cpp
+SplineNode.cpp
+SplineResults.cpp
+SplineSegment.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: NTSpecific - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Release/NTSpecific.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\NTSpecific\NTSpecific.rc"" 
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPB1.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/NTSpecific.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\NTSpecific\Files.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\NTSpecific\NTSpecific.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPB1.tmp" 
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPB2.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/NTSpecific.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\NTSpecific\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPB2.tmp" 
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPB3.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NTSpecific.pdb" /machine:I386 /def:".\NTSpecific.def" /out:"Release/NTSpecific.dll" /implib:"Release/NTSpecific.lib" 
+".\Release\Files.obj"
+".\Release\NTSpecific.obj"
+".\Release\StdAfx.obj"
+".\Release\NTSpecific.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPB3.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Files.cpp
+NTSpecific.cpp
+Generating Code...
+Linking...
+   Creating library Release/NTSpecific.lib and object Release/NTSpecific.exp
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPB7.bat" with contents
+[
+@echo off
+copy   .\Release\NTSpecific.dll   ..\main\.\Release\
+]
+Creating command line "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPB7.bat"
+Copying dll...
+        1 fichier(s) copi‚(s).
+<h3>
+--------------------Configuration: CurveUnscan - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPB8.bat" with contents
+[
+@echo off
+del ..\Helpfiles\CurveUnscan.hm
+makehm ID_,IDH_,0x10000  resource.h >>"..\HelpFiles\CurveUnscan.hm"
+makehm IDM_,IDH_,0x10000 resource.h >>"..\HelpFiles\CurveUnscan.hm"
+makehm IDP_,IDH_,0x30000 resource.h >>"..\HelpFiles\CurveUnscan.hm"
+makehm IDR_,IDH_,0x20000 resource.h >>"..\HelpFiles\CurveUnscan.hm"
+makehm IDD_,IDH_,0x20000 resource.h >>"..\HelpFiles\CurveUnscan.hm"
+makehm IDW_,IDH_,0x50000 resource.h >>"..\HelpFiles\CurveUnscan.hm"
+echo.  >>"..\HelpFiles\CurveUnscan.hm"
+MakeIDH "..\HelpFiles\CurveUnscan.hm"
+]
+Creating command line "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPB8.bat"
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPB9.bat" with contents
+[
+@echo off
+hhc.exe ..\HelpFiles\English\CurveUnscanUs.hhp
+echo.
+copy ..\HelpFiles\English\CurveUnscanUs.chm .\Release\CurveUnscanUs.chm
+]
+Creating command line "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPB9.bat"
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPBA.bat" with contents
+[
+@echo off
+hhc.exe ..\HelpFiles\French\CurveUnscan.hhp
+echo.
+copy ..\HelpFiles\French\CurveUnscan.chm .\Release\CurveUnscan.chm
+]
+Creating command line "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSPBA.bat"
+Creating command line "rc.exe /l 0x40c /fo"Release/tmp/CurveUnscan.res" /i ".." /d "NDEBUG" /d "_AFXDLL" /d "AFX_RESOURCE_DLL" /d "AFX_TARG_ENU" "C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\CurveUnscan.rc"" 
+Making HTML include file...
+Impossible de trouver C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Helpfiles\CurveUnscan.hm
+Making HTML help file...
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\HelpFiles\English\CurveUnscanUs.chm
+
+
+Compile time: 0 minutes, 1 second
+62 Topics
+288 Local links
+1 Internet link
+48 Graphics
+
+
+Created c:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\HelpFiles\English\CurveUnscanUs.chm, 386,751 bytes
+Compression decreased file by 121,670 bytes.
+
+        1 fichier(s) copi‚(s).
+Making HTML help file...
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\HelpFiles\French\CurveUnscan.chm
+
+
+Compile time: 0 minutes, 1 second
+63 Topics
+297 Local links
+1 Internet link
+51 Graphics
+
+
+Created c:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\HelpFiles\French\CurveUnscan.chm, 376,855 bytes
+Compression decreased file by 144,146 bytes.
+
+        1 fichier(s) copi‚(s).
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSP101.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GR /GX /O2 /Ob2 /I "." /I ".." /I "../../ThirdParty" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\common" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\win\paintlib" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "__MATH_H__" /U "__MWERKS__" /U "THINK_C" /U "VMS" /U "HAVE_UNISTD_H" /U "_AMIGA" /U "__TURBOC__" /Fp"Release/tmp/CurveUnscan.pch" /Yu"stdafx.h" /Fo"Release/tmp/" /Fd"Release/tmp/" /FD /c 
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\AbstractModificationTool.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\AbstractResultDumper.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\AxeAbstractState.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\AxeDialog.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\AxeDrawingState.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\AxePointPickingState.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\AxeWaitState.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\CompleteSequence.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\ConstructionDialog.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\ContinuousAdvOptDlg.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\ContinuousSequence.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\CoordSequence.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\CurveKindDialog.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\CurveUnscan.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\DashMaxDistDialog.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\DensitoDlgAbstractState.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\DensitoDlgDrawState.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\DensitoDlgPickState.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\DensitoDlgWaitState.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\DensitometryDialog.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\DensitoPeriodDialog.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\DensitoPreviewWnd.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\DensitoSequence.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\DiscreteDialog.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\DiscreteSequence.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\FileResultDumper.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\GenesisDialog.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\HandModificationDialog.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\LimitDialog.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\MainFrm.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\PenModificationTool.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\PeriodDialog.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\PreviewDialog.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\RubberModificationTool.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\SaveCurveDialog.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\SavePromptDlg.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\ScannerManager.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\SeparatorDialog.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\Sequence.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\SplineDialog.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\SplineDlgAbstractTool.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\SplineDlgAddBackTool.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\SplineDlgAddFrontTool.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\SplineDlgAddMiddleTool.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\SplineDlgModifyTool.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\SplineDlgRemoveTool.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\SplinePeriodDialog.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\SplineSequence.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\StringResultDumper.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\UnscanDoc.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\UnscanView.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\ValueEdit.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\WinBmpEx.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\ZoomCombo.cpp"
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\ZoomDialog.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSP101.tmp" 
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSP102.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GR /GX /O2 /Ob2 /I "." /I ".." /I "../../ThirdParty" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\common" /I "..\..\ThirdParty\PaintLib\paintlib_last\paintlib\win\paintlib" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "__MATH_H__" /U "__MWERKS__" /U "THINK_C" /U "VMS" /U "HAVE_UNISTD_H" /U "_AMIGA" /U "__TURBOC__" /Fp"Release/tmp/CurveUnscan.pch" /Yc"stdafx.h" /Fo"Release/tmp/" /Fd"Release/tmp/" /FD /c 
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSP102.tmp" 
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSP103.tmp" with contents
+[
+htmlhelp.lib paintlib.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/CurveUnscan.pdb" /machine:I386 /out:"Release/CurveUnscan.exe" /libpath:"..\..\ThirdParty\PaintLib\paintlib_last\lib\Release" 
+".\Release\tmp\AbstractModificationTool.obj"
+".\Release\tmp\AbstractResultDumper.obj"
+".\Release\tmp\AxeAbstractState.obj"
+".\Release\tmp\AxeDialog.obj"
+".\Release\tmp\AxeDrawingState.obj"
+".\Release\tmp\AxePointPickingState.obj"
+".\Release\tmp\AxeWaitState.obj"
+".\Release\tmp\CompleteSequence.obj"
+".\Release\tmp\ConstructionDialog.obj"
+".\Release\tmp\ContinuousAdvOptDlg.obj"
+".\Release\tmp\ContinuousSequence.obj"
+".\Release\tmp\CoordSequence.obj"
+".\Release\tmp\CurveKindDialog.obj"
+".\Release\tmp\CurveUnscan.obj"
+".\Release\tmp\DashMaxDistDialog.obj"
+".\Release\tmp\DensitoDlgAbstractState.obj"
+".\Release\tmp\DensitoDlgDrawState.obj"
+".\Release\tmp\DensitoDlgPickState.obj"
+".\Release\tmp\DensitoDlgWaitState.obj"
+".\Release\tmp\DensitometryDialog.obj"
+".\Release\tmp\DensitoPeriodDialog.obj"
+".\Release\tmp\DensitoPreviewWnd.obj"
+".\Release\tmp\DensitoSequence.obj"
+".\Release\tmp\DiscreteDialog.obj"
+".\Release\tmp\DiscreteSequence.obj"
+".\Release\tmp\FileResultDumper.obj"
+".\Release\tmp\GenesisDialog.obj"
+".\Release\tmp\HandModificationDialog.obj"
+".\Release\tmp\LimitDialog.obj"
+".\Release\tmp\MainFrm.obj"
+".\Release\tmp\PenModificationTool.obj"
+".\Release\tmp\PeriodDialog.obj"
+".\Release\tmp\PreviewDialog.obj"
+".\Release\tmp\RubberModificationTool.obj"
+".\Release\tmp\SaveCurveDialog.obj"
+".\Release\tmp\SavePromptDlg.obj"
+".\Release\tmp\ScannerManager.obj"
+".\Release\tmp\SeparatorDialog.obj"
+".\Release\tmp\Sequence.obj"
+".\Release\tmp\SplineDialog.obj"
+".\Release\tmp\SplineDlgAbstractTool.obj"
+".\Release\tmp\SplineDlgAddBackTool.obj"
+".\Release\tmp\SplineDlgAddFrontTool.obj"
+".\Release\tmp\SplineDlgAddMiddleTool.obj"
+".\Release\tmp\SplineDlgModifyTool.obj"
+".\Release\tmp\SplineDlgRemoveTool.obj"
+".\Release\tmp\SplinePeriodDialog.obj"
+".\Release\tmp\SplineSequence.obj"
+".\Release\tmp\StdAfx.obj"
+".\Release\tmp\StringResultDumper.obj"
+".\Release\tmp\UnscanDoc.obj"
+".\Release\tmp\UnscanView.obj"
+".\Release\tmp\ValueEdit.obj"
+".\Release\tmp\WinBmpEx.obj"
+".\Release\tmp\ZoomCombo.obj"
+".\Release\tmp\ZoomDialog.obj"
+".\Release\tmp\CurveUnscan.res"
+"\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\HelpSystem\Release\HelpSystem.lib"
+"\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\LicenceManaging\Release\LicenceManaging.lib"
+"\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Utilities\Release\Utilities.lib"
+"\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\SettingsManagement\Release\SettingsManagement.lib"
+"\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\Dm\Release\Dm.lib"
+"\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\NTSpecific\Release\NTSpecific.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\Roy\LOCALS~1\Temp\RSP103.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AbstractModificationTool.cpp
+AbstractResultDumper.cpp
+AxeAbstractState.cpp
+AxeDialog.cpp
+AxeDrawingState.cpp
+AxePointPickingState.cpp
+AxeWaitState.cpp
+CompleteSequence.cpp
+ConstructionDialog.cpp
+ContinuousAdvOptDlg.cpp
+ContinuousSequence.cpp
+CoordSequence.cpp
+CurveKindDialog.cpp
+CurveUnscan.cpp
+DashMaxDistDialog.cpp
+DensitoDlgAbstractState.cpp
+DensitoDlgDrawState.cpp
+DensitoDlgPickState.cpp
+DensitoDlgWaitState.cpp
+DensitometryDialog.cpp
+Generating Code...
+Compiling...
+DensitoPeriodDialog.cpp
+DensitoPreviewWnd.cpp
+DensitoSequence.cpp
+DiscreteDialog.cpp
+DiscreteSequence.cpp
+FileResultDumper.cpp
+GenesisDialog.cpp
+HandModificationDialog.cpp
+LimitDialog.cpp
+MainFrm.cpp
+PenModificationTool.cpp
+PeriodDialog.cpp
+PreviewDialog.cpp
+RubberModificationTool.cpp
+SaveCurveDialog.cpp
+SavePromptDlg.cpp
+ScannerManager.cpp
+SeparatorDialog.cpp
+Sequence.cpp
+SplineDialog.cpp
+Generating Code...
+Compiling...
+SplineDlgAbstractTool.cpp
+SplineDlgAddBackTool.cpp
+SplineDlgAddFrontTool.cpp
+SplineDlgAddMiddleTool.cpp
+SplineDlgModifyTool.cpp
+SplineDlgRemoveTool.cpp
+SplinePeriodDialog.cpp
+SplineSequence.cpp
+StringResultDumper.cpp
+UnscanDoc.cpp
+UnscanView.cpp
+ValueEdit.cpp
+WinBmpEx.cpp
+ZoomCombo.cpp
+ZoomDialog.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSP105.bat" with contents
+[
+@echo off
+"C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\..\ChecksumGen\release\ChecksumGen.exe" "C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\.\Release\CurveUnscan.exe"
+]
+Creating command line "C:\DOCUME~1\Roy\LOCALS~1\Temp\RSP105.bat"
+Generating checksum file ...
+Checksum written in file C:\Documents and Settings\Roy\Mes documents\Bastion\Curveunscan\V130Spline\Dev\CURRENTVERSION\main\.\Release\CurveUnscan.chk
+
+
+
+<h3>Results</h3>
+CurveUnscan.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

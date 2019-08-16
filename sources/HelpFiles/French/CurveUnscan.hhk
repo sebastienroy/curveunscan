@@ -1,0 +1,244 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Algorithme">
+		<param name="Name" value="Introduction : Algorithmes">
+		<param name="Local" value="Presentation\IntroAlgo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Auteur">
+		<param name="Name" value="Editeur">
+		<param name="Local" value="Presentation\editeur.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Axes">
+		<param name="Name" value="Introduction : système de coordonnées">
+		<param name="Local" value="Presentation\introCoordonnees.htm">
+		<param name="Name" value="Boite de dialogue : identification de l'axe des abscisses">
+		<param name="Local" value="Dialogs\html\XAxisDialog.htm">
+		<param name="Name" value="Boite de dialogue : identification de l'axe des ordonnées">
+		<param name="Local" value="Dialogs\html\YAxisDialog.htm">
+		<param name="Name" value="Didacticiel : identification des axes">
+		<param name="Local" value="Presentation\DidacAxe.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Barre d'outils">
+		<param name="Name" value="Commande : barre d'outils">
+		<param name="Local" value="Commands\html\ToolbarCommand.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Composants d'un graphique">
+		<param name="Name" value="Principes de fonctionnement">
+		<param name="Local" value="Presentation\Intro.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Couleur de seuil">
+		<param name="Name" value="Dialog box : advanced options">
+		<param name="Local" value="Dialogs\html\ContinuousCurveOptionDialog.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Courbe continue">
+		<param name="Name" value="Introduction : Courbes">
+		<param name="Local" value="Presentation\IntroCourbes.htm">
+		<param name="Name" value="Didacticiel : Courbe continue">
+		<param name="Local" value="Presentation\DidacContinue.htm">
+		<param name="Name" value="Boite de dialogue : identification de la courbe">
+		<param name="Local" value="Dialogs\html\CurveIdentificationDialog.htm">
+		<param name="Name" value="Commande : nouvelle courbe continue">
+		<param name="Local" value="Commands\html\NewContinuousCommand.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Courbe discr&egrave;te">
+		<param name="Name" value="Didacticiel : Courbe discrète">
+		<param name="Local" value="Presentation\DidacDiscrete.htm">
+		<param name="Name" value="Commande : nouvelle courbe discrète">
+		<param name="Local" value="Commands\html\NewDiscreteCommand.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Courbes">
+		<param name="Name" value="Didacticiel : Choix du type de courbe">
+		<param name="Local" value="Presentation\DidacChoix.htm">
+		<param name="Name" value="Didacticiel : Courbe continue">
+		<param name="Local" value="Presentation\DidacContinue.htm">
+		<param name="Name" value="Didacticiel : Courbe discrète">
+		<param name="Local" value="Presentation\DidacDiscrete.htm">
+		<param name="Name" value="Introduction : Courbes">
+		<param name="Local" value="Presentation\IntroCourbes.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Echelle">
+		<param name="Name" value="Introduction : système de coordonnées">
+		<param name="Local" value="Presentation\introCoordonnees.htm">
+		<param name="Name" value="Didacticiel : identification des axes">
+		<param name="Local" value="Presentation\DidacAxe.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Editeur">
+		<param name="Name" value="Editeur">
+		<param name="Local" value="Presentation\editeur.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Enregistrement">
+		<param name="Name" value="Didacticiel : Mise en forme des données">
+		<param name="Local" value="Presentation\DidacEnregistrement.htm">
+		<param name="Name" value="Introduction : Enregistrement des données">
+		<param name="Local" value="Presentation\IntroEnregistrement.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Epaisseur">
+		<param name="Name" value="Didacticiel : identification de la courbe">
+		<param name="Local" value="Presentation\DidacIdentification.htm">
+		<param name="Name" value="Didacticiel : Options avancées">
+		<param name="Local" value="Presentation\DidacOption.htm">
+		<param name="Name" value="Introduction : Algorithmes">
+		<param name="Local" value="Presentation\IntroAlgo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Erreur angulaire">
+		<param name="Name" value="Introduction : système de coordonnées">
+		<param name="Local" value="Presentation\introCoordonnees.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Format">
+		<param name="Name" value="Format du fichier graphique">
+		<param name="Local" value="Presentation\DidacScannage.htm">
+		<param name="Name" value="Format du fichier de sortie">
+		<param name="Local" value="Presentation\IntroEnregistrement.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Fr&eacute;quence">
+		<param name="Name" value="Fréquence des points enregistrés.">
+		<param name="Local" value="Presentation\DidacEnregistrement.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Graphique">
+		<param name="Name" value="Commande : ouvrir un graphique">
+		<param name="Local" value="Commands\html\OpenBitmapCommand.htm">
+		<param name="Name" value="Didacticiel - scannage">
+		<param name="Local" value="Presentation\DidacScannage.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Intersection">
+		<param name="Name" value="Introduction : Algorithmes">
+		<param name="Local" value="Presentation\IntroAlgo.htm">
+		<param name="Name" value="Didacticiel : identification de la courbe">
+		<param name="Local" value="Presentation\DidacIdentification.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Interval de d&eacute;finition">
+		<param name="Name" value="Didacticiel : Intervalle de définition">
+		<param name="Local" value="Presentation\DidacInterval.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Lin&eacute;aire (&eacute;chelle)">
+		<param name="Name" value="Introduction : système de coordonnées">
+		<param name="Local" value="Presentation\introCoordonnees.htm">
+		<param name="Name" value="Didacticiel : identification des axes">
+		<param name="Local" value="Presentation\DidacAxe.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Logarithmique (&eacute;chelle)">
+		<param name="Name" value="Introduction : système de coordonnées">
+		<param name="Local" value="Presentation\introCoordonnees.htm">
+		<param name="Name" value="Didacticiel : identification des axes">
+		<param name="Local" value="Presentation\DidacAxe.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Luminosit&eacute;">
+		<param name="Name" value="Couleur de seuil pour l'identification de la courbe">
+		<param name="Local" value="Dialogs\html\ContinuousCurveOptionDialog.htm">
+		<param name="Name" value="Luminosité au scannage">
+		<param name="Local" value="Presentation\DidacScannage.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Modification">
+		<param name="Name" value="Didacticiel : Modifications manuelles">
+		<param name="Local" value="Presentation\DidacModification.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Nouveau">
+		<param name="Name" value="Commande : nouveau système de coordonnées">
+		<param name="Local" value="Commands\html\NewCoordinatesCommand.htm">
+		<param name="Name" value="Commande : Nouveau système de coordonnées et nouvelle courbe">
+		<param name="Local" value="Commands\html\BothCommand.htm">
+		<param name="Name" value="Commande : nouvelle courbe continue">
+		<param name="Local" value="Commands\html\NewContinuousCommand.htm">
+		<param name="Name" value="Commande : nouvelle courbe discrète">
+		<param name="Local" value="Commands\html\NewDiscreteCommand.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Nuage de points">
+		<param name="Name" value="Didacticiel : Courbe discrète">
+		<param name="Local" value="Presentation\DidacDiscrete.htm">
+		<param name="Name" value="Commande : nouvelle courbe discrète">
+		<param name="Local" value="Commands\html\NewDiscreteCommand.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="P&eacute;riode">
+		<param name="Name" value="Didacticiel : Mise en forme des données">
+		<param name="Local" value="Presentation\DidacEnregistrement.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Preview">
+		<param name="Name" value="Step-by-step procedure">
+		<param name="Local" value="html\StepSave.htm">
+		<param name="Name" value="Saving dialog box">
+		<param name="Local" value="Dialogs\html\SaveCurveDialog.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="R&eacute;solution">
+		<param name="Name" value="Didacticiel - scannage">
+		<param name="Local" value="Presentation\DidacScannage.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Scannage">
+		<param name="Name" value="Didacticiel - scannage">
+		<param name="Local" value="Presentation\DidacScannage.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Suivi de la courbe">
+		<param name="Name" value="Introduction : Algorithmes">
+		<param name="Local" value="Presentation\IntroAlgo.htm">
+		<param name="Name" value="Didacticiel : identification de la courbe">
+		<param name="Local" value="Presentation\DidacIdentification.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Syst&egrave;me de coordonn&eacute;es">
+		<param name="Name" value="Introduction : système de coordonnées">
+		<param name="Local" value="Presentation\introCoordonnees.htm">
+		<param name="Name" value="Didacticiel : identification des axes">
+		<param name="Local" value="Presentation\DidacAxe.htm">
+		<param name="Name" value="Commande :nouveau système de coordonnées">
+		<param name="Local" value="Commands\html\NewCoordinatesCommand.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Type de courbe">
+		<param name="Name" value="Didacticiel : Choix du type de courbe">
+		<param name="Local" value="Presentation\DidacChoix.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Web">
+		<param name="Name" value="Editeur">
+		<param name="Local" value="Presentation\editeur.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="zoom">
+		<param name="Name" value="Command : zoom">
+		<param name="Local" value="Commands\html\ZoomCommand.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Pointill&eacute;">
+		<param name="Name" value="Boite de dialogue : distance maximale entre pointillés">
+		<param name="Local" value="Dialogs\html\MaxDashDistDialog.htm">
+		<param name="Name" value="Introduction : Algorithmes">
+		<param name="Local" value="Presentation\IntroAlgo.htm">
+		<param name="Name" value="Boite de dialogue : identification de la courbe">
+		<param name="Local" value="Dialogs\html\CurveIdentificationDialog.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

@@ -1,0 +1,18 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CrvResFr - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Release/tmp/CurveUnscan.res" /i "\CurveUnscan\Dev\CurrentVersion" /d "NDEBUG" /d "AFX_RESOURCE_DLL" /d "AFX_TARG_FRA" "C:\CurveUnscan\Dev\CurrentVersion\CurveUnscan.rc"" 
+Creating command line "link.exe /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/CrvResFr.pdb" /machine:I386 /out:"Release/CrvResFr.dll" /implib:"Release/CrvResFr.lib" /noentry  .\Release\tmp\CurveUnscan.res "
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+link.exe terminated at user request.
+
+</pre>
+</body>
+</html>

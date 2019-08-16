@@ -1,0 +1,54 @@
+
+<html>
+
+<head>
+<title>Introduction : Enregistrement des données</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="fr">
+<link rel="stylesheet" type="text/css" href="FeuilleDeStyle.css">
+</head>
+
+<body>
+<h1>Export des données</h1>
+<p>&nbsp;</p>
+<p>Les données sont export&eacute;es dans un fichier texte dont le format permet 
+  la relecture directement par MS-Excel ou par tout autre tableur ou logiciel 
+  de traitement de données. (Les lignes sont séparées par le caractère &quot;retour 
+  chariot&quot;, les colonnes sont séparées par un caractère, par exemple &quot;Tabulation&quot;)</p>
+<p>Un fichier peut contenir les données relatives à une ou plusieurs courbes. 
+</p>
+<p><b>Courbe discrète </b>: les points de la courbe sont enregistrés dans l'ordre 
+  dans lequel ils ont été définis lors de leur construction.</p>
+<p><b>Courbe continue</b> : les points sont enregistrés dans l'ordre croissant 
+  de leur valeur d'abscisse. Le premier point de la courbe est spécifié par l'utilisateur.</p>
+<p>La période entre chaque point est également définie par l'utilisateur. Si l'axe 
+  des abscisses est logarithmique, cette période est exprimée en décade d'unité.</p>
+<p>Le dernier point enregistré est le dernier point défini.</p>
+<p class="MsoBodyText">Si la courbe est discontinue (ou si les premiers points 
+  spécifiés par l’utilisateur ne sont pas définis), les points non définis sont 
+  exprimés uniquement par leur abscisse, le champ correspondant à la valeur d’ordonnées 
+  est vide.</p>
+<p>La valeur d’ordonnée de chaque point enregistré correspond 
+  à l’interpolation linéaire des valeurs d’ordonnée des points de la courbe physique.</p>
+<p ><img border="0" src="images/Interpolation.gif" width="422" height="239"></p>
+<p ><b>Courbes splines</b> : l'utilisateur choisit le nombre de points qui seront 
+  enregistr&eacute;s pour chaque segment de la courbe.</p>
+<p ><b>Courbes de densitom&eacute;trie</b> : Les points sont enregistr&eacute;s 
+  dans le sens d&eacute;fini par l'utilisateur : valeur d'abscisse ou d'ordonn&eacute;e 
+  croissante ou d&eacute;croissante.</p>
+<p >Tout comme pour les courbes continues, l'intervalle entre ces points est d&eacute;fini 
+  par l'utilisateur et les valeurs des points enregistr&eacute;s sont calcul&eacute;es 
+  par interpolation lin&eacute;aire des valeurs calcul&eacute;s des pixels du 
+  graphique.</p>
+<p >&nbsp;</p>
+<p ><b>Remarque</b> : les donn&eacute;es peuvent &eacute;galement &ecirc;tre enregistr&eacute;es 
+  dans un format sp&eacute;cifique &agrave; CurveUnscan (document CurveUnscan). 
+  Ces fichiers contiennent l'ensemble des information relatives au document et 
+  permettent de les conserver afin par exemple d'en exporter les donn&eacute;es 
+  ult&eacute;rieurement dans un format diff&eacute;rent.</p>
+<p align="center"><a href="IntroAlgo.htm"><img border="0" src="images/Previous.gif" width="40" height="30"></a><a href="Didactitiel.htm"><img border="0" src="images/Next.gif" width="40" height="30"></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+
+</html>

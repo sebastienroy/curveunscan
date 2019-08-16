@@ -1,0 +1,594 @@
+# Makefile.in generated automatically by automake 1.3 from Makefile.am
+
+# Copyright (C) 1994, 1995, 1996, 1997, 1998 Free Software Foundation, Inc.
+# This Makefile.in is free software; the Free Software Foundation
+# gives unlimited permission to copy and/or distribute it,
+# with or without modifications, as long as this notice is preserved.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+# even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+
+SHELL = /bin/sh
+
+srcdir = @srcdir@
+top_srcdir = @top_srcdir@
+VPATH = @srcdir@
+prefix = @prefix@
+exec_prefix = @exec_prefix@
+
+bindir = @bindir@
+sbindir = @sbindir@
+libexecdir = @libexecdir@
+datadir = @datadir@
+sysconfdir = @sysconfdir@
+sharedstatedir = @sharedstatedir@
+localstatedir = @localstatedir@
+libdir = @libdir@
+infodir = @infodir@
+mandir = @mandir@
+includedir = @includedir@
+oldincludedir = /usr/include
+
+DISTDIR =
+
+pkgdatadir = $(datadir)/@PACKAGE@
+pkglibdir = $(libdir)/@PACKAGE@
+pkgincludedir = $(includedir)/@PACKAGE@
+
+top_builddir = ..
+
+ACLOCAL = @ACLOCAL@
+AUTOCONF = @AUTOCONF@
+AUTOMAKE = @AUTOMAKE@
+AUTOHEADER = @AUTOHEADER@
+
+INSTALL = @INSTALL@
+INSTALL_PROGRAM = @INSTALL_PROGRAM@
+INSTALL_DATA = @INSTALL_DATA@
+INSTALL_SCRIPT = @INSTALL_SCRIPT@
+transform = @program_transform_name@
+
+NORMAL_INSTALL = :
+PRE_INSTALL = :
+POST_INSTALL = :
+NORMAL_UNINSTALL = :
+PRE_UNINSTALL = :
+POST_UNINSTALL = :
+host_alias = @host_alias@
+host_triplet = @host@
+CC = @CC@
+COMPILABLE_EXTRAS = @COMPILABLE_EXTRAS@
+DEVS = @DEVS@
+GL_S_LIB = @GL_S_LIB@
+LD = @LD@
+LIBTOOL = @LIBTOOL@
+LN_S = @LN_S@
+MAKEINFO = @MAKEINFO@
+MATH_LIB = @MATH_LIB@
+NM = @NM@
+PACKAGE = @PACKAGE@
+RANLIB = @RANLIB@
+RLE_LIB = @RLE_LIB@
+VERSION = @VERSION@
+X11_LIB = @X11_LIB@
+X_CFLAGS = @X_CFLAGS@
+
+bin_PROGRAMS = gif2epsn gif2ps gif2rgb gifasm gifbg gifclip gifcomb \
+    giffix gifflip gifhisto gifinter gifinto gifovly gifpos gifrsize \
+    giftext gifwedge raw2gif rgb2gif text2gif gifspnge giffiltr \
+    icon2gif gifcolor @COMPILABLE_EXTRAS@
+bin_SCRIPTS = gifcompose gifburst
+EXTRA_PROGRAMS = gif2rle rle2gif gif2iris gif2x11 gifclrmp gifrotat
+
+EXTRA_DIST=Makefile.unx $(bin_SCRIPTS)
+
+LDADD = ../lib/libungif.la ../lib/libgetarg.a
+CFLAGS = @CFLAGS@ $(X_CFLAGS)
+
+INCLUDES = -I. -I.. -I$(top_srcdir)/lib
+gif2rle_SOURCES = gif2rle.c
+gif2rle_LDADD = $(LDADD) @RLE_LIB@
+
+rle2gif_SOURCES = rle2gif.c
+rle2gif_LDADD = $(LDADD) @RLE_LIB@
+
+gif2iris_SOURCES = gif2iris.c
+gif2iris_LDADD = $(LDADD) @GL_S_LIB@
+
+gif2x11_SOURCES = gif2x11.c
+gif2x11_LDADD = $(LDADD) @X11_LIB@
+
+gifclrmp_SOURCES = gifclrmp.c
+gifclrmp_LDADD = $(LDADD) @MATH_LIB@
+
+gifrotat_SOURCES = gifrotat.c
+gifrotat_LDADD = $(LDADD) @MATH_LIB@
+
+gif2epsn_SOURCES = gif2epsn.c
+gif2ps_SOURCES = gif2ps.c
+gif2rgb_SOURCES = gif2rgb.c
+gifasm_SOURCES = gifasm.c
+gifbg_SOURCES = gifbg.c
+gifclip_SOURCES = gifclip.c
+gifcomb_SOURCES = gifcomb.c
+giffix_SOURCES = giffix.c
+gifflip_SOURCES = gifflip.c
+gifhisto_SOURCES = gifhisto.c
+gifinter_SOURCES = gifinter.c
+gifinto_SOURCES = gifinto.c
+gifovly_SOURCES =  gifovly.c
+gifpos_SOURCES = gifpos.c
+gifrsize_SOURCES = gifrsize.c
+giftext_SOURCES = giftext.c
+gifwedge_SOURCES = gifwedge.c
+raw2gif_SOURCES = raw2gif.c
+rgb2gif_SOURCES = rgb2gif.c
+text2gif_SOURCES = text2gif.c
+gifspnge_SOURCES = gifspnge.c
+giffiltr_SOURCES = giffiltr.c
+icon2gif_SOURCES = icon2gif.c
+gifcolor_SOURCES = gifcolor.c
+mkinstalldirs = $(SHELL) $(top_srcdir)/mkinstalldirs
+CONFIG_CLEAN_FILES = 
+PROGRAMS =  $(bin_PROGRAMS)
+
+
+DEFS = @DEFS@ -I. -I$(srcdir) 
+CPPFLAGS = @CPPFLAGS@
+LDFLAGS = @LDFLAGS@
+LIBS = @LIBS@
+X_LIBS = @X_LIBS@
+X_EXTRA_LIBS = @X_EXTRA_LIBS@
+X_PRE_LIBS = @X_PRE_LIBS@
+gif2rle_OBJECTS =  gif2rle.o
+gif2rle_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gif2rle_LDFLAGS = 
+rle2gif_OBJECTS =  rle2gif.o
+rle2gif_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+rle2gif_LDFLAGS = 
+gif2iris_OBJECTS =  gif2iris.o
+gif2iris_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gif2iris_LDFLAGS = 
+gif2x11_OBJECTS =  gif2x11.o
+gif2x11_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gif2x11_LDFLAGS = 
+gifclrmp_OBJECTS =  gifclrmp.o
+gifclrmp_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gifclrmp_LDFLAGS = 
+gifrotat_OBJECTS =  gifrotat.o
+gifrotat_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gifrotat_LDFLAGS = 
+gif2epsn_OBJECTS =  gif2epsn.o
+gif2epsn_LDADD = $(LDADD)
+gif2epsn_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gif2epsn_LDFLAGS = 
+gif2ps_OBJECTS =  gif2ps.o
+gif2ps_LDADD = $(LDADD)
+gif2ps_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gif2ps_LDFLAGS = 
+gif2rgb_OBJECTS =  gif2rgb.o
+gif2rgb_LDADD = $(LDADD)
+gif2rgb_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gif2rgb_LDFLAGS = 
+gifasm_OBJECTS =  gifasm.o
+gifasm_LDADD = $(LDADD)
+gifasm_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gifasm_LDFLAGS = 
+gifbg_OBJECTS =  gifbg.o
+gifbg_LDADD = $(LDADD)
+gifbg_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gifbg_LDFLAGS = 
+gifclip_OBJECTS =  gifclip.o
+gifclip_LDADD = $(LDADD)
+gifclip_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gifclip_LDFLAGS = 
+gifcomb_OBJECTS =  gifcomb.o
+gifcomb_LDADD = $(LDADD)
+gifcomb_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gifcomb_LDFLAGS = 
+giffix_OBJECTS =  giffix.o
+giffix_LDADD = $(LDADD)
+giffix_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+giffix_LDFLAGS = 
+gifflip_OBJECTS =  gifflip.o
+gifflip_LDADD = $(LDADD)
+gifflip_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gifflip_LDFLAGS = 
+gifhisto_OBJECTS =  gifhisto.o
+gifhisto_LDADD = $(LDADD)
+gifhisto_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gifhisto_LDFLAGS = 
+gifinter_OBJECTS =  gifinter.o
+gifinter_LDADD = $(LDADD)
+gifinter_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gifinter_LDFLAGS = 
+gifinto_OBJECTS =  gifinto.o
+gifinto_LDADD = $(LDADD)
+gifinto_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gifinto_LDFLAGS = 
+gifovly_OBJECTS =  gifovly.o
+gifovly_LDADD = $(LDADD)
+gifovly_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gifovly_LDFLAGS = 
+gifpos_OBJECTS =  gifpos.o
+gifpos_LDADD = $(LDADD)
+gifpos_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gifpos_LDFLAGS = 
+gifrsize_OBJECTS =  gifrsize.o
+gifrsize_LDADD = $(LDADD)
+gifrsize_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gifrsize_LDFLAGS = 
+giftext_OBJECTS =  giftext.o
+giftext_LDADD = $(LDADD)
+giftext_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+giftext_LDFLAGS = 
+gifwedge_OBJECTS =  gifwedge.o
+gifwedge_LDADD = $(LDADD)
+gifwedge_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gifwedge_LDFLAGS = 
+raw2gif_OBJECTS =  raw2gif.o
+raw2gif_LDADD = $(LDADD)
+raw2gif_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+raw2gif_LDFLAGS = 
+rgb2gif_OBJECTS =  rgb2gif.o
+rgb2gif_LDADD = $(LDADD)
+rgb2gif_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+rgb2gif_LDFLAGS = 
+text2gif_OBJECTS =  text2gif.o
+text2gif_LDADD = $(LDADD)
+text2gif_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+text2gif_LDFLAGS = 
+gifspnge_OBJECTS =  gifspnge.o
+gifspnge_LDADD = $(LDADD)
+gifspnge_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gifspnge_LDFLAGS = 
+giffiltr_OBJECTS =  giffiltr.o
+giffiltr_LDADD = $(LDADD)
+giffiltr_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+giffiltr_LDFLAGS = 
+icon2gif_OBJECTS =  icon2gif.o
+icon2gif_LDADD = $(LDADD)
+icon2gif_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+icon2gif_LDFLAGS = 
+gifcolor_OBJECTS =  gifcolor.o
+gifcolor_LDADD = $(LDADD)
+gifcolor_DEPENDENCIES =  ../lib/libungif.la ../lib/libgetarg.a
+gifcolor_LDFLAGS = 
+SCRIPTS =  $(bin_SCRIPTS)
+
+COMPILE = $(CC) $(DEFS) $(INCLUDES) $(CPPFLAGS) $(CFLAGS)
+LTCOMPILE = $(LIBTOOL) --mode=compile $(CC) $(DEFS) $(INCLUDES) $(CPPFLAGS) $(CFLAGS)
+LINK = $(LIBTOOL) --mode=link $(CC) $(CFLAGS) $(LDFLAGS) -o $@
+DIST_COMMON =  Makefile.am Makefile.in
+
+
+DISTFILES = $(DIST_COMMON) $(SOURCES) $(HEADERS) $(TEXINFOS) $(EXTRA_DIST)
+
+TAR = tar
+GZIP = --best
+SOURCES = $(gif2rle_SOURCES) $(rle2gif_SOURCES) $(gif2iris_SOURCES) $(gif2x11_SOURCES) $(gifclrmp_SOURCES) $(gifrotat_SOURCES) $(gif2epsn_SOURCES) $(gif2ps_SOURCES) $(gif2rgb_SOURCES) $(gifasm_SOURCES) $(gifbg_SOURCES) $(gifclip_SOURCES) $(gifcomb_SOURCES) $(giffix_SOURCES) $(gifflip_SOURCES) $(gifhisto_SOURCES) $(gifinter_SOURCES) $(gifinto_SOURCES) $(gifovly_SOURCES) $(gifpos_SOURCES) $(gifrsize_SOURCES) $(giftext_SOURCES) $(gifwedge_SOURCES) $(raw2gif_SOURCES) $(rgb2gif_SOURCES) $(text2gif_SOURCES) $(gifspnge_SOURCES) $(giffiltr_SOURCES) $(icon2gif_SOURCES) $(gifcolor_SOURCES)
+OBJECTS = $(gif2rle_OBJECTS) $(rle2gif_OBJECTS) $(gif2iris_OBJECTS) $(gif2x11_OBJECTS) $(gifclrmp_OBJECTS) $(gifrotat_OBJECTS) $(gif2epsn_OBJECTS) $(gif2ps_OBJECTS) $(gif2rgb_OBJECTS) $(gifasm_OBJECTS) $(gifbg_OBJECTS) $(gifclip_OBJECTS) $(gifcomb_OBJECTS) $(giffix_OBJECTS) $(gifflip_OBJECTS) $(gifhisto_OBJECTS) $(gifinter_OBJECTS) $(gifinto_OBJECTS) $(gifovly_OBJECTS) $(gifpos_OBJECTS) $(gifrsize_OBJECTS) $(giftext_OBJECTS) $(gifwedge_OBJECTS) $(raw2gif_OBJECTS) $(rgb2gif_OBJECTS) $(text2gif_OBJECTS) $(gifspnge_OBJECTS) $(giffiltr_OBJECTS) $(icon2gif_OBJECTS) $(gifcolor_OBJECTS)
+
+all: Makefile $(PROGRAMS) $(SCRIPTS)
+
+.SUFFIXES:
+.SUFFIXES: .S .c .lo .o .s
+$(srcdir)/Makefile.in: Makefile.am $(top_srcdir)/configure.in $(ACLOCAL_M4)
+	cd $(top_srcdir) && $(AUTOMAKE) --gnu --include-deps util/Makefile
+
+Makefile: $(srcdir)/Makefile.in  $(top_builddir)/config.status
+	cd $(top_builddir) \
+	  && CONFIG_FILES=$(subdir)/$@ CONFIG_HEADERS= $(SHELL) ./config.status
+
+
+mostlyclean-binPROGRAMS:
+
+clean-binPROGRAMS:
+	-test -z "$(bin_PROGRAMS)" || rm -f $(bin_PROGRAMS)
+
+distclean-binPROGRAMS:
+
+maintainer-clean-binPROGRAMS:
+
+install-binPROGRAMS: $(bin_PROGRAMS)
+	@$(NORMAL_INSTALL)
+	$(mkinstalldirs) $(DESTDIR)$(bindir)
+	@list='$(bin_PROGRAMS)'; for p in $$list; do \
+	  if test -f $$p; then \
+	    echo " $(LIBTOOL)  --mode=install $(INSTALL_PROGRAM) $$p $(DESTDIR)$(bindir)/`echo $$p|sed '$(transform)'`"; \
+	    $(LIBTOOL)  --mode=install $(INSTALL_PROGRAM) $$p $(DESTDIR)$(bindir)/`echo $$p|sed '$(transform)'`; \
+	  else :; fi; \
+	done
+
+uninstall-binPROGRAMS:
+	@$(NORMAL_UNINSTALL)
+	list='$(bin_PROGRAMS)'; for p in $$list; do \
+	  rm -f $(DESTDIR)$(bindir)/`echo $$p|sed '$(transform)'`; \
+	done
+
+.c.o:
+	$(COMPILE) -c $<
+
+.s.o:
+	$(COMPILE) -c $<
+
+.S.o:
+	$(COMPILE) -c $<
+
+mostlyclean-compile:
+	-rm -f *.o core *.core
+
+clean-compile:
+
+distclean-compile:
+	-rm -f *.tab.c
+
+maintainer-clean-compile:
+
+.c.lo:
+	$(LIBTOOL) --mode=compile $(COMPILE) -c $<
+
+.s.lo:
+	$(LIBTOOL) --mode=compile $(COMPILE) -c $<
+
+.S.lo:
+	$(LIBTOOL) --mode=compile $(COMPILE) -c $<
+
+mostlyclean-libtool:
+	-rm -f *.lo
+
+clean-libtool:
+	-rm -rf .libs _libs
+
+distclean-libtool:
+
+maintainer-clean-libtool:
+
+gif2rle: $(gif2rle_OBJECTS) $(gif2rle_DEPENDENCIES)
+	@rm -f gif2rle
+	$(LINK) $(gif2rle_LDFLAGS) $(gif2rle_OBJECTS) $(gif2rle_LDADD) $(LIBS)
+
+rle2gif: $(rle2gif_OBJECTS) $(rle2gif_DEPENDENCIES)
+	@rm -f rle2gif
+	$(LINK) $(rle2gif_LDFLAGS) $(rle2gif_OBJECTS) $(rle2gif_LDADD) $(LIBS)
+
+gif2iris: $(gif2iris_OBJECTS) $(gif2iris_DEPENDENCIES)
+	@rm -f gif2iris
+	$(LINK) $(gif2iris_LDFLAGS) $(gif2iris_OBJECTS) $(gif2iris_LDADD) $(LIBS)
+
+gif2x11: $(gif2x11_OBJECTS) $(gif2x11_DEPENDENCIES)
+	@rm -f gif2x11
+	$(LINK) $(gif2x11_LDFLAGS) $(gif2x11_OBJECTS) $(gif2x11_LDADD) $(LIBS)
+
+gifclrmp: $(gifclrmp_OBJECTS) $(gifclrmp_DEPENDENCIES)
+	@rm -f gifclrmp
+	$(LINK) $(gifclrmp_LDFLAGS) $(gifclrmp_OBJECTS) $(gifclrmp_LDADD) $(LIBS)
+
+gifrotat: $(gifrotat_OBJECTS) $(gifrotat_DEPENDENCIES)
+	@rm -f gifrotat
+	$(LINK) $(gifrotat_LDFLAGS) $(gifrotat_OBJECTS) $(gifrotat_LDADD) $(LIBS)
+
+gif2epsn: $(gif2epsn_OBJECTS) $(gif2epsn_DEPENDENCIES)
+	@rm -f gif2epsn
+	$(LINK) $(gif2epsn_LDFLAGS) $(gif2epsn_OBJECTS) $(gif2epsn_LDADD) $(LIBS)
+
+gif2ps: $(gif2ps_OBJECTS) $(gif2ps_DEPENDENCIES)
+	@rm -f gif2ps
+	$(LINK) $(gif2ps_LDFLAGS) $(gif2ps_OBJECTS) $(gif2ps_LDADD) $(LIBS)
+
+gif2rgb: $(gif2rgb_OBJECTS) $(gif2rgb_DEPENDENCIES)
+	@rm -f gif2rgb
+	$(LINK) $(gif2rgb_LDFLAGS) $(gif2rgb_OBJECTS) $(gif2rgb_LDADD) $(LIBS)
+
+gifasm: $(gifasm_OBJECTS) $(gifasm_DEPENDENCIES)
+	@rm -f gifasm
+	$(LINK) $(gifasm_LDFLAGS) $(gifasm_OBJECTS) $(gifasm_LDADD) $(LIBS)
+
+gifbg: $(gifbg_OBJECTS) $(gifbg_DEPENDENCIES)
+	@rm -f gifbg
+	$(LINK) $(gifbg_LDFLAGS) $(gifbg_OBJECTS) $(gifbg_LDADD) $(LIBS)
+
+gifclip: $(gifclip_OBJECTS) $(gifclip_DEPENDENCIES)
+	@rm -f gifclip
+	$(LINK) $(gifclip_LDFLAGS) $(gifclip_OBJECTS) $(gifclip_LDADD) $(LIBS)
+
+gifcomb: $(gifcomb_OBJECTS) $(gifcomb_DEPENDENCIES)
+	@rm -f gifcomb
+	$(LINK) $(gifcomb_LDFLAGS) $(gifcomb_OBJECTS) $(gifcomb_LDADD) $(LIBS)
+
+giffix: $(giffix_OBJECTS) $(giffix_DEPENDENCIES)
+	@rm -f giffix
+	$(LINK) $(giffix_LDFLAGS) $(giffix_OBJECTS) $(giffix_LDADD) $(LIBS)
+
+gifflip: $(gifflip_OBJECTS) $(gifflip_DEPENDENCIES)
+	@rm -f gifflip
+	$(LINK) $(gifflip_LDFLAGS) $(gifflip_OBJECTS) $(gifflip_LDADD) $(LIBS)
+
+gifhisto: $(gifhisto_OBJECTS) $(gifhisto_DEPENDENCIES)
+	@rm -f gifhisto
+	$(LINK) $(gifhisto_LDFLAGS) $(gifhisto_OBJECTS) $(gifhisto_LDADD) $(LIBS)
+
+gifinter: $(gifinter_OBJECTS) $(gifinter_DEPENDENCIES)
+	@rm -f gifinter
+	$(LINK) $(gifinter_LDFLAGS) $(gifinter_OBJECTS) $(gifinter_LDADD) $(LIBS)
+
+gifinto: $(gifinto_OBJECTS) $(gifinto_DEPENDENCIES)
+	@rm -f gifinto
+	$(LINK) $(gifinto_LDFLAGS) $(gifinto_OBJECTS) $(gifinto_LDADD) $(LIBS)
+
+gifovly: $(gifovly_OBJECTS) $(gifovly_DEPENDENCIES)
+	@rm -f gifovly
+	$(LINK) $(gifovly_LDFLAGS) $(gifovly_OBJECTS) $(gifovly_LDADD) $(LIBS)
+
+gifpos: $(gifpos_OBJECTS) $(gifpos_DEPENDENCIES)
+	@rm -f gifpos
+	$(LINK) $(gifpos_LDFLAGS) $(gifpos_OBJECTS) $(gifpos_LDADD) $(LIBS)
+
+gifrsize: $(gifrsize_OBJECTS) $(gifrsize_DEPENDENCIES)
+	@rm -f gifrsize
+	$(LINK) $(gifrsize_LDFLAGS) $(gifrsize_OBJECTS) $(gifrsize_LDADD) $(LIBS)
+
+giftext: $(giftext_OBJECTS) $(giftext_DEPENDENCIES)
+	@rm -f giftext
+	$(LINK) $(giftext_LDFLAGS) $(giftext_OBJECTS) $(giftext_LDADD) $(LIBS)
+
+gifwedge: $(gifwedge_OBJECTS) $(gifwedge_DEPENDENCIES)
+	@rm -f gifwedge
+	$(LINK) $(gifwedge_LDFLAGS) $(gifwedge_OBJECTS) $(gifwedge_LDADD) $(LIBS)
+
+raw2gif: $(raw2gif_OBJECTS) $(raw2gif_DEPENDENCIES)
+	@rm -f raw2gif
+	$(LINK) $(raw2gif_LDFLAGS) $(raw2gif_OBJECTS) $(raw2gif_LDADD) $(LIBS)
+
+rgb2gif: $(rgb2gif_OBJECTS) $(rgb2gif_DEPENDENCIES)
+	@rm -f rgb2gif
+	$(LINK) $(rgb2gif_LDFLAGS) $(rgb2gif_OBJECTS) $(rgb2gif_LDADD) $(LIBS)
+
+text2gif: $(text2gif_OBJECTS) $(text2gif_DEPENDENCIES)
+	@rm -f text2gif
+	$(LINK) $(text2gif_LDFLAGS) $(text2gif_OBJECTS) $(text2gif_LDADD) $(LIBS)
+
+gifspnge: $(gifspnge_OBJECTS) $(gifspnge_DEPENDENCIES)
+	@rm -f gifspnge
+	$(LINK) $(gifspnge_LDFLAGS) $(gifspnge_OBJECTS) $(gifspnge_LDADD) $(LIBS)
+
+giffiltr: $(giffiltr_OBJECTS) $(giffiltr_DEPENDENCIES)
+	@rm -f giffiltr
+	$(LINK) $(giffiltr_LDFLAGS) $(giffiltr_OBJECTS) $(giffiltr_LDADD) $(LIBS)
+
+icon2gif: $(icon2gif_OBJECTS) $(icon2gif_DEPENDENCIES)
+	@rm -f icon2gif
+	$(LINK) $(icon2gif_LDFLAGS) $(icon2gif_OBJECTS) $(icon2gif_LDADD) $(LIBS)
+
+gifcolor: $(gifcolor_OBJECTS) $(gifcolor_DEPENDENCIES)
+	@rm -f gifcolor
+	$(LINK) $(gifcolor_LDFLAGS) $(gifcolor_OBJECTS) $(gifcolor_LDADD) $(LIBS)
+
+install-binSCRIPTS: $(bin_SCRIPTS)
+	@$(NORMAL_INSTALL)
+	$(mkinstalldirs) $(DESTDIR)$(bindir)
+	@list='$(bin_SCRIPTS)'; for p in $$list; do \
+	  if test -f $$p; then \
+	    echo " $(INSTALL_SCRIPT) $$p $(DESTDIR)$(bindir)/`echo $$p|sed '$(transform)'`"; \
+	    $(INSTALL_SCRIPT) $$p $(DESTDIR)$(bindir)/`echo $$p|sed '$(transform)'`; \
+	  else if test -f $(srcdir)/$$p; then \
+	    echo " $(INSTALL_SCRIPT) $(srcdir)/$$p $(DESTDIR)$(bindir)/`echo $$p|sed '$(transform)'`"; \
+	    $(INSTALL_SCRIPT) $(srcdir)/$$p $(DESTDIR)$(bindir)/`echo $$p|sed '$(transform)'`; \
+	  else :; fi; fi; \
+	done
+
+uninstall-binSCRIPTS:
+	@$(NORMAL_UNINSTALL)
+	list='$(bin_SCRIPTS)'; for p in $$list; do \
+	  rm -f $(DESTDIR)$(bindir)/`echo $$p|sed '$(transform)'`; \
+	done
+
+tags: TAGS
+
+ID: $(HEADERS) $(SOURCES) $(LISP)
+	here=`pwd` && cd $(srcdir) \
+	  && mkid -f$$here/ID $(SOURCES) $(HEADERS) $(LISP)
+
+TAGS:  $(HEADERS) $(SOURCES)  $(TAGS_DEPENDENCIES) $(LISP)
+	tags=; \
+	here=`pwd`; \
+	list='$(SOURCES) $(HEADERS)'; \
+	unique=`for i in $$list; do echo $$i; done | \
+	  awk '    { files[$$0] = 1; } \
+	       END { for (i in files) print i; }'`; \
+	test -z "$(ETAGS_ARGS)$$unique$(LISP)$$tags" \
+	  || (cd $(srcdir) && etags $(ETAGS_ARGS) $$tags  $$unique $(LISP) -o $$here/TAGS)
+
+mostlyclean-tags:
+
+clean-tags:
+
+distclean-tags:
+	-rm -f TAGS ID
+
+maintainer-clean-tags:
+
+distdir = $(top_builddir)/$(PACKAGE)-$(VERSION)/$(subdir)
+
+subdir = util
+
+distdir: $(DISTFILES)
+	@for file in $(DISTFILES); do \
+	  d=$(srcdir); \
+	  test -f $(distdir)/$$file \
+	  || ln $$d/$$file $(distdir)/$$file 2> /dev/null \
+	  || cp -p $$d/$$file $(distdir)/$$file; \
+	done
+
+info:
+dvi:
+check: all
+	$(MAKE)
+installcheck:
+install-exec: install-binPROGRAMS install-binSCRIPTS
+	@$(NORMAL_INSTALL)
+
+install-data: 
+	@$(NORMAL_INSTALL)
+
+install: install-exec install-data all
+	@:
+
+uninstall: uninstall-binPROGRAMS uninstall-binSCRIPTS
+
+install-strip:
+	$(MAKE) INSTALL_PROGRAM='$(INSTALL_PROGRAM) -s' INSTALL_SCRIPT='$(INSTALL_PROGRAM)' install
+installdirs:
+	$(mkinstalldirs)  $(DATADIR)$(bindir) $(DATADIR)$(bindir)
+
+
+mostlyclean-generic:
+	-test -z "$(MOSTLYCLEANFILES)" || rm -f $(MOSTLYCLEANFILES)
+
+clean-generic:
+	-test -z "$(CLEANFILES)" || rm -f $(CLEANFILES)
+
+distclean-generic:
+	-rm -f Makefile $(DISTCLEANFILES)
+	-rm -f config.cache config.log stamp-h stamp-h[0-9]*
+	-test -z "$(CONFIG_CLEAN_FILES)" || rm -f $(CONFIG_CLEAN_FILES)
+
+maintainer-clean-generic:
+	-test -z "$(MAINTAINERCLEANFILES)" || rm -f $(MAINTAINERCLEANFILES)
+	-test -z "$(BUILT_SOURCES)" || rm -f $(BUILT_SOURCES)
+mostlyclean:  mostlyclean-binPROGRAMS mostlyclean-compile \
+		mostlyclean-libtool mostlyclean-tags \
+		mostlyclean-generic
+
+clean:  clean-binPROGRAMS clean-compile clean-libtool clean-tags \
+		clean-generic mostlyclean
+
+distclean:  distclean-binPROGRAMS distclean-compile distclean-libtool \
+		distclean-tags distclean-generic clean
+	-rm -f config.status
+	-rm -f libtool
+
+maintainer-clean:  maintainer-clean-binPROGRAMS maintainer-clean-compile \
+		maintainer-clean-libtool maintainer-clean-tags \
+		maintainer-clean-generic distclean
+	@echo "This command is intended for maintainers to use;"
+	@echo "it deletes files that may require special tools to rebuild."
+
+.PHONY: mostlyclean-binPROGRAMS distclean-binPROGRAMS clean-binPROGRAMS \
+maintainer-clean-binPROGRAMS uninstall-binPROGRAMS install-binPROGRAMS \
+mostlyclean-compile distclean-compile clean-compile \
+maintainer-clean-compile mostlyclean-libtool distclean-libtool \
+clean-libtool maintainer-clean-libtool uninstall-binSCRIPTS \
+install-binSCRIPTS tags mostlyclean-tags distclean-tags clean-tags \
+maintainer-clean-tags distdir info dvi installcheck install-exec \
+install-data install uninstall all installdirs mostlyclean-generic \
+distclean-generic clean-generic maintainer-clean-generic clean \
+mostlyclean distclean maintainer-clean
+
+
+# Tell versions [3.59,3.63) of GNU make to not export all variables.
+# Otherwise a system limit (for SysV at least) may be exceeded.
+.NOEXPORT:

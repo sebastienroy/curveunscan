@@ -1,0 +1,22 @@
+Begin3
+Title:          libungif
+Version:        4.1.0
+Entered-date:   19JAN1998
+Description:    A library for reading and writing gif images.  The save
+                functionality uses an uncompressed gif algorithm to avoid
+                the Unisys LZW patent.  This library is based heavily on Eric
+                Raymond's libgif package and implements a superset of that
+                library's API.  This version is not binary compatible with
+                giflib-3.0, but is compatible with the new giflib-4.0 release.
+Keywords:       uncompressed GIF library graphics utilities
+Author:         badger@prtr-13.ucsc.edu (Toshio Kuratomi)
+Maintained-by:  badger@prtr-13.ucsc.edu (Toshio Kuratomi)
+Primary-site:   sunsite.unc.edu /pub/Linux/libs/graphics
+                302k libungif-4.1.0.tar.gz
+Alternate-site: 
+Original-site:  prtr-13.ucsc.edu /pub/libungif
+                302k libungif-4.1.0.tar.gz
+Platforms:      
+Copying-policy: MIT
+End
+

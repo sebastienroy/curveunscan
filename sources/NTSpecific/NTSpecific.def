@@ -1,0 +1,8 @@
+; NTSpecific.def : Declares the module parameters for the DLL.
+
+LIBRARY      "NTSpecific"
+DESCRIPTION  'NTSpecific Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	CreateWritableFile		@1

@@ -1,0 +1,59 @@
+Besides fixing bugs, what's really needed is for someone to work out how to
+calculate a colormap for writing gifs from rgb sources.  Right now, an rgb
+source that has only two colors (b/w) is being converted into an 8 bit gif....
+Which is horrendously wasteful without compression.
+
+Any volunteers?
+
+=======
+The Present Extension code is pretty hacky.  It looks like giflib's ability to
+do Extension code was added on at a later time and also was not implemented
+entirely in conformance with the gif89a spec.  I've hacked it further to make
+it conform to the spec, but it would benefit greatly from a complete rewrite.
+
+If there is ever a version-5.0 of this library (with API level changes), this
+should definitely be one of the areas that gets worked on.
+
+=======
+Documentation needs updating to reflect additions to the API.
+
+=======
+[UPDATE at bottom]
+Here's a change to the library code that has been proposed:  Pulling known
+extensions (comment blocks, etc) out of the Extensions array and putting them
+in actual places within the GifType structure so application programmers don't
+have to search through the Extension array for them.
+
+I'm not sure how I want to implemement this yet -- Actually removing them from
+the extension array would break the API compatibility with libungif.  Making
+copies would waste resources needlessly.  Making convenience links with the
+idea of deprecating the access of the extension block directly for standard
+features would be okay, but creates extra work in the long run -- really we
+need to put the convenience links into the current Extension array.
+
+We have to decide where in the structure each extension belongs, generalize
+the AddExtensionBlock function to be able to add the extensionblock to any
+area of the structure, rework the gif writing code to place the structures
+where they belong, rework the code writing to the Extension Array so that it
+can handle links as well as blocks.
+
+And on the other hand, it could turn out that putting extensions into the main
+structure is not intuitive to everyone.  Extensions are "extensions" and
+people may want to look for them grouped together.... I suppose this could
+either mean leaving everything in the extension array, or creating a new
+extension field that has the extensions dangling off of it (comment, gifanim
+stuff, unknown, etc.)  This is okay except that it'd be best to have real
+copies of the extension in the fields instead of links (so that we could make
+arrays rather than arrays of pointers.)
+
+[UPDATE:1998 3 Dec]
+After reading through the gif89a specification, I'm not sure this is all that
+great.  It seems that each image in a gif stream needs to have separate
+extension blocks.  This means that an animated gif will have a Graphics
+Extension Block for each Image in the animation.  Linking this up to the
+GifFileType is wrong.  Making a link in each SaveFile is correct, but will
+take space that won't be needed when that particular extension doesn't appear
+in this file....
+
+Unless someone wants to correct me here, I don't think I'm going to implement
+this.

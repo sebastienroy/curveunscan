@@ -1,0 +1,150 @@
+1999 20 Jan Toshio Kuratomi <badger@prtr-13.ucsc.edu>
+        * Release 4.1.0
+
+1999 20 Jan Toshio Kuratomi <badger@prtr-13.ucsc.edu>
+        * upgrade to libtool 1.2b
+        * util/Makefile.am: Minor change to allow compilation outside the
+          source_dir.
+
+1999 19 Jan Toshio Kuratomi <badger@prtr-13.ucsc.edu>
+        * lib/egif_lib.c: FILE_STATE_WRITE, FILE_STATE_SCREEN,
+          FILE_STATE_IMAGE, IS_WRITEABLE are now in gif_lib_private.h
+        * lib/dgif_lib.c: FILE_STATE_READ and IS_READABLE are now in
+          gif_lib_private.h
+        * lib/gif_lib_private.h: Above mentioned constants and macros are now
+          here.  FILE_STATE_READ is now 0x08 instead of 0x00.
+
+1999 19 Jan Toshio Kuratomi <badger@prtr-13.ucsc.edu>        
+        * configure.in: Update version to 4.1.0
+        * lib/Makefile.am: Update libtool version to 4:0:0 (libtool)
+        * libungif.spec: Update for version 4.1.0 (Add giflib-4.1
+          compatibility stuff and change version.)
+        * libungif.lsm: Update for version 4.1.0
+
+1999 19 Jan Toshio Kuratomi <badger@prtr-13.ucsc.edu>
+        * lib/egif_lib.c: (WRITE)  change from a function to a macro.
+
+1999 19 Jan Toshio Kuratomi <badger@prtr-13.ucsc.edu>
+        * lib/dgif_lib.c: (DGifOpenFileName) close FileHandle on error.
+        * lib/dgif_lib.c: (DGifOpenFileHandle) make sure the FILE stream is
+          closed if we hit an error.
+
+1999 19 Jan Toshio Kuratomi <badger@prtr-13.ucsc.edu>
+        * lib/dev2gif.c, lib/quantize.c, lib/gif_err.c, lib/gif_lib_private.h:
+          Reflect Eric's copyright notice rather than Gershon's
+
+1999 14 Jan  Michael R Brown <michael@arrakeen.demon.co.uk>
+        * lib/gif_lib.h: Add OutputFunc type
+        * lib/gif_lib.h: Add EGifOpen for user supplied output function
+        * lib/egif_lib.c: (EGifOpenFileName) Fixed wasted memory when an
+          error occurs in EGifOpenFileHandle
+        * lib/egif_lib.c: Add EGifOpen, WRITE, and lots of changes to
+          support user supplied output function. Basically changing
+          all fwrite's to WRITE, and then all of the knock on effects.
+
+1998 15 Dec Toshio Kuratomi <badger@prtr-13.ucsc.edu>
+        * lib/dgif_lib.c: (DGifSlurp) Fix a Seg Fault when an image contains
+          no extension blocks.
+
+1998 14 Dec Toshio Kuratomi <badger@prtr-13.ucsc.edu>
+        * configure.in: Update version to 4.0
+        * lib/Makefile.am: Update libtool version to 4:0:0 (libtool)
+        * libungif.spec: Update for version 4.0 (not binary compatible with
+          giflib, change version.)
+        * lib/gif_lib_private.h: (PrivateType) New header for common stuff
+          private to the library.  Currently, this is only the Private struct.
+        * lib/dgif_lib.c: (PrivateType) Extract the Private struct to
+          gif_lib_private.h
+        * lib/egif_lib.c: (PrivateType) Extract the Private struct to
+          gif_lib_private.h
+        * lib/Makefile.am: Add gif_lib_private.h to the list of source files.
+        * lib/gif_lib.h: (ExtensionBlock) Add a Function entry to the
+          ExtensionBlock record.  Note that this is not entirely correct:
+          the GifLib ExtensionBlock structure is actually a data sub-block
+          record.  By adding the function entry here, we are pushing the
+          ExtensionBlockType in with the DataSubBlock.
+          Sometime in the future, we need to change the API to have true
+          ExtensionBlocks which have DataSubBlocks belonging to them.
+        * lib/gif_lib.h: (ExtensionBlock) Deprecate the use of Function in
+          the SavedImage struct.  Use ExtensionBlock's Function instead.
+        * lib/egif_lib.c: (EGifSpew) Changes to use the new Function variable.
+        * lib/dgif_lib.c: (DGifSlurp) Changes to put data into the new
+          Function variable.
+
+1998 3 Dec  Toshio Kuratomi <badger@prtr-13.ucsc.edu>
+        * lib/dgif_lib.c: (DGifSlurp) Three changes:
+          - No longer allocate SaveImage in this function.  All allocations
+            of SaveImage take place in DGifGetImageDesc.
+          - Extension blocks are now associated with the Image Block that is
+            read in subsequent to them, not before.  This should now be
+            conformant to the gif89a specification.
+          - Fix an off-by-one error when copying extension data from structure
+            to structure.
+        * lib/dgif_lib.c: (DGifGetImageDesc) Change the function to do its own
+          allocation of space for the SavedImage structure no matter what.
+        * lib/egif_lib.c: (EGifSpew) The function now spits out
+          ExtensionBlocks before the associated Image Block to conform with
+          the gif89a specification.
+        * lib/egif_lib.c: (EGifOpenFileHandle) Move the write of the
+          GifVersion (gif87a or gif89a) from this function into
+          EGifPutScreenDesc so that it can be controlled by EGifSpew.  Note
+          that this is still a hack as the GifVersion write doesn't really
+          belong in either of these functions.
+        * lib/egif_lib.c: (EGifPutScreenDesc) Moved writing the version
+          (gif87a or gif89a) into the file into this function from
+          EGifOpenFileHandle.
+        * test-unx: Now test the extension code.
+        * pic/x-trans.gif: New image with Comments and transparency to test
+          the extension code with.
+
+1998 29 Nov Toshio Kuratomi <badger@prtr-13.ucsc.edu>
+        * lib/dgif_lib.c: (DGifSlurp) Fix a few of the minor bugs plaguing
+          this function.  At this point, the function should no longer cause
+          a Seg Fault.  It is now losing all extension data however.  I know
+          how to hack a fix in, but I need to commit these changes first.
+        * lib/dgif_lib.c: (DGifGetImageDesc) Fix my bug fix: the colormap is
+          now only copied if it exists :-).
+
+1998 10 Nov Toshio Kuratomi <badger@prtr-13.ucsc.edu>
+        * test-unx: Add a test for DGifSlurp and EGifSpew
+
+1998 14 Oct Toshio Kuratomi <badger@prtr-13.ucsc.edu>
+        * lib/dgif_lib.c: (DGifGetImageDesc) Fix a bug where the Colormap for
+          the image description and the SaveImage were pointers to the same
+          structure, causing a SegV when DGifClosing the file.
+
+1998 9 Oct  Toshio Kuratomi <badger@prtr-13.ucsc.edu>
+        * lib/dgif_lib.c: (DGifSlurp) memory for the extensions was not being
+          allocated.  Now I call AddExtensionBlock when I add an extension to
+          the structure.  Additionally, fix a memory leak here.
+        * configure.in, NEWS, lib/Makefile.am: Update to version 3.1.1
+        * ltmain.sh, ltconfig: removed from the cvs repository
+        * BUGS: add the BUGS file to list unresolved BUGS.
+
+1998 9 Sep  Toshio Kuratomi <badger@prtr-13.ucsc.edu>
+        * libungif.spec: Fix wrong version in %files and %install section.
+
+1998 8 Sep  Toshio Kuratomi <badger@prtr-13.ucsc.edu>
+        * lib/gif_hash.c, lib/gif_hash.h: Removed these because a hash table
+          is not needed to create uncompressed gifs.
+        * lib/egif_lib.c: Remove all references to the hash functions.
+        * lib/Makefile.am: Remove gif_hash.c gif_hash.h from the source files.
+        * libungif.lsm: added this file
+ 
+1998 7 Sep  Toshio Kuratomi <badger@prtr-13.ucsc.edu>
+        * lib/dgif_lib.c, lib/gif_lib.h: (DGifOpen) Add callback to read gif
+          image through user supplied function (Peter Mehlitz).
+
+1998 6 Sep  Toshio Kuratomi <badger@prtr-13.ucsc.edu>
+        * util/*.{gif.rle}: removed files that were left by my testing
+          process and shouldn't have been in the distribution.
+        * UNCOMPRESSED_GIF: add section on why software that can decode
+          LZW compressed gifs (but not write them) is legal.
+        * .cvsignore: added .cvsignore files to ignore Makefiles and other
+          generated files in my cvs repository.
+        * Makefile.am's: Fixes to allow the dist* family of targets to work
+          correctly.  Preliminary support for make check as well.
+        * configure.in: Update version to 3.1.0
+        * lib/Makefile.am: Update libtool version to 4:0:1 libtool)
+        * libungif-3.0.spec: Update from Marc Ewing.
+        * Add int/pointer Alpha fixes from Dick Porter to many source files.

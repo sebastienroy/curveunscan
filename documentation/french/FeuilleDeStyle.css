@@ -1,0 +1,55 @@
+a:link
+{
+	color: rgb(0,51,255); 
+}
+a:visited
+{
+	color: rgb(51,153,102); 
+} 
+a:active 
+{
+	color: rgb(255,153,0);
+}
+body
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: rgb(255,255,255);
+	color: rgb(0,0,0);
+; font-size: 9pt
+}
+table
+{
+	table-border-color-light: rgb(255,102,153);
+	table-border-color-dark: rgb(102,51,153); 
+}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+h1
+{
+	color: rgb(0,0,0);
+; font-size: 16pt
+}
+h2
+{
+	color: rgb(0,0,0); 
+; font-size: 14pt
+}
+h3
+{
+	color: rgb(0,0,0); 
+; font-size: 12pt
+}
+h4
+{
+	color: rgb(0,0,0);
+}
+h5
+{
+	color: rgb(0,0,0);
+}
+h6
+{
+	color: rgb(0,0,0);
+}

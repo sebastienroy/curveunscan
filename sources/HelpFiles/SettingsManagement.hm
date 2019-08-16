@@ -1,0 +1,7 @@
+// Last modified: 30/08/2005 20:59:51
+#define IDH_PROPPAGE_CURVE                      0x2006A
+#define IDH_PROPPAGE_MEDIUM                     0x20132
+#define IDH_PROPPAGE_LANGUAGE                   0x20132
+#define IDH_PROPPAGE_PROMPT                     0x20133
+#define IDH_PROPPAGE_EXPORT                     0x20134
+#define IDH_PROPPAGE_DENSITO                    0x20135

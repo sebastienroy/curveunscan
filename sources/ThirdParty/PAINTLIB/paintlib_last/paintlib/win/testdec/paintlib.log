@@ -1,0 +1,1037 @@
+--- Decoding file \prog\PAINTLIB\otherlib\NETPBM\PPM\4107.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Decoder error: Bitmap decoder: BITMAPINFOHEADER has wrong size.
+Error decoding \prog\PAINTLIB\otherlib\NETPBM\PPM\4107.BMP: Decoder error: Bitmap decoder: BITMAPINFOHEADER has wrong size.
+--- Decoding file \prog\PAINTLIB\otherlib\libtiff\html\images\bali.jpg. ---
+JPEG file recognized.
+--- Decoding file \prog\PAINTLIB\otherlib\libtiff\html\images\cover.jpg. ---
+JPEG file recognized.
+--- Decoding file \prog\PAINTLIB\otherlib\libtiff\html\images\jello.jpg. ---
+JPEG file recognized.
+--- Decoding file \prog\PAINTLIB\otherlib\libtiff\html\images\quad.jpg. ---
+JPEG file recognized.
+--- Decoding file \prog\PAINTLIB\otherlib\libtiff\html\images\smallliz.jpg. ---
+JPEG file recognized.
+--- Decoding file \prog\PAINTLIB\otherlib\dibimage\res\Toolbar.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\otherlib\dibimage\res\tools.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\otherlib\libpng\pngtest.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\otherlib\libjpeg\testimg.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 8 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\otherlib\libjpeg\testimg.jpg. ---
+JPEG file recognized.
+--- Decoding file \prog\PAINTLIB\otherlib\libjpeg\testimgp.jpg. ---
+JPEG file recognized.
+--- Decoding file \prog\PAINTLIB\otherlib\libjpeg\testorig.jpg. ---
+JPEG file recognized.
+--- Decoding file \prog\PAINTLIB\otherlib\libjpeg\testprog.jpg. ---
+JPEG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\rgb1.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding 1 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\testpic\rgb24.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding 24 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\testpic\rgb4.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\testpic\rgbrle4.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding RLE4-compressed bitmap.
+--- Decoding file \prog\PAINTLIB\testpic\rgbrle8.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding RLE8-compressed bitmap.
+--- Decoding file \prog\PAINTLIB\testpic\rgb8.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 8 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\testpic\rgb.eps. ---
+TIFF preview in EPS file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\rgb24.jpg. ---
+JPEG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\logo.jpg. ---
+JPEG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\rgb1.pct. ---
+Mac PICT recognized.
+Decoding mac pict.
+PICT version 2 found.
+Opcode: Header.
+Opcode: DefHilite
+Opcode: Clip
+Opcode: PackBitsRect
+PixMap header info:
+  Bounds: (0,0) (199,199).
+  version: 0x0
+  packType: 0
+  packSize: 0
+  pixelSize: 1
+  cmpCount: 1
+  cmpSize: 1.
+  planeBytes: 0.
+Palette Size:  2
+--- Decoding file \prog\PAINTLIB\testpic\rgb8.pct. ---
+Mac PICT recognized.
+Decoding mac pict.
+PICT version 2 found.
+Opcode: Header.
+Opcode: DefHilite
+Opcode: Clip
+Opcode: PackBitsRect
+PixMap header info:
+  Bounds: (0,0) (199,199).
+  version: 0x0
+  packType: 0
+  packSize: 0
+  pixelSize: 8
+  cmpCount: 1
+  cmpSize: 8.
+  planeBytes: 0.
+Palette Size:  150
+--- Decoding file \prog\PAINTLIB\testpic\rgb2.pct. ---
+Mac PICT recognized.
+Decoding mac pict.
+PICT version 2 found.
+Opcode: Header.
+Opcode: DefHilite
+Opcode: Clip
+Opcode: PackBitsRect
+PixMap header info:
+  Bounds: (0,0) (199,199).
+  version: 0x0
+  packType: 0
+  packSize: 0
+  pixelSize: 2
+  cmpCount: 1
+  cmpSize: 2.
+  planeBytes: 0.
+Palette Size:  4
+--- Decoding file \prog\PAINTLIB\testpic\rgb32.pct. ---
+Mac PICT recognized.
+Decoding mac pict.
+PICT version 2 found.
+Opcode: Header.
+Opcode: DefHilite
+Opcode: Clip
+Opcode: Opcode_9A
+PixMap header info:
+  Bounds: (0,0) (199,199).
+  version: 0x0
+  packType: 4
+  packSize: 0
+  pixelSize: 32
+  cmpCount: 3
+  cmpSize: 8.
+  planeBytes: 0.
+--- Decoding file \prog\PAINTLIB\testpic\rgb4.pct. ---
+Mac PICT recognized.
+Decoding mac pict.
+PICT version 2 found.
+Opcode: Header.
+Opcode: DefHilite
+Opcode: Clip
+Opcode: PackBitsRect
+PixMap header info:
+  Bounds: (0,0) (199,199).
+  version: 0x0
+  packType: 0
+  packSize: 0
+  pixelSize: 4
+  cmpCount: 1
+  cmpSize: 4.
+  planeBytes: 0.
+Palette Size:  16
+--- Decoding file \prog\PAINTLIB\testpic\figure1.pct. ---
+Mac PICT recognized.
+Decoding mac pict.
+PICT version 1 found.
+Opcode: Clip
+Opcode: PackBitsRect
+Reading version 1 bitmap.
+  Bounds (0,0) (176,106).
+--- Decoding file \prog\PAINTLIB\testpic\rgb15rle.tga. ---
+TGA file recognized.
+Decoding TGA.
+--- Decoding file \prog\PAINTLIB\testpic\rgb16rle.tga. ---
+TGA file recognized.
+Decoding TGA.
+--- Decoding file \prog\PAINTLIB\testpic\rgb24.tga. ---
+TGA file recognized.
+Decoding TGA.
+--- Decoding file \prog\PAINTLIB\testpic\rgb24rle.tga. ---
+TGA file recognized.
+Decoding TGA.
+--- Decoding file \prog\PAINTLIB\testpic\rgb32.tga. ---
+TGA file recognized.
+Decoding TGA.
+--- Decoding file \prog\PAINTLIB\testpic\grey.tga. ---
+TGA file recognized.
+Decoding TGA.
+--- Decoding file \prog\PAINTLIB\testpic\rgb15.tga. ---
+TGA file recognized.
+Decoding TGA.
+--- Decoding file \prog\PAINTLIB\testpic\rgb16.tga. ---
+TGA file recognized.
+Decoding TGA.
+--- Decoding file \prog\PAINTLIB\testpic\rgb32rle.tga. ---
+TGA file recognized.
+Decoding TGA.
+--- Decoding file \prog\PAINTLIB\testpic\rgb8.tga. ---
+TGA file recognized.
+Decoding TGA.
+--- Decoding file \prog\PAINTLIB\testpic\rgb24lzw.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\rgb32lzw.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\rgb4lzw.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\rgb8.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\rgb24.tif. ---
+TIFF file recognized.
+Warning in LIBTIFF: unknown field with tag 13626056 (0x6e6b6e75) ignored
+Warning in LIBTIFF: TIFF directory is missing required "ÊH" field, calculating from imagelength
+--- Decoding file \prog\PAINTLIB\testpic\rgb24pb.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\rgb32.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\rgb8lzw.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\tiff\flag_t24.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\tiff\t1.tif. ---
+TIFF file recognized.
+Warning in LIBTIFF: unknown field with tag 13625452 (0x6e6b6e75) ignored
+--- Decoding file \prog\PAINTLIB\testpic\tiff\t2.tif. ---
+TIFF file recognized.
+Warning in LIBTIFF: unknown field with tag 13625452 (0x6e6b6e75) ignored
+--- Decoding file \prog\PAINTLIB\testpic\tiff\xing_t24.tif. ---
+TIFF file recognized.
+Warning in LIBTIFF: TIFF directory is missing required "ÊH" field, calculating from imagelength
+--- Decoding file \prog\PAINTLIB\testpic\tiff\pics\fax2d.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\tiff\pics\jim___dg.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\tiff\pics\jim___ah.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\tiff\pics\oxford.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\tiff\pics\smallliz.tif. ---
+TIFF file recognized.
+Warning in LIBTIFF: unknown field with tag 13624848 (0x6e6b6e75) ignored
+Warning in LIBTIFF: unknown field with tag 13624848 (0x6e6b6e75) ignored
+Warning in LIBTIFF: unknown field with tag 13624848 (0x6e6b6e75) ignored
+Warning in LIBTIFF: unknown field with tag 13624848 (0x6e6b6e75) ignored
+Warning in LIBTIFF: unknown field with tag 13624848 (0x6e6b6e75) ignored
+Warning in LIBTIFF: unknown field with tag 13624848 (0x6e6b6e75) ignored
+Warning in LIBTIFF: unknown field with tag 13624848 (0x6e6b6e75) ignored
+--- Decoding file \prog\PAINTLIB\testpic\tiff\pics\g3test.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\tiff\pics\jello.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\tiff\pics\jim___cg.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\tiff\pics\jim___gg.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\tiff\pics\strike.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\tiff\pics\ycbcr-~1.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\tiff\pics\zackth~1.tif. ---
+TIFF file recognized.
+Warning in LIBTIFF: unknown field with tag 13624848 (0x6e6b6e75) ignored
+Warning in LIBTIFF: unknown field with tag 13624848 (0x6e6b6e75) ignored
+Warning in LIBTIFF: unknown field with tag 13624848 (0x6e6b6e75) ignored
+Warning in LIBTIFF: unknown field with tag 13624848 (0x6e6b6e75) ignored
+--- Decoding file \prog\PAINTLIB\testpic\macpict\txx.pct. ---
+Mac PICT recognized.
+Decoding mac pict.
+PICT version 2 found.
+Opcode: Header.
+Opcode: Clip
+Opcode: Opcode_9A
+PixMap header info:
+  Bounds: (0,0) (200,200).
+  version: 0x0
+  packType: 4
+  packSize: 0
+  pixelSize: 32
+  cmpCount: 3
+  cmpSize: 8.
+  planeBytes: 0.
+--- Decoding file \prog\PAINTLIB\testpic\macpict\t4.pct. ---
+Mac PICT recognized.
+Decoding mac pict.
+PICT version 2 found.
+Opcode: Header.
+Opcode: Clip
+Opcode: JPEG.
+--- Decoding file \prog\PAINTLIB\testpic\macpict\t5.pct. ---
+Mac PICT recognized.
+Decoding mac pict.
+PICT version 2 found.
+Opcode: Header.
+Opcode: Clip
+Opcode: JPEG.
+--- Decoding file \prog\PAINTLIB\testpic\macpict\t2.pct. ---
+Mac PICT recognized.
+Decoding mac pict.
+PICT version 2 found.
+Opcode: Header.
+Opcode: Clip
+Opcode: Opcode_9A
+PixMap header info:
+  Bounds: (0,0) (200,200).
+  version: 0x0
+  packType: 3
+  packSize: 0
+  pixelSize: 16
+  cmpCount: 3
+  cmpSize: 5.
+  planeBytes: 0.
+--- Decoding file \prog\PAINTLIB\testpic\macpict\t3.pct. ---
+Mac PICT recognized.
+Decoding mac pict.
+PICT version 2 found.
+Opcode: Header.
+Opcode: Clip
+Opcode: JPEG.
+--- Decoding file \prog\PAINTLIB\testpic\macpict\t6.pct. ---
+Mac PICT recognized.
+Decoding mac pict.
+PICT version 2 found.
+Opcode: Header.
+Opcode: Clip
+Opcode: JPEG.
+--- Decoding file \prog\PAINTLIB\testpic\macpict\t1.pct. ---
+Mac PICT recognized.
+Decoding mac pict.
+PICT version 2 found.
+Opcode: Header.
+Opcode: Clip
+Opcode: Opcode_9A
+PixMap header info:
+  Bounds: (0,0) (200,200).
+  version: 0x0
+  packType: 4
+  packSize: 0
+  pixelSize: 32
+  cmpCount: 3
+  cmpSize: 8.
+  planeBytes: 0.
+--- Decoding file \prog\PAINTLIB\testpic\macpict\t7.pct. ---
+Mac PICT recognized.
+Decoding mac pict.
+PICT version 2 found.
+Opcode: Header.
+Opcode: Clip
+Opcode: Opcode_9A
+PixMap header info:
+  Bounds: (0,0) (200,200).
+  version: 0x0
+  packType: 4
+  packSize: 0
+  pixelSize: 32
+  cmpCount: 4
+  cmpSize: 8.
+  planeBytes: 0.
+--- Decoding file \prog\PAINTLIB\testpic\vollant\1_2_pari.pct. ---
+Mac PICT recognized.
+Decoding mac pict.
+PICT version 2 found.
+Opcode: Header.
+Opcode: DefHilite
+Opcode: Clip
+Opcode: JPEG.
+Decoder error: PICT file contains unrecognized quicktime data.
+
+Error decoding \prog\PAINTLIB\testpic\vollant\1_2_pari.pct: Decoder error: PICT file contains unrecognized quicktime data.
+
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basi0g01.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basi0g02.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basi0g04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basi0g08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basi0g16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basi2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basi2c16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basi3p01.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basi3p02.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basi3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basi3p08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basi4a08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basi4a16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basi6a08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basi6a16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basn0g01.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basn0g02.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basn0g04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basn0g08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basn0g16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basn2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basn2c16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basn3p01.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basn3p02.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basn3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basn3p08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basn4a08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basn4a16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basn6a08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\basn6a16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\bgai4a08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\bgai4a16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\bgan6a08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\bgan6a16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\bgbn4a08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\bggn4a16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\bgwn6a08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\bgyn6a16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\ccwn2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\ccwn3p08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\cdfn2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\cdhn2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\cdsn2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\cdun2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\ch1n3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\ch2n3p08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\cm0n0g04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\cm7n0g04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\cm9n0g04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\cs3n2c16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\cs3n3p08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\cs5n2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\cs5n3p08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\cs8n2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\cs8n3p08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\ct0n0g04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\ct1n0g04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\ctzn0g04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\f00n0g08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\f00n2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\f01n0g08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\f01n2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\f02n0g08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\f02n2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\f03n0g08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\f03n2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\f04n0g08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\f04n2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\g03n0g16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\g03n2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\g03n3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\g04n0g16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\g04n2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\g04n3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\g05n0g16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\g05n2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\g05n3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\g07n0g16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\g07n2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\g07n3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\g10n0g16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\g10n2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\g10n3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\g25n0g16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\g25n2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\g25n3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\oi1n0g16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\oi1n2c16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\oi2n0g16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\oi2n2c16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\oi4n0g16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\oi4n2c16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\oi9n0g16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\oi9n2c16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\pngsuite_logo.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\pp0n0g08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\pp0n2c16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\ps1n0g08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\ps1n2c16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\ps2n0g08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\ps2n2c16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s01i3p01.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s01n3p01.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s02i3p01.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s02n3p01.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s03i3p01.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s03n3p01.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s04i3p01.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s04n3p01.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s05i3p02.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s05n3p02.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s06i3p02.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s06n3p02.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s07i3p02.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s07n3p02.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s08i3p02.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s08n3p02.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s09i3p02.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s09n3p02.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s32i3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s32n3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s33i3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s33n3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s34i3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s34n3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s35i3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s35n3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s36i3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s36n3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s37i3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s37n3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s38i3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s38n3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s39i3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s39n3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s40i3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\s40n3p04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\tbbn1g04.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\tbbn2c16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\tbbn3p08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\tbgn2c16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\tbgn3p08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\tbrn2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\tbwn1g16.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\tbwn3p08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\tbyn3p08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\tp0n1g08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\tp0n2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\tp0n3p08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\tp1n3p08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\x00n0g01.png. ---
+PNG file recognized.
+Decoder error: Invalid image size in IHDR
+Error decoding \prog\PAINTLIB\testpic\pngsuite\x00n0g01.png: Decoder error: Invalid image size in IHDR
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\xcrn0g04.png. ---
+PNG file recognized.
+Decoder error: PNG file corrupted by ASCII conversion
+Error decoding \prog\PAINTLIB\testpic\pngsuite\xcrn0g04.png: Decoder error: PNG file corrupted by ASCII conversion
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\xlfn0g04.png. ---
+PNG file recognized.
+Decoder error: PNG file corrupted by ASCII conversion
+Error decoding \prog\PAINTLIB\testpic\pngsuite\xlfn0g04.png: Decoder error: PNG file corrupted by ASCII conversion
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\z00n2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\z03n2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\z06n2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\pngsuite\z09n2c08.png. ---
+PNG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\kaputt\trunct.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Error decoding \prog\PAINTLIB\testpic\kaputt\trunct.bmp: End of file reached while decoding.
+--- Decoding file \prog\PAINTLIB\testpic\kaputt\trunct.jpg. ---
+JPEG file recognized.
+--- Decoding file \prog\PAINTLIB\testpic\kaputt\trunct.tga. ---
+TGA file recognized.
+Decoding TGA.
+Error decoding \prog\PAINTLIB\testpic\kaputt\trunct.tga: End of file reached while decoding.
+--- Decoding file \prog\PAINTLIB\code\win\testdib\res\test3.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding 1 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\code\win\testdib\res\test8.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 8 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\code\win\testdib\res\test32.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\code\win\testdib\res\test4.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\code\win\testdib\res\test16.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\code\win\testdib\pics\logo.jpg. ---
+JPEG file recognized.
+--- Decoding file \prog\PAINTLIB\code\win\testdib\pics\logo1.jpg. ---
+JPEG file recognized.
+--- Decoding file \prog\PAINTLIB\code\win\testdib\pics\canvas.jpg. ---
+JPEG file recognized.
+--- Decoding file \prog\PAINTLIB\code\win\testdib\pics\logoalph.pct. ---
+Mac PICT recognized.
+Decoding mac pict.
+PICT version 2 found.
+Opcode: Header.
+Opcode: LongComment
+Opcode: Clip
+Opcode: PackBitsRect
+PixMap header info:
+  Bounds: (0,0) (206,70).
+  version: 0x0
+  packType: 0
+  packSize: 0
+  pixelSize: 8
+  cmpCount: 1
+  cmpSize: 8.
+  planeBytes: 0.
+Palette Size:  256
+--- Decoding file \prog\PAINTLIB\code\win\testdec\res\test3.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding 1 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\code\win\testdec\res\test8.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 8 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\code\win\testdec\res\test32.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\code\win\testdec\res\test4.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\code\win\testdec\res\test16.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\code\win\piclook\res\Toolbar.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\code\win\piclook\res\bmp00001.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\code\win\piclook\res\bmp00002.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\distrib\code\win\testdib\res\test3.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding 1 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\distrib\code\win\testdib\res\test8.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 8 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\distrib\code\win\testdib\res\test32.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\distrib\code\win\testdib\res\test4.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\distrib\code\win\testdib\res\test16.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\distrib\code\win\testdib\pics\logo.jpg. ---
+JPEG file recognized.
+--- Decoding file \prog\PAINTLIB\distrib\code\win\testdib\pics\logo1.jpg. ---
+JPEG file recognized.
+--- Decoding file \prog\PAINTLIB\distrib\code\win\testdib\pics\canvas.jpg. ---
+JPEG file recognized.
+--- Decoding file \prog\PAINTLIB\distrib\code\win\testdib\pics\logoalph.pct. ---
+Mac PICT recognized.
+Decoding mac pict.
+PICT version 2 found.
+Opcode: Header.
+Opcode: LongComment
+Opcode: Clip
+Opcode: PackBitsRect
+PixMap header info:
+  Bounds: (0,0) (206,70).
+  version: 0x0
+  packType: 0
+  packSize: 0
+  pixelSize: 8
+  cmpCount: 1
+  cmpSize: 8.
+  planeBytes: 0.
+Palette Size:  256
+--- Decoding file \prog\PAINTLIB\distrib\code\win\testdec\res\test3.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding 1 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\distrib\code\win\testdec\res\test8.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 8 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\distrib\code\win\testdec\res\test32.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\distrib\code\win\testdec\res\test4.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\distrib\code\win\testdec\res\test16.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\PAINTLIB\www\pics\src\border.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\PAINTLIB\www\pics\src\content.tif. ---
+TIFF file recognized.
+Warning in LIBTIFF: TIFF directory is missing required "ÊH" field, calculating from imagelength
+--- Decoding file \prog\PAINTLIB\www\pics\src\home.tif. ---
+TIFF file recognized.
+Warning in LIBTIFF: TIFF directory is missing required "ÊH" field, calculating from imagelength
+--- Decoding file \prog\PAINTLIB\www\pics\src\logo.tif. ---
+TIFF file recognized.
+Warning in LIBTIFF: unknown field with tag 13624848 (0x6e6b6e75) ignored
+--- Decoding file \prog\PAINTLIB\www\pics\src\logo0.tif. ---
+TIFF file recognized.
+Warning in LIBTIFF: unknown field with tag 13624848 (0x6e6b6e75) ignored
+--- Decoding file \prog\PAINTLIB\www\pics\src\logo1.tif. ---
+TIFF file recognized.
+Warning in LIBTIFF: unknown field with tag 13624848 (0x6e6b6e75) ignored
+--- Decoding file \prog\PAINTLIB\www\pics\src\logobk.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\FONDS\SRC\SOFAL1.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\FONDS\SRC\RES\ABOUT1.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding RLE4-compressed bitmap.
+--- Decoding file \prog\FONDS\SRC\RES\ABOUT2.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding RLE4-compressed bitmap.
+Decoder error: Encountered delta escape.
+Error decoding \prog\FONDS\SRC\RES\ABOUT2.BMP: Decoder error: Encountered delta escape.
+--- Decoding file \prog\INLINE\SRC\RES\LOADERR.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 8 bit per pixel bitmap.
+--- Decoding file \prog\INLINE\SRC\TEST\PALETTE\RES\TOOLBAR.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\SENGAI\PARTNER\MAPPE\BILD1.EPS. ---
+TIFF preview in EPS file recognized.
+--- Decoding file \prog\SENGAI\PARTNER\MAPPE\BILD2.EPS. ---
+TIFF preview in EPS file recognized.
+--- Decoding file \prog\SENGAI\PARTNER\MAPPE\BILD3.EPS. ---
+TIFF preview in EPS file recognized.
+--- Decoding file \prog\SENGAI\PARTNER\MAPPE\BILD4.EPS. ---
+TIFF preview in EPS file recognized.
+--- Decoding file \prog\SENGAI\PARTNER\MAPPE\BILD5.EPS. ---
+TIFF preview in EPS file recognized.
+--- Decoding file \prog\SENGAI\PARTNER\MAPPE\SCREEN.TIF. ---
+TIFF file recognized.
+--- Decoding file \prog\SENGAI\PARTNER\MAPPE\SCREEN2.TIF. ---
+TIFF file recognized.
+--- Decoding file \prog\SENGAI\PARTNER\MAPPE\SCRNSHOT.TIF. ---
+TIFF file recognized.
+--- Decoding file \prog\SENGAI\SCRLLTXT\NASA.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 8 bit per pixel bitmap.
+--- Decoding file \prog\SENGAI\SRC\RES\TOOLBAR.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\SENGAI\SRC\RES\SHIPSEL.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\SENGAI\SRC\RES\SHIP.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\SENGAI\SRC\RES\BITMAP1.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 8 bit per pixel bitmap.
+--- Decoding file \prog\SENGAI\SRC\RES\MAPBAR.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\SENGAI\SRC\RES\OKBUTTON.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 8 bit per pixel bitmap.
+--- Decoding file \prog\SENGAI\SRC1\RES\TOOLBAR.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\SENGAI\SRC1\RES\SHIPSEL.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\SENGAI\SRC1\RES\SHIP.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\SENGAI\SRC1\RES\BITMAP1.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\SENGAI\SRC1\RES\MAPBAR.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\SENGAI\SRC2\RES\TOOLBAR.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\SENGAI\SRC2\RES\SHIPSEL.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\SENGAI\SRC2\RES\SHIP.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\SENGAI\SRC2\RES\BITMAP1.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\TOOL\GOODIES\SplashScreen\Release\test.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 8 bit per pixel bitmap.
+--- Decoding file \prog\TOOL\GOODIES\SplashScreen\RES\Toolbar.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\TOOL\GOODIES\SplashScreen\RES\TEST.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding RLE8-compressed bitmap.
+--- Decoding file \prog\TOOL\GOODIES\SplashScreen\Debug\test.bmp. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 8 bit per pixel bitmap.
+--- Decoding file \prog\TOOL\PLAYGRND\PLAYGRND.BMP. ---
+Windows bitmap recognized.
+Bitmap file signature found
+Bitmap header is ok.
+Decoding uncompressed 4 bit per pixel bitmap.
+--- Decoding file \prog\adalondecd\bilder\castle.tif. ---
+TIFF file recognized.
+--- Decoding file \prog\adalondecd\bilder\castle1.tif. ---
+TIFF file recognized.
+Warning in LIBTIFF: unknown field with tag 13626056 (0x6e6b6e75) ignored

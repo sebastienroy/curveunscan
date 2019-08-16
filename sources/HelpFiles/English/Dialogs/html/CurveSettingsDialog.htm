@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Options : Continuous curve</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/Dialogs/html/helpstyle.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<h2>Options : Continuous curve </h2>
+<p>With this panel, you can change the default values used for the construction 
+  of the continuous curves.</p>
+<h3>Line thickness compensation algorithm</h3>
+<p>Two different algorithms can be used for the line thickness compensation :</p>
+<p><b>&quot;basic&quot; algorithm </b>: moves the points of the recognized curve 
+  with a fixed value. The apparent compensation is so not the same on sharp parts 
+  of the curve than on flat ones.</p>
+<p><b>&quot;Smart&quot; algorithm</b> : adjusts the compensation depending on 
+  the curve derivative. This results to a better compensation, either on flat 
+  parts or on sharp ones. The curve derivative is computed around each point using 
+  a range of the neighbor points. The number of points used to compute this derivative 
+  can be adjusted from 1 to 32. High values can lead to a bad compensation due 
+  to the &quot;inertia&quot; of the computation, especially with complicated curves.<br>
+</p>
+<h3>Threshold color</h3>
+<p>The threshold color is the color used to differentiate the points belonging 
+  to the curve from the points belonging to the background of the graphic. This 
+  color is taken into account during the identification of colored and gray scale 
+  graphics. This color is defined with each of its components : red, green, blue. 
+  Each component has a value comprised between 0 (darkest) and 255 (brightest). 
+  A pixel of the graphic is considered as belonging to the curve if each of its 
+  component values are lower than the threshold color ones.</p>
+<p>A too dark threshold color leads to a bad curve identification if the graphic 
+  is weekly contrasted.</p>
+<p>A too bright threshold color leads to the confusion between the &quot;background 
+  noise&quot; of the graphic and the curve.</p>
+<p>In order to change the threshold color, click on the colored button.</p>
+<h3></h3>
+<h3>Followed side </h3>
+<p>The curve identification is made by following the line, either the top side 
+  of the curve or the bottom side. If the curve contains sharp positive peaks, 
+  following the top leads to better results (contrarily, if the curve contains 
+  negative peaks, following the bottom is better). </p>
+<h3>Dashed curve</h3>
+<p>By specifying that the curve is dashed, its following is not stopped after 
+  each dash but is continued to the next dashes. The <b>maximal distance</b> between 
+  dashes can also be changed.</p>
+<h3>Default values</h3>
+<p>When this button is clicked, all the preview values are set to their defaults.</p>
+<p>&nbsp;</p>
+</body>
+</html>

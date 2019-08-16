@@ -1,0 +1,8 @@
+; InstallFc.def : Declares the module parameters for the DLL.
+
+LIBRARY      "InstallFc"
+DESCRIPTION  'InstallFc Windows Dynamic Link Library'
+
+EXPORTS
+	SetFirstUse		@1
+	HelloSeb		@2

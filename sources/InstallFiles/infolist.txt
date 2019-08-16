@@ -1,0 +1,2 @@
+The aim of this software is to calculate coordinates of bitmap curves resulting from the scan of paper documents.
+Those coordinates are saved into text files which are directly readable with MS-Excel for instance.

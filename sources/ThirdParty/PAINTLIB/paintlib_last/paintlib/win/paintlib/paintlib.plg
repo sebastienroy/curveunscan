@@ -1,0 +1,685 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libjpeg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP7F.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GX /O2 /Ob2 /I "." /I "..\..\..\otherlib\libjpeg" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"..\..\..\obj\Release/libjpeg.pch" /YX /Fo"..\..\..\obj\Release/" /c 
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libjpeg\Jcapimin.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libjpeg\Jcapistd.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libjpeg\Jccoefct.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libjpeg\Jccolor.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libjpeg\Jcdctmgr.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libjpeg\Jchuff.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libjpeg\Jcinit.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libjpeg\Jcmainct.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libjpeg\Jcmarker.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libjpeg\Jcmaster.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jcomapi.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libjpeg\Jcparam.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libjpeg\Jcphuff.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libjpeg\Jcprepct.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libjpeg\Jcsample.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libjpeg\Jctrans.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jdapimin.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jdapistd.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jdatadst.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jdatasrc.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jdcoefct.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jdcolor.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jddctmgr.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jdhuff.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jdinput.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jdmainct.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jdmarker.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jdmaster.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jdmerge.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jdphuff.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jdpostct.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jdsample.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jdtrans.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jerror.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libjpeg\Jfdctflt.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jidctflt.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jidctfst.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jidctint.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jidctred.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jmemmgr.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jmemnobs.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jquant1.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jquant2.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\libjpeg\jutils.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP7F.tmp" 
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP80.tmp" with contents
+[
+/nologo /out:"..\..\..\lib\Release\libjpeg.lib" 
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\Jcapimin.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\Jcapistd.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\Jccoefct.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\Jccolor.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\Jcdctmgr.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\Jchuff.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\Jcinit.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\Jcmainct.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\Jcmarker.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\Jcmaster.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jcomapi.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\Jcparam.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\Jcphuff.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\Jcprepct.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\Jcsample.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\Jctrans.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jdapimin.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jdapistd.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jdatadst.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jdatasrc.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jdcoefct.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jdcolor.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jddctmgr.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jdhuff.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jdinput.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jdmainct.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jdmarker.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jdmaster.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jdmerge.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jdphuff.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jdpostct.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jdsample.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jdtrans.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jerror.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\Jfdctflt.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jidctflt.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jidctfst.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jidctint.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jidctred.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jmemmgr.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jmemnobs.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jquant1.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jquant2.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jutils.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP80.tmp"
+<h3>Output Window</h3>
+Compiling...
+Jcapimin.c
+Jcapistd.c
+Jccoefct.c
+Jccolor.c
+Jcdctmgr.c
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libjpeg\Jcdctmgr.c(60) : warning C4101: 'dtbl' : unreferenced local variable
+Jchuff.c
+Jcinit.c
+Jcmainct.c
+Jcmarker.c
+Jcmaster.c
+jcomapi.c
+Jcparam.c
+Jcphuff.c
+Jcprepct.c
+Jcsample.c
+Jctrans.c
+jdapimin.c
+jdapistd.c
+jdatadst.c
+jdatasrc.c
+jdcoefct.c
+jdcolor.c
+jddctmgr.c
+jdhuff.c
+jdinput.c
+jdmainct.c
+jdmarker.c
+jdmaster.c
+jdmerge.c
+jdphuff.c
+jdpostct.c
+jdsample.c
+jdtrans.c
+jerror.c
+Jfdctflt.c
+jidctflt.c
+jidctfst.c
+jidctint.c
+jidctred.c
+jmemmgr.c
+jmemnobs.c
+jquant1.c
+jquant2.c
+jutils.c
+Creating library...
+<h3>
+--------------------Configuration: libpng - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP81.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GX /O2 /Ob2 /I "." /I "..\..\..\otherlib\libpng" /I "..\..\..\otherlib\zlib" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"..\..\..\obj\Release/libpng.pch" /YX /Fo"..\..\..\obj\Release/" /c 
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libpng\png.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libpng\pngerror.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libpng\pngget.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libpng\pngmem.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libpng\pngpread.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libpng\pngread.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libpng\pngrio.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libpng\pngrtran.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libpng\pngrutil.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libpng\pngset.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libpng\pngtest.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libpng\pngtrans.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libpng\pngwio.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libpng\pngwrite.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libpng\pngwtran.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libpng\pngwutil.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\zLib\adler32.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\zLib\crc32.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\zLib\deflate.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\zLib\infblock.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\zLib\infcodes.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\zLib\inffast.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\zLib\inflate.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\zLib\inftrees.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\zLib\infutil.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\zLib\trees.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\zLib\zutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP81.tmp" 
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP82.tmp" with contents
+[
+/nologo /out:"..\..\..\lib\Release\libpng.lib" 
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\png.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pngerror.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pngget.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pngmem.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pngpread.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pngread.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pngrio.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pngrtran.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pngrutil.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pngset.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pngtest.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pngtrans.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pngwio.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pngwrite.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pngwtran.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pngwutil.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\adler32.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\crc32.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\deflate.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\infblock.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\infcodes.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\inffast.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\inflate.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\inftrees.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\infutil.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\trees.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\zutil.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP82.tmp"
+<h3>Output Window</h3>
+Compiling...
+png.c
+pngerror.c
+pngget.c
+pngmem.c
+pngpread.c
+pngread.c
+pngrio.c
+pngrtran.c
+pngrutil.c
+pngset.c
+pngtest.c
+pngtrans.c
+pngwio.c
+pngwrite.c
+pngwtran.c
+pngwutil.c
+adler32.c
+crc32.c
+deflate.c
+infblock.c
+infcodes.c
+inffast.c
+inflate.c
+inftrees.c
+infutil.c
+trees.c
+zutil.c
+Creating library...
+<h3>
+--------------------Configuration: libtiff - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP83.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GX /O2 /Ob2 /I "." /I "..\..\..\otherlib\libtiff\libtiff" /I "..\..\..\otherlib\libjpeg" /I "..\libjpeg" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /Fp"..\..\..\obj\Release/libtiff.pch" /YX /Fo"..\..\..\obj\Release/" /Fd"..\..\..\obj\Release/" /FD /c 
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\win\libtiff\fax3sm.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_aux.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_close.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_codec.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_compress.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_dir.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_dirinfo.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_dirread.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_dirwrite.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_dumpmode.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_error.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_fax3.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_flush.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_getimage.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_jpeg.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libtiff\libtiff\tif_luv.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_next.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_open.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_packbits.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_predict.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_print.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_read.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_strip.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_swab.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_thunder.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_tile.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_version.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_warning.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_write.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_zip.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP83.tmp" 
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP84.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GX /Od /Ob2 /I "." /I "..\..\..\otherlib\libtiff\libtiff" /I "..\..\..\otherlib\libjpeg" /I "..\libjpeg" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /Fp"..\..\..\obj\Release/libtiff.pch" /YX /Fo"..\..\..\obj\Release/" /Fd"..\..\..\obj\Release/" /FD /c 
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_lzw.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP84.tmp" 
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP85.tmp" with contents
+[
+/nologo /out:"..\..\..\lib\Release\libtiff.lib" 
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\fax3sm.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_aux.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_close.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_codec.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_compress.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_dir.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_dirinfo.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_dirread.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_dirwrite.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_dumpmode.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_error.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_fax3.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_flush.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_getimage.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_jpeg.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_luv.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_lzw.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_next.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_open.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_packbits.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_predict.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_print.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_read.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_strip.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_swab.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_thunder.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_tile.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_version.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_warning.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_write.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_zip.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP85.tmp"
+<h3>Output Window</h3>
+Compiling...
+fax3sm.c
+tif_aux.c
+tif_close.c
+tif_codec.c
+tif_compress.c
+tif_dir.c
+tif_dirinfo.c
+tif_dirread.c
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_dirread.c(121) : warning C4018: '==' : signed/unsigned mismatch
+tif_dirwrite.c
+tif_dumpmode.c
+tif_error.c
+tif_fax3.c
+tif_flush.c
+tif_getimage.c
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_getimage.c(1545) : warning C4550: expression evaluates to a function which is missing an argument list
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_getimage.c(1546) : warning C4550: expression evaluates to a function which is missing an argument list
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_getimage.c(1547) : warning C4550: expression evaluates to a function which is missing an argument list
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_getimage.c(1548) : warning C4550: expression evaluates to a function which is missing an argument list
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_getimage.c(1549) : warning C4550: expression evaluates to a function which is missing an argument list
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_getimage.c(1550) : warning C4550: expression evaluates to a function which is missing an argument list
+tif_jpeg.c
+tif_luv.c
+tif_next.c
+tif_open.c
+tif_packbits.c
+tif_predict.c
+tif_print.c
+tif_read.c
+tif_strip.c
+tif_swab.c
+tif_thunder.c
+tif_tile.c
+tif_version.c
+tif_warning.c
+tif_write.c
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\Otherlib\Libtiff\libtiff\tif_write.c(385) : warning C4018: '>' : signed/unsigned mismatch
+tif_zip.c
+Compiling...
+tif_lzw.c
+Creating library...
+<h3>
+--------------------Configuration: libungif - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP86.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /Ob2 /D "NDEBUG" /D "WIN32" /D "_LIB" /D "_OPEN_BINARY" /D "HAVE_IO_H" /D CDECL=__cdecl /D open=_open /D close=_close /Fo"..\..\..\obj\Release/" /Fd"..\..\..\obj\Release/" /FD /c 
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\dev2gif.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\dgif_lib.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\egif_lib.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\getarg.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\gif_err.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\gif_font.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\gifalloc.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\qprintf.c"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\quantize.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP86.tmp" 
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP87.tmp" with contents
+[
+/nologo /out:"..\..\..\lib\Release\libungif.lib" 
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\dev2gif.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\dgif_lib.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\egif_lib.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\getarg.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\gif_err.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\gif_font.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\gifalloc.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\qprintf.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\quantize.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP87.tmp"
+<h3>Output Window</h3>
+Compiling...
+dev2gif.c
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\dev2gif.c(98) : warning C4101: 'j' : unreferenced local variable
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\dev2gif.c(98) : warning C4101: 'k' : unreferenced local variable
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\dev2gif.c(411) : warning C4101: 'ScreenByte' : unreferenced local variable
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\dev2gif.c(413) : warning C4101: 'BufferOffset' : unreferenced local variable
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\dev2gif.c(412) : warning C4101: 'i' : unreferenced local variable
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\dev2gif.c(412) : warning C4101: 'j' : unreferenced local variable
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\dev2gif.c(412) : warning C4101: 'k' : unreferenced local variable
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\dev2gif.c(413) : warning C4101: 'Bit' : unreferenced local variable
+dgif_lib.c
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\dgif_lib.c(63) : warning C4013: '_open' undefined; assuming extern returning int
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\dgif_lib.c(74) : warning C4013: '_close' undefined; assuming extern returning int
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\dgif_lib.c(921) : warning C4101: 'Error' : unreferenced local variable
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\dgif_lib.c(921) : warning C4101: 'i' : unreferenced local variable
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\dgif_lib.c(921) : warning C4101: 'j' : unreferenced local variable
+egif_lib.c
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\egif_lib.c(69) : warning C4013: '_open' undefined; assuming extern returning int
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\egif_lib.c(91) : warning C4013: '_close' undefined; assuming extern returning int
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\egif_lib.c(196) : warning C4101: 'Size' : unreferenced local variable
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\egif_lib.c(270) : warning C4101: 'Size' : unreferenced local variable
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\egif_lib.c(607) : warning C4101: 'NewKey' : unreferenced local variable
+C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\otherlib\libungif\lib\egif_lib.c(606) : warning C4101: 'NewCode' : unreferenced local variable
+getarg.c
+gif_err.c
+gif_font.c
+gifalloc.c
+qprintf.c
+quantize.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: paintlib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP88.bat" with contents
+[
+@echo off
+copy ..\..\common\plpixeldefs.vc ..\..\common\plpixeldefs.h
+]
+Creating command line "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP88.bat"
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP89.bat" with contents
+[
+@echo off
+copy ..\..\common\config.vc ..\..\common\config.h
+]
+Creating command line "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP89.bat"
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP8A.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GX /O2 /Ob2 /I "." /I "..\..\common" /I "..\..\common\filter" /I "..\libtiff" /I "..\..\..\otherlib\libtiff\libtiff" /I "..\libjpeg" /I "..\..\..\otherlib\libjpeg" /I "..\..\..\otherlib\libpng" /I "..\..\..\otherlib\zlib" /I "..\..\..\otherlib\libungif\lib" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"..\..\..\obj\Release/paintlib.pch" /Yu"plstdpch.h" /Fo"..\..\..\obj\Release/" /c 
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\Filter\PLFilter.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\Filter\PLFilterContrast.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\Filter\PLFilterCrop.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\Filter\PLFilterFill.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\Filter\PLFilterFlip.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\Filter\PLFilterGetAlpha.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\Filter\PLFilterGrayscale.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\Filter\PLFilterIntensity.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\Filter\PLFilterLightness.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\Filter\PLFilterMirror.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\Filter\PLFilterQuantize.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\Filter\PLFilterResize.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\Filter\PLFilterResizeBilinear.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\Filter\PLFilterResizeBox.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\Filter\PLFilterResizeGaussian.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\Filter\PLFilterResizeHamming.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\Filter\PLFilterThreshold.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\Filter\plfiltervideoinvert.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\Filter\plhsvconvert.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\win\paintlib\plddhelper.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\win\paintlib\plddrawbmp.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\win\paintlib\pldibsect.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\win\paintlib\plressrc.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\win\paintlib\plStreamSink.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\win\paintlib\plwemfdec.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\win\paintlib\plwinbmp.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\jmemdest.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\jmemsrc.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\planybmp.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\planydec.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\plbitmap.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\plbmpdec.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\plbmpenc.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\pldatasink.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\pldatasrc.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\plexcept.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\plfilesink.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\plfilesrc.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\plgifdec.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\pljpegdec.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\pljpegenc.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\plmemsink.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\plmemsrc.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\PLObject.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\plpcxdec.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\plpgmdec.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\plpicdec.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\plpicenc.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\plpictdec.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\plpngdec.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\plpngenc.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\plppmdec.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\plpsddec.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\pltgadec.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\pltiffdec.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\pltiffdecex.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\pltiffenc.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\pltiffencex.cpp"
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\pltrace.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP8A.tmp" 
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP8B.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GX /O2 /Ob2 /I "." /I "..\..\common" /I "..\..\common\filter" /I "..\libtiff" /I "..\..\..\otherlib\libtiff\libtiff" /I "..\libjpeg" /I "..\..\..\otherlib\libjpeg" /I "..\..\..\otherlib\libpng" /I "..\..\..\otherlib\zlib" /I "..\..\..\otherlib\libungif\lib" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"..\..\..\obj\Release/paintlib.pch" /Yc"plstdpch.h" /Fo"..\..\..\obj\Release/" /c 
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\common\plstdpch.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP8B.tmp" 
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP8C.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GX /O2 /Ob2 /I "." /I "..\..\common" /I "..\..\common\filter" /I "..\libtiff" /I "..\..\..\otherlib\libtiff\libtiff" /I "..\libjpeg" /I "..\..\..\otherlib\libjpeg" /I "..\..\..\otherlib\libpng" /I "..\..\..\otherlib\zlib" /I "..\..\..\otherlib\libungif\lib" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"..\..\..\obj\Release/" /c 
+"C:\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\paintlib\Common\tif_msrc.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP8C.tmp" 
+Performing Custom Build Step on ..\..\common\plpixeldefs.vc
+        1 fichier(s) copi‚(s).
+Performing Custom Build Step on ..\..\common\config.vc
+        1 fichier(s) copi‚(s).
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP8D.tmp" with contents
+[
+/nologo /out:"..\..\..\lib\Release\paintlib.lib" 
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\PLFilter.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\PLFilterContrast.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\PLFilterCrop.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\PLFilterFill.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\PLFilterFlip.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\PLFilterGetAlpha.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\PLFilterGrayscale.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\PLFilterIntensity.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\PLFilterLightness.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\PLFilterMirror.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\PLFilterQuantize.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\PLFilterResize.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\PLFilterResizeBilinear.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\PLFilterResizeBox.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\PLFilterResizeGaussian.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\PLFilterResizeHamming.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\PLFilterThreshold.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plfiltervideoinvert.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plhsvconvert.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plddhelper.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plddrawbmp.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pldibsect.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plressrc.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plStreamSink.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plwemfdec.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plwinbmp.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jmemdest.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\jmemsrc.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\planybmp.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\planydec.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plbitmap.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plbmpdec.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plbmpenc.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pldatasink.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pldatasrc.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plexcept.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plfilesink.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plfilesrc.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plgifdec.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pljpegdec.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pljpegenc.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plmemsink.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plmemsrc.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\PLObject.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plpcxdec.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plpgmdec.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plpicdec.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plpicenc.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plpictdec.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plpngdec.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plpngenc.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plppmdec.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plpsddec.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\plstdpch.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pltgadec.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pltiffdec.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pltiffdecex.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pltiffenc.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pltiffencex.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\pltrace.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\obj\Release\tif_msrc.obj"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\lib\Release\libjpeg.lib"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\lib\Release\libpng.lib"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\lib\Release\libtiff.lib"
+"\Mes documents\CurveUnscan\Dev\ThirdParty\PaintLib\paintlib_last\lib\Release\libungif.lib"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP8D.tmp"
+<h3>Output Window</h3>
+Compiling...
+plstdpch.cpp
+Compiling...
+PLFilter.cpp
+PLFilterContrast.cpp
+PLFilterCrop.cpp
+PLFilterFill.cpp
+PLFilterFlip.cpp
+PLFilterGetAlpha.cpp
+PLFilterGrayscale.cpp
+PLFilterIntensity.cpp
+PLFilterLightness.cpp
+PLFilterMirror.cpp
+PLFilterQuantize.cpp
+PLFilterResize.cpp
+PLFilterResizeBilinear.cpp
+PLFilterResizeBox.cpp
+PLFilterResizeGaussian.cpp
+PLFilterResizeHamming.cpp
+PLFilterThreshold.cpp
+plfiltervideoinvert.cpp
+plhsvconvert.cpp
+plddhelper.cpp
+Generating Code...
+Compiling...
+plddrawbmp.cpp
+pldibsect.cpp
+plressrc.cpp
+plStreamSink.cpp
+plwemfdec.cpp
+plwinbmp.cpp
+jmemdest.cpp
+jmemsrc.cpp
+planybmp.cpp
+planydec.cpp
+plbitmap.cpp
+plbmpdec.cpp
+plbmpenc.cpp
+pldatasink.cpp
+pldatasrc.cpp
+plexcept.cpp
+plfilesink.cpp
+plfilesrc.cpp
+plgifdec.cpp
+pljpegdec.cpp
+Generating Code...
+Compiling...
+pljpegenc.cpp
+plmemsink.cpp
+plmemsrc.cpp
+PLObject.cpp
+plpcxdec.cpp
+plpgmdec.cpp
+plpicdec.cpp
+plpicenc.cpp
+plpictdec.cpp
+plpngdec.cpp
+plpngenc.cpp
+plppmdec.cpp
+plpsddec.cpp
+pltgadec.cpp
+pltiffdec.cpp
+pltiffdecex.cpp
+pltiffenc.cpp
+pltiffencex.cpp
+pltrace.cpp
+Generating Code...
+Compiling...
+tif_msrc.c
+Creating library...
+
+
+
+<h3>Results</h3>
+paintlib.lib - 0 error(s), 28 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SettingsManagement - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSPD9.tmp" with contents
+[
+/nologo /G5 /MDd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "__MATH_H__" /U "__MWERKS__" /U "THINK_C" /U "VMS" /U "HAVE_UNISTD_H" /U "_AMIGA" /U "__TURBOC__" /FR"Debug/tmp/" /Fp"Debug/tmp/SettingsManagement.pch" /Yu"stdafx.h" /Fo"Debug/tmp/" /Fd"Debug/tmp/" /FD /GZ /c 
+"C:\Mes documents\CurveUnscan\Dev\CurrentVersion\SettingsManagement\DensitoProPage.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSPD9.tmp" 
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSPDA.tmp" with contents
+[
+/nologo /out:"Debug\SettingsManagement.lib" 
+".\Debug\tmp\AbstractSettingValue.obj"
+".\Debug\tmp\CurveProPage.obj"
+".\Debug\tmp\DoubleSettingValue.obj"
+".\Debug\tmp\ExportProPage.obj"
+".\Debug\tmp\IntSettingValue.obj"
+".\Debug\tmp\LanguageProPage.obj"
+".\Debug\tmp\PixelSettingValue.obj"
+".\Debug\tmp\PromptProPage.obj"
+".\Debug\tmp\SettingsManager.obj"
+".\Debug\tmp\StdAfx.obj"
+".\Debug\tmp\StringSettingValue.obj"
+".\Debug\tmp\SettingsManagement.res"
+".\Debug\tmp\DensitoPropage.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSPDA.tmp"
+<h3>Output Window</h3>
+Compiling...
+DensitoProPage.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+SettingsManagement.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

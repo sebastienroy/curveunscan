@@ -1,0 +1,56 @@
+
+Changes predating libungif 3.0 (news in the original libgif, in other words.)
+is in ONEWS
+
+Version 4.1.0
+============
+* Several minor memory leaks in error conditions have been plugged.
+* New Function EGifOpen(void *userData, OutputFunc writeFunc) allows user
+  specified gif writing functions.
+* Old copyright notices in a few source files have been updated.  All library
+  copyrights should now reflect the copyright notice in the COPYING file.
+
+Version 4.0.0
+=============
+Major fixes have been made to the code that handles Extensions.
+Unfortunately, this causes binary incompatibility with giflib-3.0 and
+libungif-3.x.  However, the API is still intact.  I am, however, deprecating
+the use of saveImage[x].Function.  Use
+saveImage[x].ExtensionBlocks[y].Function instead.
+
+Version 3.1.1
+=============
+ The following bugs which caused SegFaults have been fixed:
+ * When reading gif files with extensions, DGifSlurp would violate memory.
+ * When closing a gif that had a local colormap, DGifCloseFile would attempt
+   to free the colormap twice.
+ * Fix a potential memory leak in DGifSlurp.
+The following enhancements have been made:
+ * New function DGifOpen to allow specifying a user definable gif reading
+   function.
+
+Version 3.1.0
+=============
+ * Add a new function:
+        GifFileType *DGifOpen(void * userData, InputFunc readFunc)
+   to read the gif image from a user defined input function.
+ * A few bugfixes.
+
+Version 3.0
+===========
+Changes from Eric Raymond's libgif:
+ * A new gif encoder that makes uncompressed gifs rather than standard,
+   LZW-compressed gifs.  This is actually the major motivating factor behind
+   libungif; to provide third-party distributors a means to provide a gif
+   library without the patented LZW encoder.
+
+ * A new configure script to make compilation of the library on multiple
+   platforms easier.  The package should now build shared libraries on all
+   platforms supported by GNU libtool.
+
+ * Removed the getarg functions from libgif.  These were not part of the
+   public API and only used by the tools in the utils directory so I separated
+   them from the rest of the library.
+
+ * Fixed a few bugs in the tools in the utils directory.
+

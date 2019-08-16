@@ -1,0 +1,134 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=CurveUnscan.chm
+Contents file=CurveUnscan.hhc
+Default Window=CurveUnscanMainHelpWindow
+Default topic=Presentation/index.htm
+Display compile progress=No
+Index file=CurveUnscan.hhk
+Language=0x40c Français (France)
+Title=Index
+
+[WINDOWS]
+CurveUnscanMainHelpWindow="Aide de CurveUnscan","curveunscan.hhc","CurveUnscan.hhk","Presentation\index.htm","Presentation\index.htm",,,,,0x121,250,0x284e,[0,0,640,480],0x118b0000,,,,,,0
+DialogWindow="Aide de CurveUnscan","CurveUnscan.hhc","CurveUnscan.hhk","Presentation\index.htm","Presentation\index.htm",,,,,0x121,,0x80e,[196,82,774,551],0x10830000,,,1,,,0
+CommandWindow="Aide de CurveUnscan","CurveUnscan.hhc","CurveUnscan.hhk","Presentation\index.htm","Presentation\index.htm",,,,,0x121,,0x802,[196,82,796,482],0x10830000,,,1,,,0
+FormWindow="Bon de commande","CurveUnscan.hhc","CurveUnscan.hhk","html\form.htm","html\form.htm",,,,,0x20,,0x2000,[100,100,732,667],0x20000,,,1,,,0
+
+
+[FILES]
+Dialogs\html\SaveCurveDialog.htm
+Dialogs\html\CurveKindDialog.htm
+Dialogs\html\CurveLimitsDialog.htm
+Dialogs\html\DiscreteDialog.htm
+Dialogs\html\HandModificationDialog.htm
+Dialogs\html\PeriodDialog.htm
+Dialogs\html\CurveIdentificationDialog.htm
+Commands\html\SaveCurvesCommand.htm
+Commands\html\DeleteCommand.htm
+Commands\html\ExitCommand.htm
+Commands\html\ModifyCommand.htm
+Commands\html\NewContinuousCommand.htm
+Commands\html\NewCoordinatesCommand.htm
+Commands\html\NewDiscreteCommand.htm
+Commands\html\OpenBitmapCommand.htm
+Commands\html\BothCommand.htm
+Commands\html\ZoomCommand.htm
+Commands\html\ToolbarCommand.htm
+html\form.htm
+Dialogs\html\ContinuousCurveOptionDialog.htm
+Presentation\IntroEnregistrement.htm
+Presentation\DidacChoix.htm
+Presentation\DidacContinue.htm
+Presentation\DidacDiscrete.htm
+Presentation\DidacEnregistrement.htm
+Presentation\DidacEtapes.htm
+Presentation\DidacIdentification.htm
+Presentation\DidacInterval.htm
+Presentation\DidacModification.htm
+Presentation\DidacOption.htm
+Presentation\DidacScannage.htm
+Presentation\Didactitiel.htm
+Presentation\editeur.htm
+Presentation\index.htm
+Presentation\Intro.htm
+Presentation\IntroAlgo.htm
+Presentation\introCoordonnees.htm
+Presentation\IntroCourbes.htm
+Presentation\DidacAxe.htm
+Dialogs\html\YAxisDialog.htm
+Dialogs\html\XAxisDialog.htm
+Dialogs\html\MaxDashDistDialog.htm
+Commands\html\OpenDocumentCommand.htm
+Commands\html\SaveDocumentCommand.htm
+Commands\html\OptionsCommand.htm
+Dialogs\html\CurveSettingsDialog.htm
+Dialogs\html\LanguageSettingsDialog.htm
+Dialogs\html\AutoSettingsDialog.htm
+Commands\html\ScannerSelectSourceCommand.htm
+Commands\html\ScannerImportCommand.htm
+Dialogs\html\ExportSettingDialog.htm
+Dialogs\html\ExportFormatDialog.htm
+Dialogs\html\DensitoPeriodDialog.htm
+Dialogs\html\DensitometryDialog.htm
+Dialogs\html\DensitoSettingDialog.htm
+Commands\html\NewDensitoCommand.htm
+Presentation\DidacDensito.htm
+Presentation\DidacSpline.htm
+Dialogs\html\SplineDialog.htm
+Dialogs\html\SplineExportDialog.htm
+
+[ALIAS]
+0=Presentation\index.htm
+124928=Commands\html\ToolbarCommand.htm
+IDH_AXE_X=Dialogs\html\XAxisDialog.htm
+IDH_AXE_Y=Dialogs\html\YAxisDialog.htm
+IDH_CONTINUOUS_DIALOG=Dialogs\html\CurveIdentificationDialog.htm ; GenesisDialog
+IDH_CONTINUOUSOPTION_DIALOG=Dialogs\html\ContinuousCurveOptionDialog.htm
+IDH_CURVEKIND_DIALOG=Dialogs\html\CurveKindDialog.htm ; CurveKindDialog
+IDH_CURVELIMITS_DIALOG=Dialogs\html\CurveLimitsDialog.htm ; CurveLimits
+IDH_DASHDIST_DIALOG=Dialogs\html\MaxDashDistDialog.htm
+IDH_DENSITO_DIALOG=Dialogs\html\DensitometryDialog.htm
+IDH_DENSITO_PERIOD_DIALOG=Dialogs\html\DensitoPeriodDialog.htm
+IDH_DISCRETE_DIALOG=Dialogs\html\DiscreteDialog.htm ; DiscreteDialog
+IDH_EXPORT_FORMAT_DIALOG=Dialogs\html\ExportFormatDialog.htm
+IDH_FILE_EXIT=Commands\html\ExitCommand.htm ; ExitCommand
+IDH_FILE_OPENBITMAP=Commands\html\OpenBitmapCommand.htm ; OpenBitmapCommand
+IDH_FILE_SAVECURVES=Commands\html\SaveCurvesCommand.htm ; SaveCurvesCommand
+IDH_GRAPH_DELETEOBJECT=Commands\html\DeleteCommand.htm ; DeleteCommand
+IDH_GRAPH_MODIFY=Commands\html\ModifyCommand.htm
+IDH_GRAPH_NEW_COORDANDCURVE=Commands\html\BothCommand.htm
+IDH_GRAPH_NEWCONTINUOUS=Commands\html\NewContinuousCommand.htm
+IDH_GRAPH_NEWDENSITOCURVE=Commands\html\NewDensitoCommand.htm
+IDH_GRAPH_NEWDISCRETE=Commands\html\NewDiscreteCommand.htm
+IDH_GRAPH_NEWSYSTEM=Commands\html\NewCoordinatesCommand.htm
+IDH_HAND_DIALOG=Dialogs\html\HandModificationDialog.htm
+IDH_MAINFRAME=Presentation\index.htm
+IDH_OPENDOCUMENT=Commands\html\OpenDocumentCommand.htm
+IDH_PERIOD_DIALOG=Dialogs\html\PeriodDialog.htm
+IDH_PROPPAGE_CURVE=Dialogs\html\CurveSettingsDialog.htm
+IDH_PROPPAGE_DENSITO=Dialogs\html\DensitoSettingDialog.htm
+IDH_PROPPAGE_EXPORT=Dialogs\html\ExportSettingDialog.htm
+IDH_PROPPAGE_LANGUAGE=Dialogs\html\LanguageSettingsDialog.htm
+IDH_PROPPAGE_PROMPT=Dialogs\html\AutoSettingsDialog.htm
+IDH_SAVE_DIALOG=Dialogs\html\SaveCurveDialog.htm
+IDH_SAVEDOCUMENT=Commands\html\SaveDocumentCommand.htm
+IDH_SCANNER_IMPORT=Commands\html\ScannerImportCommand.htm
+IDH_SCANNER_SELECTSOURCE=Commands\html\ScannerSelectSourceCommand.htm
+IDH_SPLINE_DIALOG=Dialogs\html\SplineDialog.htm
+IDH_SPLINE_PERIOD_DIALOG=Dialogs\html\SplineExportDialog.htm
+IDH_VIEW_TOOLBAR=Commands\html\ToolbarCommand.htm
+IDH_VIEW_ZOOM=Commands\html\ZoomCommand.htm
+
+[MAP]
+#include ..\CurveUnscan.hm
+#include ..\SettingsManagement.hm
+#include ..\special.hm
+#include PopupsHeader.h
+
+[TEXT POPUPS]
+cshelp.txt
+PopupsHeader.h
+
+[INFOTYPES]
+

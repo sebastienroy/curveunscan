@@ -1,0 +1,274 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 12, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\CodeGeneration.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.fra\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\CodeGeneration.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "A propos de CodeGeneration"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "CodeGeneration version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2001",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_CODEGENERATION_DIALOG DIALOGEX 0, 0, 343, 311
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "CodeGeneration"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_COMBO_VERSIONS,81,79,88,48,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_NAME,81,99,86,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_COMPANY,81,119,86,14,ES_AUTOHSCROLL
+    GROUPBOX        "Language",IDC_STATIC,202,88,125,25
+    CONTROL         "English",IDC_RADIO_LANGUAGE_ENG,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,207,101,39,10
+    CONTROL         "French",IDC_RADIO_LANGUAGE_FR,"Button",
+                    BS_AUTORADIOBUTTON,262,99,38,10
+    EDITTEXT        IDC_EDIT_REGISTRATION,44,150,84,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Get registration ",IDC_BUTTON_REGISTRATION,15,175,64,14
+    PUSHBUTTON      "Check",IDC_BUTTON_CHECK,105,174,50,14
+    PUSHBUTTON      "OK",IDOK,7,290,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,286,290,50,14
+    EDITTEXT        IDC_EDIT_STRING,13,22,106,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Encode",IDC_BUTTON_ENCODE,13,42,50,14
+    PUSHBUTTON      "Decode",IDC_BUTTON_DECODE,69,41,50,14
+    GROUPBOX        "Classical encoding (date)",IDC_STATIC,7,7,119,55
+    GROUPBOX        "Registration number",IDC_STATIC,7,69,329,128
+    LTEXT           "Serial number",IDC_STATIC,13,82,44,8
+    LTEXT           "Name",IDC_STATIC,16,102,20,8
+    LTEXT           "Company name",IDC_STATIC,15,123,50,8
+    LTEXT           "Registration number :",IDC_STATIC,45,140,68,8
+    GROUPBOX        "Checksum",IDC_STATIC,7,201,329,80
+    EDITTEXT        IDC_EDIT_FILENAME,57,214,205,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Filename",IDC_STATIC,13,217,29,8
+    LTEXT           "Checksum",IDC_STATIC,17,239,34,8
+    EDITTEXT        IDC_EDIT_CHECKSUM,57,239,206,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "Choose file",IDC_BUTTON_CHOOSEFILE,281,214,50,14
+    PUSHBUTTON      "Generate checkfile",IDC_BUTTON_GENERATE,57,260,75,14
+    LTEXT           "File extension",IDC_STATIC,145,263,44,8
+    EDITTEXT        IDC_EDIT_EXTENSION,197,260,25,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LICENCE_TEXT,201,118,126,69,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_PWD_DIALOG DIALOG DISCARDABLE  0, 0, 147, 79
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Password"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,58,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,90,58,50,14
+    LTEXT           "Enter password :",IDC_STATIC,43,7,54,8
+    EDITTEXT        IDC_PASSWORD_EDIT,35,28,78,12,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040C04B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Application MFC CodeGeneration\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "CodeGeneration\0"
+            VALUE "LegalCopyright", "Copyright (C) 2001\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "CodeGeneration.EXE\0"
+            VALUE "ProductName", "Application CodeGeneration\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x40c, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_CODEGENERATION_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 336
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 304
+    END
+
+    IDD_PWD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 140
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_CODEGENERATION_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_VERSIONS, 0x403, 9, 0
+0x3156, 0x3033, 0x5250, 0x3133, "\000" 
+    IDC_COMBO_VERSIONS, 0x403, 16, 0
+0x3156, 0x3034, 0x5250, 0x3233, 0x532d, 0x6c70, 0x6e69, 0x0065, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&A propos de CodeGeneration..."
+END
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE 12, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\CodeGeneration.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.fra\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

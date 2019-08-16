@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>Options : Courbe de densitométrie</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/Dialogs/html/helpstyle.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<h2>Options : Courbe de densitom&eacute;trie</h2>
+<p>Cette onglet vous permet de d&eacute;finir les valeur par d&eacute;faut de 
+  l'&eacute;chelle de couleur utilis&eacute;e pour les courbes de densitom&eacute;trie.</p>
+<p>Remarque : il est &eacute;galement possible de fixer ces valeurs par d&eacute;faut 
+  depuis la boite de dialogue d'identification des courbes.</p>
+<p>&nbsp;</p>
+<p>Une valeur est associ&eacute; &agrave; chacune des couleurs extr&ecirc;mes 
+  de l'&eacute;chelle. Lors de l'identification des courbes, les valeurs interm&eacute;diaires 
+  sont calcul&eacute;es lin&eacute;airement par projection (dans l'espace math&eacute;matique 
+  des couleurs) sur l'axe reliant ces deux couleurs.</p>
+<p>Plus simplement, si l'une des couleurs est le noir et l'autre le blanc, les 
+  valeurs calcul&eacute;es pour les couleurs rencontr&eacute;s correspondent &agrave; 
+  sa luminosit&eacute;.</p>
+<p>Exemples:</p>
+<table width="100%" border="1">
+  <tr align="center"> 
+    <td width="10%">Couleur 1</td>
+    <td width="9%">Valeur 1</td>
+    <td width="16%">Couleur 2</td>
+    <td width="8%">Valeur 2</td>
+    <td width="15%">Pixel</td>
+    <td width="42%">Valeur associ&eacute;e</td>
+  </tr>
+  <tr align="center"> 
+    <td width="10%">(255,255,255) blanc</td>
+    <td width="9%">0</td>
+    <td width="16%">(0,0,0) noir</td>
+    <td width="8%">100</td>
+    <td width="15%">(127,127,127) gris</td>
+    <td width="42%">50</td>
+  </tr>
+  <tr align="center"> 
+    <td width="10%">(0,0,0) noir</td>
+    <td width="9%">0</td>
+    <td width="16%">(255,0,0) rouge</td>
+    <td width="8%">100</td>
+    <td width="15%">(0,255,0) vert</td>
+    <td width="42%"> 
+      <p>0 </p>
+      <p>(il n'y a pas de composante verte dans le rouge)</p>
+    </td>
+  </tr>
+</table>
+<p>Pour modifier les couleurs de l'&eacute;chelle, cliquez sur le bouton de couleur 
+  (une boite de dialogue appara&icirc;t, permettant de d&eacute;finir chacune 
+  de ses composantes).</p>
+</body>
+</html>

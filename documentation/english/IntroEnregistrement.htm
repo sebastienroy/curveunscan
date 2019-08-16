@@ -1,0 +1,48 @@
+
+<html>
+
+<head>
+<title>Introduction : Data export</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" type="text/css" href="helpstyle.css">
+</head>
+
+<body>
+<h1>Data export</h1>
+<p>The data are exported into a text directly readable by MS-Excel or by any other 
+  spreadsheet, data processing software, ...</p>
+<p>One exported file can contain the data related to one or more curves.</p>
+<p><b>Discrete curve</b> : the curve points are written in the order in which 
+  they have been defined by the user during the curve construction.</p>
+<p><b>Continuous curve</b> : the points are written in the ascending order of 
+  their abscissa value. The first point of the curve is specified by the user, 
+  in order to get a round-off number.</p>
+<p>The period between each point is defined by the user too. If the abscissa axis 
+  is logarithmic, this period is express by the mean of unit decade.</p>
+<p>The last written point is the last defined one.</p>
+<p>If the curve is not defined on some values (or if the first points specified 
+  by the user are not defined), the undefined points are expressed only by their 
+  abscissa value. The ordinate value is empty.</p>
+<p>The ordinate value of each point is the linear interpolation of the physical 
+  points of the curve (see figure).</p>
+<p class="MsoBodyText">&nbsp;</p>
+<p class="MsoBodyText"><img border="0" src="images/Interpolation.gif" width="422" height="239"></p>
+<p><b>Splines curves</b> : The user chooses the number of points to be saved for 
+  each segment of the spline curve.</p>
+<p ><b>Densitometry curves</b> : The points are saved according to the direction 
+  defined by the user : increasing or decreasing abscissa or ordinate value.</p>
+<p >As for the continuous curves, the interval between points is defined by the 
+  user, and the values of the saved points are calculated through a linear interpolation 
+  of the pixel values on the graphic.</p>
+<p >&nbsp;</p>
+<b>Notice</b> : The data can also be saved into a CurveUnscan specific file format 
+(CurveUnscan document). These files contain all the informations related to a 
+document and can be used to reuse the same document (without performing all the 
+recognition process) to export the data in an other format. 
+<p class="MsoBodyText">&nbsp;</p>
+
+<p align="center"><a href="IntroAlgo.htm"><img border="0" src="images/Previous.gif" width="40" height="30"></a><a href="Didactitiel.htm"><img border="0" src="images/Next.gif" width="40" height="30"></a></p>
+
+</body>
+
+</html>

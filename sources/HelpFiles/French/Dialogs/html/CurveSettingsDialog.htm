@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Options : Courbe continue</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/Dialogs/html/helpstyle.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<h2>Options : Courbe continue</h2>
+<p>Cet onglet vous permet de d&eacute;finir les param&egrave;tres par d&eacute;faut 
+  qui sont utilis&eacute; pour la construction de toute nouvelle courbe continue.</p>
+<h3>Algorithme de compensation de l'&eacute;paisseur du trait</h3>
+<p>Deux algorithmes diff&eacute;rents peuvent &ecirc;tre utilis&eacute;s pour 
+  compenser l'&eacute;paisseur du trait :</p>
+<p><b>L'algorythme &quot;simple&quot;</b> : déplace les points de la courbe qui 
+  a été identifiée d'une valeur fixe du haut vers le bas ou du bas vers le haut 
+  (suivant le coté suivi), égale à la moitié de l'épaisseur de la courbe. La compensation 
+  apparente est différente suivant la valeur de la dérivée de la courbe. Cet algorithme 
+  ne tient pas compte de la pente de la courbe, il est donc peu efficace lorsque 
+  la courbe pr&eacute;sente des variations importantes.</p>
+<p><b>L'algorithme &quot;intelligent&quot;</b> : cet algorithme tient compte de 
+  la pente de la courbe pour d&eacute;terminer la facon dont l'&eacute;paisseur 
+  du trait doit &ecirc;tre compens&eacute;e. Ceci permet d'obtenir une bonne compensation 
+  de l'épaisseur du trait, à la fois sur les parties &quot;plates&quot; et les 
+  parties &quot;pentues&quot; de la courbe. Le nombre de points utilisées de part 
+  et d'autre de chaque point de la courbe (valeur de l'<b>intervalle</b>) pour 
+  le calcul de sa dérivée peut être ajusté de 1 à 32. Attention, des valeurs élevées 
+  ont pour conséquence une mauvaise compensation en raison de &quot;l'inertie&quot; 
+  du calcul, en particulier pour les courbes présentant des variations importantes.</p>
+<h3>Couleur de seuil</h3>
+<p>C'est la couleur qui fixe la limite entre les points consid&eacute;r&eacute;s 
+  comme appartenant &agrave; la courbe et ceux appartenant au fond du graphique. 
+  Cette couleur est prise en compte pour l'identification de courbes en couleur 
+  ou en niveau de gris. Cette couleur est d&eacute;finie par ses trois composantes 
+  : rouge, vert, bleu. Chaque composante &agrave; une valeur comprise entre 0 
+  et 255 (le 0 correspond au noir). Un pixel du graphique est consid&eacute;r&eacute; 
+  comme appartenant &agrave; la courbe si la valeur de ses trois composantes sont 
+  chacune inf&eacute;rieures &agrave; celle de la couleur de seuil.<br>
+Une couleur de seuil trop fonc&eacute;e a pour cons&eacute;quence une mauvaise 
+  identification de la courbe si le graphique est peu contrast&eacute;.<br>
+Une couleur de seuil trop claire a pour inconv&eacute;nient de confondre le 
+  &quot;bruit de fond&quot; du graphique avec la courbe.<br>
+</p>
+<h3>Cot&eacute; suivi</h3>
+<p>L'identification de la courbe se fait par suivi du trait, soit par son cot&eacute; 
+  sup&eacute;rieur, soit par son cot&eacute; inf&eacute;rieur. Si la courbe pr&eacute;sente 
+  des pics positifs, un suivi par son bord sup&eacute;rieur permet d'obtenir de 
+  meilleurs r&eacute;sultats (et inversement si la courbe pr&eacute;sente d'importants 
+  pics n&eacute;gatifs).</p>
+<h3>Courbe en pointill&eacute;s</h3>
+<p>Lorsque l'on sp&eacute;cifie que la courbe est en pointill&eacute;s, son suivi 
+  n'est pas stopp&eacute; &agrave; la fin de chaque trait mais prolong&eacute; 
+  aux pointill&eacute;s les plus proches. La <b>distance maximale</b> entre chaque 
+  pointill&eacute; est &eacute;galement configurable.</p>
+<h3>Valeurs par d&eacute;faut</h3>
+<p>En cliquant sur ce bouton, l'ensemble de ces param&egrave;tres sont r&eacute;initialis&eacute;s 
+  &agrave; leur valeur par d&eacute;faut.</p>
+</body>
+</html>

@@ -1,0 +1,58 @@
+dnl Process this file with autoconf to produce a configure script.
+AC_INIT(lib/dev2gif.c)
+AM_INIT_AUTOMAKE(libungif, 4.1.0)
+
+dnl Checks for programs.
+AM_PROG_LIBTOOL
+AC_PROG_CC
+AC_PROG_INSTALL
+AC_PROG_MAKE_SET
+AC_PROG_RANLIB
+
+AC_PATH_XTRA
+
+dnl Checks for libraries.
+
+    AC_CHECK_LIB(m, pow, [MATH_LIB="${MATH_LIB} -lm"
+                 COMPILABLE_EXTRAS="${COMPILABLE_EXTRAS} gifclrmp gifrotat"] )
+
+if test ${MATH_LIB}; then
+    AC_CHECK_LIB(rle, rle_hdr_init, [RLE_LIB="${RLE_LIBS} -lrle -lm"
+                 COMPILABLE_EXTRAS="${COMPILABLE_EXTRAS} gif2rle rle2gif"],
+                 ,"-lm" )
+fi
+
+dnl I don't have this on my system.  Could someone else configure it and
+dnl check that it works? (Need to change "main" to a function that's in the
+dnl library, check that giflib can be reautoconf'd, configured, and
+dnl compiled, and then remove this comment.
+    AC_CHECK_LIB(gl_s, main, [GL_S_LIB="${GL_S_LIB} -lgl_s $X_LIBS"
+                             AC_DEFINE(__SGI_GL__)
+                 COMPILABLE_EXTRAS="${COMPILABLE_EXTRAS} gif2iris"],, $X_LIBS)
+
+    AC_CHECK_LIB(X11, XOpenDisplay, [X11_LIB="${X11_LIB} $X_LIBS -lX11"
+                                    AC_DEFINE(__X11__)
+                 COMPILABLE_EXTRAS="${COMPILABLE_EXTRAS} gif2x11"],, $X_LIBS)
+    DEVS="${GL_S_LIB} ${X11_LIB}" 
+    AC_SUBST(DEVS)
+    AC_SUBST(COMPILABLE_EXTRAS)
+    AC_SUBST(GL_S_LIB)
+    AC_SUBST(X11_LIB)
+    AC_SUBST(X_CFLAGS)
+    AC_SUBST(MATH_LIB)
+    AC_SUBST(RLE_LIB)
+
+dnl Checks for header files.
+AC_HEADER_STDC
+AC_CHECK_HEADERS(fcntl.h)
+
+dnl Checks for typedefs, structures, and compiler characteristics.
+AC_C_CONST
+
+dnl Checks for library functions.
+AC_FUNC_MEMCMP
+AC_FUNC_SETVBUF_REVERSED
+AC_FUNC_VPRINTF
+AC_CHECK_FUNCS(strdup)
+
+AC_OUTPUT(util/Makefile lib/Makefile Makefile doc/Makefile pic/Makefile)

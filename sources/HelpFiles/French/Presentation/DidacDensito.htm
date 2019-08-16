@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Didacticiel : Courbe de densitométrie</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/Commands/html/helpstyle.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+
+
+<h2 >Courbe de densitom&eacute;trie</h2>
+<p >Ce type de courbe correspond &agrave; l'analyse d'un d&eacute;grad&eacute; 
+  de couleur sur le graphique. A chaque pixel d'un segment (que vous d&eacute;finissez), 
+  est associ&eacute;e un valeur. Cette valeur est calcul&eacute;e en fonction 
+  de la couleur du pixel et d'une &eacute;chelle de couleur (partie droite de 
+  la boite de dialogue).</p>
+<p ><img src="/Presentation/images/DidacDensito.gif" width="441" height="269"></p>
+<h3>Trac&eacute; du segment</h3>
+<p>Lorsque le segment &agrave; analyser n'a pas encore &eacute;t&eacute; d&eacute;fini, 
+  le bouton &quot;Tracer le segment&quot; de la boite de dialogue est enfonc&eacute;. 
+  Tracez alors un segment sur la partie &agrave; analyser du graphique. Si ce 
+  segment d&eacute;borde de la fen&ecirc;tre, le graphique d&eacute;file automatiquement. 
+  Lorsque la touche &quot;Majuscule&quot; est enfonc&eacute;e, le trait est trac&eacute; 
+  parall&egrave;lement au bord de la fen&ecirc;tre.</p>
+<h3>Pr&eacute;visualisation</h3>
+<p>Lorsque le segment a &eacute;t&eacute; d&eacute;fini, le bouton &quot;Privisualisation&quot; 
+  permet de faire appara&icirc;tre le profil de valeur sur ce segment. La direction 
+  de ce profil va du d&eacute;but du segment (partie gauche) tel qu'il a &eacute;t&eacute; 
+  trac&eacute;, &agrave; la fin du segment. Cet ordre n'est cependant utilis&eacute; 
+  que pour la pr&eacute;visualisation et peut &ecirc;tre modifi&eacute; dans la 
+  d&eacute;finition du format des donn&eacute;es export&eacute;es (voir <a href="/Presentation/DidacEnregistrement.htm">Mise 
+  en forme des r&eacute;sultats</a>).</p>
+<h3>Echelle de couleurs</h3>
+<p>Cette partie permet de d&eacute;finir la valeur qui est associ&eacute;e &agrave; 
+  chaque couleur du graphique. Une valeur est associ&eacute; &agrave; chacune 
+  des couleurs extr&ecirc;mes de l'&eacute;chelle. Les valeurs interm&eacute;diaires 
+  sont calcul&eacute;es lin&eacute;airement par projection (dans l'espace math&eacute;matique 
+  des couleurs) sur l'axe reliant ces deux couleurs.</p>
+<p>Plus simplement, si l'une des couleurs est le noir et l'autre le blanc, les 
+  valeurs calcul&eacute;es pour les couleurs rencontr&eacute;s correspondent &agrave; 
+  sa luminosit&eacute;.</p>
+<p>Exemples:</p>
+<table width="100%" border="1">
+  <tr align="center"> 
+    <td width="10%">Couleur 1</td>
+    <td width="9%">Valeur 1</td>
+    <td width="16%">Couleur 2</td>
+    <td width="8%">Valeur 2</td>
+    <td width="15%">Pixel</td>
+    <td width="42%">Valeur associ&eacute;e</td>
+  </tr>
+  <tr align="center"> 
+    <td width="10%">(255,255,255) blanc</td>
+    <td width="9%">0</td>
+    <td width="16%">(0,0,0) noir</td>
+    <td width="8%">100</td>
+    <td width="15%">(127,127,127) gris</td>
+    <td width="42%">50</td>
+  </tr>
+  <tr align="center"> 
+    <td width="10%">(0,0,0) noir</td>
+    <td width="9%">0</td>
+    <td width="16%">(255,0,0) rouge</td>
+    <td width="8%">100</td>
+    <td width="15%">(0,255,0) vert</td>
+    <td width="42%"> 
+      <p>0 </p>
+      <p>(il n'y a pas de composante verte dans le rouge)</p>
+    </td>
+  </tr>
+</table>
+<p>Pour modifier les couleurs de l'&eacute;chelle, vous pouvez soit cliquer sur 
+  le bouton de couleur (une boite de dialogue appara&icirc;t, permettant de d&eacute;finir 
+  chacune de ses composantes), soit utiliser les boutons <img src="/Presentation/images/Dropper.gif" width="27" height="24"> 
+  pour la choisir directement sur le graphique.</p>
+<p>Le bouton &quot;Utiliser par d&eacute;faut&quot; permet de sauvegarder l'&eacute;chelle 
+  de couleur (couleurs et valeurs associ&eacute;es) afin de pouvoir utiliser cette 
+  m&ecirc;me &eacute;chelle sur plusieurs courbes de densitom&eacute;trie diff&eacute;rentes.</p>
+
+<p >&nbsp;</p>
+<p align="center"><a href="DidacSpline.htm"><img border="0" src="images/Previous.gif" width="40" height="30"></a>
+				  <a href="DidacEnregistrement.htm"><img border="0" src="images/Next.gif" width="40" height="30"></a></p>
+
+</body>
+</html>

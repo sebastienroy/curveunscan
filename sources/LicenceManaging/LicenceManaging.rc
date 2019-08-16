@@ -1,0 +1,331 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "..\main\resource.h"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_WELCOME DIALOG DISCARDABLE  0, 0, 273, 109
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CurveUnscan"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Register now",IDOK,73,88,50,14
+    PUSHBUTTON      "Later",IDCANCEL,163,88,50,14
+    LTEXT           "This is the th day of your 30 days evaluation period",
+                    IDC_WELCOME_STATIC_TEXT,73,24,181,8
+    ICON            IDI_ICON_UNSCAN,IDC_STATIC,17,26,20,20
+    LTEXT           "Product ID :",IDC_STATIC_PRODUCTID,62,66,141,8
+    LTEXT           "Thank you for evaluating CurveUnscan !",IDC_STATIC,62,
+                    14,131,8
+    LTEXT           "During the evaluation period, you are allowed to export %d times.",
+                    IDC_STATIC_EXPORT_NB,62,38,204,8
+    LTEXT           "There is %d left.",IDC_STATIC_EXPORT_LEFT,73,48,51,8
+END
+
+IDD_LICENCE_DIALOG DIALOG DISCARDABLE  0, 0, 246, 148
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Licence key"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,82,58,157,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_COMPANYNAME,82,78,157,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LICENCEKEY,82,100,157,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,7,127,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,189,127,50,14
+    PUSHBUTTON      "Buy now",IDC_OPEN_FORM_BUTTON,189,36,50,14
+    LTEXT           "Licence key :",IDC_STATIC,18,102,44,8
+    LTEXT           "Name :",IDC_STATIC,38,60,24,8
+    LTEXT           "Company name :",IDC_STATIC,8,81,54,8
+    LTEXT           "To register, please fill the following fields.",
+                    IDC_STATIC,7,7,128,8
+    LTEXT           "If you don't have a licence key, you can buy it on-line.",
+                    IDC_STATIC,7,18,170,8
+END
+
+IDD_SORRY DIALOG DISCARDABLE  0, 0, 273, 109
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CurveUnscan"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Register now",IDOK,73,88,50,14
+    PUSHBUTTON      "Exit",IDCANCEL,163,88,50,14
+    ICON            IDI_ICON_UNSCAN,IDC_STATIC,17,26,20,20
+    LTEXT           "Product ID :",IDC_STATIC_PRODUCTID,62,66,141,8
+    LTEXT           "Sorry !",IDC_STATIC,63,21,21,8
+    LTEXT           "Your evaluation time has expired !",IDC_STATIC,62,36,
+                    107,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_WELCOME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 266
+        VERTGUIDE, 62
+        VERTGUIDE, 73
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+    END
+
+    IDD_LICENCE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 239
+        VERTGUIDE, 62
+        VERTGUIDE, 82
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_SORRY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 266
+        VERTGUIDE, 62
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_UNSCAN         ICON    DISCARDABLE     "res\\icon_unsus.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CANNOT_WRITE_PERIOD "Cannot write informations related to your first use of CurveUnscan.\nIf your operating system is Windows NT, check that you have the administrator rights."
+    IDS_CANNOT_WRITE_LICENCE 
+                            "cannot write the informations related to your license. \nIf your operating system is Windows NT, check that you have the administrator rights."
+    IDS_UNKNOWN_ERROR       "Sorry! An unkown error occured during the license management. Please contact SquarePoint Software in order to correct this problem.\n"
+    IDS_WELCOME_FORMAT      "This is the %d%s day of your 30 days evaluation period."
+    IDS_POSTFIX1            "st"
+    IDS_POSTFIX2            "nd"
+    IDS_POSTFIX3            "rd"
+    IDS_POSTFIX_NTH         "th"
+    IDS_NB_OF_EXPORT_LEFT   "You have right to %d exports left during your evaluation period."
+    IDS_NO_EXPORT_LEFT      "Sorry, you have no right left to export during the evaluation period !"
+    IDS_NOKEY_CDVERSION     "The license key is missing or is not correct.\nPlease reinstall CurveUnscan."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LICENCE_DIALOG DIALOG DISCARDABLE  0, 0, 246, 162
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Clé d'utilisation"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,82,74,157,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_COMPANYNAME,82,94,157,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LICENCEKEY,82,116,157,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,7,141,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,189,141,50,14
+    PUSHBUTTON      "Acheter",IDC_OPEN_FORM_BUTTON,168,47,71,14
+    LTEXT           "Clé :",IDC_STATIC,47,118,15,8
+    LTEXT           "Nom :",IDC_STATIC,42,76,20,8
+    LTEXT           "Entreprise :",IDC_STATIC,26,97,36,8
+    LTEXT           "Pour vous enregistrer, remplissez les champs ci-dessous.",
+                    IDC_STATIC,7,7,178,8
+    LTEXT           "Si vous n'avez pas de clé de licence, vous pouvez en acheter en ligne.",
+                    IDC_STATIC,7,18,214,20
+END
+
+IDD_SORRY DIALOG DISCARDABLE  0, 0, 273, 109
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CurveUnscan"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "S'enregistrer maintenant",IDOK,62,88,91,14
+    PUSHBUTTON      "Quitter",IDCANCEL,202,88,50,14
+    ICON            IDI_ICON_UNSCAN,IDC_STATIC,17,26,20,20
+    LTEXT           "Numéro de série :",IDC_STATIC_PRODUCTID,62,66,141,8
+    LTEXT           "Désolé !",IDC_STATIC,63,21,27,8
+    LTEXT           "Votre période d'évaluation est terminée.",IDC_STATIC,62,
+                    36,125,8
+END
+
+IDD_WELCOME DIALOG DISCARDABLE  0, 0, 273, 109
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CurveUnscan"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "S'enregistrer  maintenant",IDOK,62,88,98,14
+    PUSHBUTTON      "Plus tard",IDCANCEL,192,88,50,14
+    LTEXT           "Merci de tester CurveUnscan !",IDC_STATIC,62,16,131,8
+    LTEXT           "Ceci est le e jour de vos 30 jours d'évaluation.",
+                    IDC_WELCOME_STATIC_TEXT,72,26,181,8
+    ICON            IDI_ICON_UNSCAN,IDC_STATIC,17,26,21,20
+    LTEXT           "Numéro de série :",IDC_STATIC_PRODUCTID,62,66,141,8
+    LTEXT           "Durant la période d'évaluation, vous avez droit à %d exports.",
+                    IDC_STATIC_EXPORT_NB,62,38,191,8
+    LTEXT           "Il vous en reste %d.",IDC_STATIC_EXPORT_LEFT,72,48,62,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_LICENCE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 239
+        VERTGUIDE, 62
+        VERTGUIDE, 82
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_SORRY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 266
+        VERTGUIDE, 62
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+    END
+
+    IDD_WELCOME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 266
+        VERTGUIDE, 62
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_UNSCAN         ICON    DISCARDABLE     "res\\icon_unsus.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""..\\resource.h""\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CANNOT_WRITE_PERIOD "Impossible d'enregistrer les informations relatives à votre première utilisation de CurveUnscan.\nSi votre système d'exploitation est Windows NT, veuillez vérifier que vous disposez des droits d'administrateur lors de cette première utilisation."
+    IDS_CANNOT_WRITE_LICENCE 
+                            "Impossible d'enregistrer les informations relatives à votre licence. Si vous travaillez sous Windows NT, veuillez vérifier que vous disposez des droits d'administrateur."
+    IDS_UNKNOWN_ERROR       "Désolé! Une erreur inconnue est survenue durant le traitement du système de licence. Veuillez contacter SquarePoint Software pour corriger ce problème."
+    IDS_WELCOME_FORMAT      "Ceci est le %d%s jour de vos 30 jours d'évaluation."
+    IDS_POSTFIX1            "er"
+    IDS_POSTFIX2            "eme"
+    IDS_POSTFIX3            "eme"
+    IDS_POSTFIX_NTH         "eme"
+    IDS_NB_OF_EXPORT_LEFT   "Vous avez droit à encore %d exports durant votre période d'évaluation."
+    IDS_NO_EXPORT_LEFT      "Désolé, vous avez épuisé vos droits d'export durant la période d'évaluation !"
+    IDS_NOKEY_CDVERSION     "La clé de licence est absente ou incorrecte.\nVeuillez réinstaller CurveUnscan."
+END
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

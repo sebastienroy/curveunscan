@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: InstallFc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Release/tmp/InstallFc.res" /d "NDEBUG" "C:\CurveUnscan\Dev\CurrentVersion\InstallFc\InstallFc.rc"" 
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP235.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/tmp/InstallFc.pch" /Yu"stdafx.h" /Fo"Release/tmp/" /Fd"Release/tmp/" /FD /c 
+"C:\CurveUnscan\Dev\CurrentVersion\LicenceManaging\Coder.cpp"
+"C:\CurveUnscan\Dev\CurrentVersion\InstallFc\InstallFc.cpp"
+"C:\CurveUnscan\Dev\CurrentVersion\InstallFc\IsKeyOk.cpp"
+"C:\CurveUnscan\Dev\CurrentVersion\InstallFc\SetFirstUse.cpp"
+"C:\CurveUnscan\Dev\CurrentVersion\Utilities\UnscanException.cpp"
+"C:\CurveUnscan\Dev\ThirdParty\MD5\MD5Checksum.cpp"
+"C:\CurveUnscan\Dev\CurrentVersion\LicenceManaging\Crc32Dynamic.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP235.tmp" 
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP236.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/tmp/InstallFc.pch" /Yc"stdafx.h" /Fo"Release/tmp/" /Fd"Release/tmp/" /FD /c 
+"C:\CurveUnscan\Dev\CurrentVersion\InstallFc\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP236.tmp" 
+Creating temporary file "C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP237.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/InstallFc.pdb" /machine:I386 /def:".\InstallFc.def" /out:"Release/InstallFc.dll" /implib:"Release/InstallFc.lib" 
+.\Release\tmp\Coder.obj
+.\Release\tmp\InstallFc.obj
+.\Release\tmp\IsKeyOk.obj
+.\Release\tmp\SetFirstUse.obj
+.\Release\tmp\StdAfx.obj
+.\Release\tmp\UnscanException.obj
+.\Release\tmp\InstallFc.res
+.\Release\tmp\MD5Checksum.obj
+.\Release\tmp\Crc32Dynamic.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Seb\LOCALS~1\Temp\RSP237.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Coder.cpp
+InstallFc.cpp
+IsKeyOk.cpp
+SetFirstUse.cpp
+UnscanException.cpp
+MD5Checksum.cpp
+Crc32Dynamic.cpp
+Generating Code...
+Linking...
+   Creating library Release/InstallFc.lib and object Release/InstallFc.exp
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+InstallFc.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

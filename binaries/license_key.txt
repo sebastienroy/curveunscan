@@ -1,0 +1,13 @@
+CurveUnscan was initialy a commercial software.
+It was developped during the period 2000-2005.
+Because the author has no longuer time to maintain the software, and because this software may help a lot of people in their work, mainly research work, the author decided to publish the sources of CurveUnscan and to let any people to have a free usage of the software.
+In order to get an unlimited usage of CurveUnscan, please insert the following information :
+
+Name:
+Any User
+
+Company name:
+Any Company
+
+Licence key:
+934530643

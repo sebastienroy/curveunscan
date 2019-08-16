@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>Options : Densitometry curve</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/Dialogs/html/helpstyle.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<h2>Options : Densitometry curve</h2>
+<p>With this panel, you can change the default color scale values and color used 
+  for the construction of the densitometry curves.</p>
+<p>A value is associated to each of the two colors of the scale. During the curve 
+  identifications, the values of the encountered intermediate colors are calculated 
+  linearly by projection (in the color mathematical space) on the axis that links 
+  these two colors.</p>
+<p>In other words, if one of the colors is black and the other is white, the calculated 
+  values for the encountered colors are related to their brightness.</p>
+<p>Examples:</p>
+<table width="100%" border="1">
+  <tr align="center"> 
+    <td width="10%">Color 1</td>
+    <td width="9%">Value 1</td>
+    <td width="16%">Color 2</td>
+    <td width="8%">Value 2</td>
+    <td width="15%">Pixel</td>
+    <td width="42%">Related value</td>
+  </tr>
+  <tr align="center"> 
+    <td width="10%">(255,255,255) white</td>
+    <td width="9%">0</td>
+    <td width="16%">(0,0,0) black</td>
+    <td width="8%">100</td>
+    <td width="15%">(127,127,127) gray</td>
+    <td width="42%">50</td>
+  </tr>
+  <tr align="center"> 
+    <td width="10%">(0,0,0) black</td>
+    <td width="9%">0</td>
+    <td width="16%">(255,0,0) red</td>
+    <td width="8%">100</td>
+    <td width="15%">(0,255,0) green</td>
+    <td width="42%"> 
+      <p>0 </p>
+      <p>(there is no green component in the red)</p>
+    </td>
+  </tr>
+</table>
+<p>To modify the scale colors, click on the colored button (a dialog bow appears, 
+  allowing to adjust each of the color component).</p>
+<p>&nbsp; </p>
+</body>
+</html>

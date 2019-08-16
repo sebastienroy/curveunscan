@@ -1,0 +1,243 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800025">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Bienvenue">
+		<param name="Local" value="Presentation\index.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Introduction : Principes de fonctionnement">
+		<param name="Local" value="Presentation\Intro.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Syst&egrave;mes de coordonn&eacute;es">
+			<param name="Local" value="Presentation\introCoordonnees.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Courbes">
+			<param name="Local" value="Presentation\IntroCourbes.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Algorithmes">
+			<param name="Local" value="Presentation\IntroAlgo.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Export des donn&eacute;es">
+			<param name="Local" value="Presentation\IntroEnregistrement.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Didacticiel">
+		<param name="Local" value="Presentation\Didactitiel.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Scannage">
+			<param name="Local" value="Presentation\DidacScannage.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S&eacute;quences d'identification">
+			<param name="Local" value="Presentation\DidacEtapes.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Syst&egrave;me de coordonn&eacute;es">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Identification du syst&egrave;me de coordonn&eacute;es">
+				<param name="Local" value="Presentation\DidacAxe.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Courbes">
+			<param name="Local" value="Presentation\DidacChoix.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Courbe discr&egrave;te">
+				<param name="Local" value="Presentation\DidacDiscrete.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Courbe continue">
+				<param name="Local" value="Presentation\DidacContinue.htm">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Interval de d&eacute;finition">
+					<param name="Local" value="Presentation\DidacInterval.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Identification de la courbe">
+					<param name="Local" value="Presentation\DidacIdentification.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Options avanc&eacute;es">
+					<param name="Local" value="Presentation\DidacOption.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Modifications manuelles">
+					<param name="Local" value="Presentation\DidacModification.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Courbe spline">
+				<param name="Local" value="Presentation\DidacSpline.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Courbe de densitom&eacute;trie">
+				<param name="Local" value="Presentation\DidacDensito.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Mise en forme des r&eacute;sultats">
+			<param name="Local" value="Presentation\DidacEnregistrement.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="R&eacute;f&eacute;rence">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Description des boites de dialogue">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Construction du syst&egrave;me de coordonn&eacute;es">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Axe des abscisses">
+					<param name="Local" value="Dialogs\html\XAxisDialog.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Axe des ordonn&eacute;es">
+					<param name="Local" value="Dialogs\html\YAxisDialog.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Type de courbe">
+				<param name="Local" value="Dialogs\html\CurveKindDialog.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Construction des courbes">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Courbe continue">
+					</OBJECT>
+				<UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Limites">
+						<param name="Local" value="Dialogs\html\CurveLimitsDialog.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Identification de la courbe">
+						<param name="Local" value="Dialogs\html\CurveIdentificationDialog.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Distance maximale entre pointill&eacute;s">
+						<param name="Local" value="Dialogs\html\MaxDashDistDialog.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Options avanc&eacute;es">
+						<param name="Local" value="Dialogs\html\ContinuousCurveOptionDialog.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Modifications manuelles">
+						<param name="Local" value="Dialogs\html\HandModificationDialog.htm">
+						</OBJECT>
+				</UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Courbe spline">
+					</OBJECT>
+				<UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Construction">
+						<param name="Local" value="Dialogs\html\SplineDialog.htm">
+						</OBJECT>
+				</UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Courbe discr&egrave;te">
+					</OBJECT>
+				<UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Choix des points">
+						<param name="Local" value="Dialogs\html\DiscreteDialog.htm">
+						</OBJECT>
+				</UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Courbe de densitom&eacute;trie">
+					</OBJECT>
+				<UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Construction">
+						<param name="Local" value="Dialogs\html\DensitometryDialog.htm">
+						</OBJECT>
+				</UL>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Export">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Export des donn&eacute;es">
+					<param name="Local" value="Dialogs\html\SaveCurveDialog.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Premier point et fr&eacute;quence - Courbe continue">
+					<param name="Local" value="Dialogs\html\PeriodDialog.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Nombre de points - Courbe spline">
+					<param name="Local" value="Dialogs\html\SplineExportDialog.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Premier point et fr&eacute;quence - Courbe de densitom&eacute;trie">
+					<param name="Local" value="Dialogs\html\DensitoPeriodDialog.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Format du fichier d'export">
+					<param name="Local" value="Dialogs\html\ExportFormatDialog.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Options">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Langage">
+					<param name="Local" value="Dialogs\html\LanguageSettingsDialog.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Courbes continues">
+					<param name="Local" value="Dialogs\html\CurveSettingsDialog.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Courbes de densitom&eacute;trie">
+					<param name="Local" value="Dialogs\html\DensitoSettingDialog.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Automatismes">
+					<param name="Local" value="Dialogs\html\AutoSettingsDialog.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Export">
+					<param name="Local" value="Dialogs\html\ExportSettingDialog.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Editeur">
+		<param name="Local" value="Presentation\editeur.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

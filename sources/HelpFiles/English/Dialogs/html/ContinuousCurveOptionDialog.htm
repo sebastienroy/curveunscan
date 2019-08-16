@@ -1,0 +1,38 @@
+<html>
+
+<head>
+<title>Dialog box : Advanced options</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" href="/Dialogs/html/helpstyle.css" type="text/css">
+</head>
+
+<body>
+
+<h2>Advanced options</h2>
+<h3>Threshold color</h3>
+<p>The threshold color is the color used to differentiate the points belonging 
+  to the curve from the points belonging to the background of the graphic. If 
+  one of the components (red, green or blue) of a pixel is brighter than the threshold 
+  color one, the pixel is considered as belonging to the background.</p>
+<p>Each component of the threshold color can be adjusted using either a slider 
+  or directly in the related edit field. The value must be between 0 (darker) 
+  and 255 (brighter). </p>
+<p>The threshold color can also be chosen from the graphic, using the &quot;Pick 
+  from bitmap&quot; button.</p>
+<h3>Curve thickness compensation</h3>
+<p>The line thickness of the curve can be compensated through two different algorithms 
+  : the &quot;basic&quot; and the &quot;smart&quot; one.</p>
+<p>The basic algorithm moves the points of the curve by a fixed value from top 
+  to bottom or from bottom to top, depending on the followed side. The value is 
+  the half of the curve thickness. The apparent compensation is different on the 
+  flat parts of the curve than on the sharp parts.</p>
+<p>The &quot;smart&quot; algorithm adjusts the compensation value depending on 
+  the curve rate. This can lead to a good compensation at the same time on the 
+  flat parts and on the sharp parts of the curve. The number of points used to 
+  calculate the rate of the curve can be adjusted from 1 to 32. Attention, high 
+  values can lead to a bad compensation on complex curves, due to the &quot;inertia&quot; 
+  of the calculus.</p>
+<h2>&nbsp;</h2>
+</body>
+
+</html>

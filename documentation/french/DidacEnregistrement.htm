@@ -1,0 +1,67 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="fr">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Didacticiel : Mise en forme des données</title>
+<link rel="stylesheet" type="text/css" href="FeuilleDeStyle.css">
+</head>
+
+<body>
+
+<h2>Mise en forme des résultats</h2>
+<p>Avant d'enregistrer les résultats dans un fichier, il est nécessaire de
+mettre en forme les données précédemment identifiées.</p>
+<p>Après la demande d'enregistrement (menu &quot;Fichier / Exporter les donn&eacute;es&quot; 
+  par exemple), une boite de dialogue s'ouvre, permettant cette mise en forme. 
+  Les noms des courbes qui ont été précédemment identifiées figurent initialement 
+  dans la liste de gauche de la boite de dialogue. Pour que les données d'une 
+  courbe soient export&eacute;es, il suffit de la faire passer dans la liste de 
+  droite au moyen du bouton flèche correspondant. Les deux boutons situés à droite 
+  de la boite de dialogue permettent de faire varier l'ordre dans lequel ces courbes 
+  apparaîtront dans le fichier. Le bouton &quot;Prévisualisation&quot; permet 
+  d'afficher à l'écran le résultat final. Le bouton &quot;Format&quot; permet 
+  de choisir le caract&egrave;re de s&eacute;paration des colonnes dans le fichier 
+  d'export. </p>
+<p><img border="0" src="images/DidacE4.gif" width="435" height="205"></p>
+<p>Pour les courbes continues, les courbes splines et les courbes de densitom&eacute;trie, 
+  une boite de dialogue apparait lorsqu'on fait passer la courbe de la liste de 
+  gauche &agrave; celle de droite. Cette boite de dialogue permet de sp&eacute;cifier 
+  la quantit&eacute; de points &agrave; enregistrer dans le fichier final.</p>
+<h3>Courbe continue :</h3>
+<p><img border="0" src="images/DidacE3.gif" width="338" height="288"></p>
+<h3>Courbe spline :</h3>
+<p><img src="images/DidacEnregistreSpline.gif" width="315" height="179"></p>
+<h3>Courbe de densitom&eacute;trie :</h3>
+<p>Pour les courbes de densitom&eacute;trie, il est possible de faire apparaitre 
+  dans le fichier de sortie soit la valeur d'abscisse des points calcul&eacute;s 
+  soit leur valeur d'ordonn&eacute;e, soit les deux. Lorsque le segment analys&eacute; 
+  est parall&egrave;le &agrave; l'axe des abscisses, seules les valeurs d'abscisses 
+  sont affichables. Il en est de m&ecirc;me lorsque le segment est parall&egrave;le 
+  &agrave; l'axe des ordonn&eacute;es (l'autre coordonn&eacute;e est constante).</p>
+<p><img src="images/DidacEnregistreDensito.gif" width="614" height="301"></p>
+<p>Initialement, le premier point &agrave; enregistrer est le point du segment 
+  qui a l'abscisse la plus faible. Ce premier point doit appartenir au segment 
+  qui a &eacute;t&eacute; trac&eacute; et dont les coordonn&eacute;es minimales 
+  et maximales sont affich&eacute;es dans la boite de dialogue. Les valeurs de 
+  x et de y sont li&eacute;es entre elles puisque ce point appartient au segment 
+  : le fait de modifier son abscisse modifie automatiquement son ordonn&eacute;e 
+  et inversement.</p>
+<p>Vous pouvez exprimer la fr&eacute;quence des points &agrave; enregistrer soit 
+  selon les abscisses soit selon les ordonn&eacute;es. Une fr&eacute;quence (ou 
+  p&eacute;riode) n&eacute;gative est autoris&eacute;e. Tout comme pour le premier 
+  point, le fait de modifier la fr&eacute;quence selon X modifie automatiquement 
+  celle selon Y. Lorsqu'un axe est logarithmique, la p&eacute;riode est exprim&eacute;e 
+  en d&eacute;cade d'unit&eacute;.</p>
+<p>&nbsp;</p>
+<p>Les données ainsi générées sont enregistrées dans un format directement lisible 
+  par MS-Excel ou par tout autre type de tableur.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center"><a href="DidacDensito.htm"><img border="0" src="images/Previous.gif" width="40" height="30"></a></p>
+
+</body>
+
+</html>

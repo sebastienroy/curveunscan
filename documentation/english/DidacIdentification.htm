@@ -1,0 +1,57 @@
+
+<html>
+
+<head>
+<title>Tutorial : continuous curve identification</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" type="text/css" href="helpstyle.css">
+</head>
+
+<body>
+<h2>Curve identification</h2>
+<p><img border="0" src="images/DidacI1.gif" width="441" height="269"></p>
+<h3>Initial points</h3>
+<p>In order to identify the curve, CurveUnscan needs to know its location on the 
+  graphic. When this dialog box is displayed, the &quot;Pick curve&quot; button 
+  is pressed and the dialog box is waiting you to click on the curve.</p>
+<p>As the curve may be composed of several parts, you have to click on each of 
+  them.</p>
+<p>For instance, for the following graphic, if you want to identify the curve 
+  A, you can do the following steps :</p>
+<ol>
+  <li>Click on the segment 1 of the curve A : if the followed side is the top 
+    one (see later), CurveUnscan will follow the segment 1 of the curve A, the 
+    segment 2 of the curve B and the segment 3 of the curve A.</li>
+  <li>Click on the segment 2 of the curve A : the segments 1, 2 and 3 of the curve 
+    are identified.</li>
+  <li>In order to identify the right part of the curve, click on the segments 
+    4 and 5.</li>
+</ol>
+<p>N.B. : you can obtain the same result by clicking on the segments 2 and 5.</p>
+<p><img border="0" src="images/CurveSegments.gif" width="247" height="166"></p>
+<h3>Side to follow</h3>
+<p>You can specify which side of the curve CurveUnscan will follow : the top or 
+  the bottom. In the case of a curve containing positive peaks, following the 
+  top lead to a better result. In the case of negative peaks, following the bottom 
+  is better.</p>
+<h3>Curve thickness</h3>
+<p>The scanned curve having some thickness, the identified curve must be translated 
+  in order to take this thickness into account. The thickness value can be defined 
+  either manually or by clicking on the &quot;Pick&quot; button then on the curve. 
+  The calculated value is the vertical thickness of the curve on this location.</p>
+<h3>Dashed curve</h3>
+<p>CurveUnscan can identify dashed curves. When this option is activated, the 
+  curve following is not stopped at the end of each dash but is propagated to 
+  the next dashes. The distance between dashes must be less than the specified 
+  value. In order to change this value, click on the &quot;modify&quot; button.</p>
+<h3>Curve name</h3>
+<p>This name will be used in the output file in order to identify this curve.</p>
+<h3>Advanced options</h3>
+<p>This button opens a dialog box which allows to modify some advanced parameters 
+  : the threshold color for curve identification and the algorithm used for the 
+  thickness compensation.</p>
+<p align="center"><a href="DidacContinue.htm"><img border="0" src="images/Previous.gif" width="40" height="30"></a><a href="DidacOption.htm"><img border="0" src="images/Next.gif" width="40" height="30"></a></p>
+<p>&nbsp;</p>
+</body>
+
+</html>

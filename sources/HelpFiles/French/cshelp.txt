@@ -1,0 +1,6 @@
+.topic IDH_FILE_OPENBITMAP
+Open a new bitmap. The format of this file must be a monochromatic .bmp file.
+A bitmap must be opened before the construction of any curve or coordinates system.
+
+.topic IDH_FILE_SAVECURVES
+Tagada tsouin
