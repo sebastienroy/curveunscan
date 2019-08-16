@@ -8,3 +8,25 @@ Extracting data from graphs is necessary for :
 * Comparing different authors who present their results in graphs.
 * Refactoring documentation containing graphics
 * And so much more !
+
+CurveUnscan was initially a commercial software, that needed to be registered by its user, using a license key, in order to be used.
+However, its author decided in 2019 to let it free and release the source code.
+
+The installation package : 
+https://github.com/sebastienroy/curveunscan/tree/master/binaries/CurveUnscan.exe
+
+The documentation (english):
+https://github.com/sebastienroy/curveunscan/tree/master/binaries/CurveUnscanUs.chm
+The documentation (french):
+https://github.com/sebastienroy/curveunscan/tree/master/binaries/CurveUnscan.chm
+
+The software can be used using the following generic key:
+
+> Name:
+> Any User
+> 
+>  Company name:
+> Any Company
+> 
+> Licence key:
+> 934530643
