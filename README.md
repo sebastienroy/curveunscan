@@ -32,3 +32,6 @@ The software can be used using the following generic license key:
 > 
 > Licence key:
 > 934530643
+
+More information on :
+www.curveunscan.com
